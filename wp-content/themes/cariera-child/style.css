@@ -23,17 +23,17 @@
 /* =========================================================================
    BARRE UTILITAIRE (au-dessus de l'en-tête)
    Gauche : heure de Kinshasa — Droite : e-mail de contact.
-   Fond bleu nuit + accents or, aux couleurs de la marque Auxilium Afrik.
+   Fond or + texte/icônes bleu nuit, aux couleurs de la marque Auxilium Afrik.
    ========================================================================= */
 
 .aa-top-bar {
     --aa-navy: #0f1e3b;   /* bleu nuit de la marque */
     --aa-gold: #bd9144;   /* or de la marque */
-    background-color: var(--aa-navy);
-    color: #fff;
+    background-color: var(--aa-gold);
+    color: var(--aa-navy);
     font-size: 0.85rem;
     line-height: 1.2;
-    border-bottom: 2px solid var(--aa-gold);
+    border-bottom: 1px solid rgba(15, 30, 59, 0.22);
 }
 
 .aa-top-bar__inner {
@@ -55,25 +55,25 @@
 }
 
 .aa-top-bar__email {
-    color: #fff;
+    color: var(--aa-navy);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .aa-top-bar__email:hover,
 .aa-top-bar__email:focus {
-    color: var(--aa-gold);
+    color: #fff;
 }
 
 .aa-top-bar__icon {
     width: 15px;
     height: 15px;
     flex: 0 0 auto;
-    color: var(--aa-gold);   /* les SVG utilisent stroke:currentColor */
+    color: var(--aa-navy);   /* les SVG utilisent stroke:currentColor */
 }
 
 .aa-top-bar__label {
-    color: rgba(255, 255, 255, 0.72);
+    color: rgba(15, 30, 59, 0.7);
 }
 
 .aa-top-bar__clock {
