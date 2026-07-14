@@ -2,7 +2,7 @@
 	Theme Name: Cariera Child
     Theme URI: http://themeforest.net/user/gnodesign/portfolio/
     Template: cariera
-    Description: Cariera Child Theme. 
+    Description: Cariera Child Theme.
     Author: Gnodesign
 	Author URI: http://themeforest.net/user/gnodesign/
 	License: ThemeForest
@@ -14,68 +14,148 @@
 /* =========================================================================
    PERSONNALISATION AUXILIUM AFRIK
    -------------------------------------------------------------------------
-   Objectif : supprimer l'excès de « bandes blanches » qui donnait un aspect
-   générique au site, et apporter une identité visuelle cohérente en
-   s'appuyant sur les couleurs de la marque (or #bd9144 + bleu nuit #0f1e3b).
+   Demandes client :
+   1. Supprimer les « bandes blanches » : les sections doivent utiliser l'or,
+      le bleu nuit ou un dégradé de ces deux couleurs.
+   2. Uniformiser le ruban de présentation des pages (page-header) sur le
+      dégradé or -> bleu (celui des « conditions générales »).
+   3. Mieux équilibrer l'or et le bleu (le site penchait trop vers l'or).
+   4. Rendre la navigation fixe lors du défilement vers le bas.
 
-   Principe technique :
-   - On remplace le fond blanc pur par un fond « ivoire » chaleureux, très
-     léger, avec une fine texture pointillée aux couleurs de la marque.
-   - Les sections Elementor transparentes (les « bandes blanches ») héritent
-     automatiquement de ce fond, sans toucher au contenu des pages.
-   - Une alternance de sections très subtile casse la monotonie du blanc.
+   Couleurs de la marque : or #bd9144 / bleu nuit #0f1e3b.
 
-   IMPORTANT : les sélecteurs de section utilisent :where() (spécificité 0)
-   pour ne JAMAIS écraser une section qui possède déjà son propre arrière-plan
-   défini dans Elementor. Ces réglages ne s'appliquent donc qu'aux sections
-   restées blanches/transparentes.
+   Choix retenu pour les sections : ALTERNANCE.
+   - Une bande sur deux est en bleu nuit (texte clair).
+   - L'autre est en teinte or claire (texte foncé).
+   - Les cartes blanches (offres, services, actualités…) restent blanches et
+     ressortent sur le bleu, avec leur texte foncé préservé.
+
+   Remarque de spécificité : les ARRIÈRE-PLANS de section utilisent :where()
+   (spécificité 0) afin de NE JAMAIS écraser une section qui possède déjà son
+   propre fond défini dans Elementor. Les règles de COULEUR DE TEXTE, elles,
+   doivent surpasser Elementor : elles emploient donc !important, mais restent
+   strictement limitées aux bandes de premier niveau d'une page.
    ========================================================================= */
 
 :root {
-    --aa-gold: #bd9144;          /* or — accent principal de la marque */
-    --aa-navy: #0f1e3b;          /* bleu nuit — couleur secondaire */
-    --aa-canvas: #f8f6f2;        /* ivoire chaleureux — remplace le blanc pur */
-    --aa-canvas-alt: rgba(15, 30, 59, 0.035); /* voile bleu nuit très léger */
-    --aa-hairline: rgba(189, 145, 68, 0.14);  /* filet séparateur discret (or) */
+    --aa-gold: #bd9144;                 /* or — accent principal */
+    --aa-navy: #0f1e3b;                 /* bleu nuit — couleur secondaire */
+    --aa-gold-tint: #f7f0e1;            /* or très clair — bandes claires */
+    --aa-gradient: linear-gradient(120deg, #bd9144 0%, #c99a4b 22%, #1a2f52 76%, #0f1e3b 100%);
+    --aa-on-dark: #ffffff;              /* texte sur fond bleu nuit */
+    --aa-on-dark-muted: rgba(255, 255, 255, 0.82);
+    --aa-card-text: #212529;            /* texte des cartes claires */
+    --aa-card-heading: #0f1e3b;         /* titres des cartes claires */
 }
 
-/* --- Toile de fond générale : fin l'aspect « page blanche générique » --- */
-body {
-    background-color: var(--aa-canvas);
-}
+/* Raccourci mental (repris tel quel dans les sélecteurs ci-dessous) :
+   BANDE = [data-elementor-type="wp-page"] > .e-con.e-parent
+           :not(.main-header):not(.main-footer):not(.nsadisi-slider)
+   => uniquement les sections de PREMIER niveau d'une page. */
 
-/* Le thème pose un fond sur body > .wrapper : on l'harmonise avec la toile
-   de fond et on ajoute une texture pointillée or extrêmement discrète (~5 %)
-   qui apporte de la « matière » sans nuire à la lisibilité. */
-body > .wrapper {
-    background-color: var(--aa-canvas);
-    background-image: radial-gradient(var(--aa-gold) 0.5px, transparent 0.6px);
-    background-size: 22px 22px;
-    background-position: 0 0;
-    /* la couleur or est déjà très claire par la petite taille des points ;
-       on baisse encore l'intensité via l'opacité de l'image de fond */
-    background-blend-mode: soft-light;
-}
 
-/* --- Alternance subtile des sections principales de la page ---------------
-   Cible uniquement les sections de PREMIER niveau d'une page (pas les cartes,
-   ni les items de boucle, ni l'en-tête / le pied de page / le slider héros).
-   Grâce à :where(), la spécificité est nulle : toute section ayant déjà un
-   fond défini dans Elementor conserve intégralement son apparence. */
-:where([data-elementor-type="wp-page"]) > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider) {
-    position: relative;
+/* =========================================================================
+   1 + 3.  ALTERNANCE DES SECTIONS  (fin des bandes blanches, équilibre or/bleu)
+   ========================================================================= */
+
+/* --- Arrière-plans (spécificité 0 : n'écrase jamais un fond Elementor) --- */
+:where([data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(odd)) {
+    background-color: var(--aa-gold-tint);
 }
 
 :where([data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even)) {
-    background-color: var(--aa-canvas-alt);
+    background-color: var(--aa-navy);
 }
 
-/* Filet séparateur or très discret entre les grandes bandes, pour structurer
-   visuellement l'enchaînement des sections sans trait blanc marqué. */
-:where([data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider) + .e-con.e-parent) {
-    border-top: 1px solid var(--aa-hairline);
+/* --- Texte clair sur les bandes bleu nuit (bandes paires) ----------------- */
+[data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even) {
+    color: var(--aa-on-dark);
 }
 
-/* Note : sur ce fond ivoire, les cartes et blocs blancs (offres, services,
-   actualités…) se détachent désormais naturellement, ce qui renforce la
-   hiérarchie visuelle sans ajouter de bande blanche supplémentaire. */
+[data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even)
+    :is(h1, h2, h3, h4, h5, h6, p, li, blockquote, .title, .subtitle,
+        .elementor-heading-title, .elementor-widget-text-editor,
+        .elementor-icon-list-text, .elementor-icon-box-title,
+        .elementor-icon-box-description) {
+    color: var(--aa-on-dark) !important;
+}
+
+/* Liens (hors boutons) : soulignement/hover en or pour rester dans la marque */
+[data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even)
+    a:not(.elementor-button):not(.btn):hover {
+    color: var(--aa-gold) !important;
+}
+
+/* --- Les cartes claires gardent leur lisibilité sur le bleu ---------------
+   Sur les bandes bleues, tout ce qui est une carte (item de boucle : offres,
+   services, formations, actualités, équipe…) conserve un texte foncé. */
+[data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even)
+    :is(.e-loop-item, .job_listing, .single-listing, .listing-item)
+    :is(p, li, span, .elementor-widget-text-editor, .elementor-icon-list-text,
+        .elementor-icon-box-description) {
+    color: var(--aa-card-text) !important;
+}
+
+[data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even)
+    :is(.e-loop-item, .job_listing, .single-listing, .listing-item)
+    :is(h1, h2, h3, h4, h5, h6, .elementor-heading-title, .elementor-icon-box-title) {
+    color: var(--aa-card-heading) !important;
+}
+
+
+/* =========================================================================
+   2.  RUBAN DE PRÉSENTATION DES PAGES  (page-header) — dégradé or -> bleu
+   -------------------------------------------------------------------------
+   Le thème affiche soit un ruban gris clair (.page-header), soit un ruban à
+   image de fond assombrie (.page-header-bg) selon la page — d'où l'incohérence
+   signalée entre « conditions générales » et « termes et procédures ».
+   On force partout le même dégradé or -> bleu, avec un titre blanc.
+   ========================================================================= */
+
+.page-header,
+.page-header.page-header-bg {
+    background: var(--aa-gradient) !important;
+    background-color: var(--aa-navy) !important; /* repli si le dégradé n'est pas supporté */
+}
+
+/* On retire le voile sombre de la variante à image (devenu inutile) */
+.page-header-bg:after {
+    display: none !important;
+}
+
+.page-header .title,
+.page-header .title span,
+.page-header .title .listing-count,
+.page-header .subtitle,
+.page-header .breadcrumb,
+.page-header .breadcrumb li,
+.page-header .breadcrumb li a,
+.page-header .breadcrumb li.current_item {
+    color: var(--aa-on-dark) !important;
+}
+
+.page-header .breadcrumb li:after {
+    color: var(--aa-on-dark-muted) !important;
+}
+
+.page-header .breadcrumb li a:hover {
+    color: var(--aa-gold) !important;
+}
+
+
+/* =========================================================================
+   4.  NAVIGATION FIXE AU DÉFILEMENT
+   -------------------------------------------------------------------------
+   Le thème ajoute déjà la classe .header-fixed dès qu'on défile sous l'en-tête,
+   mais il ne l'affiche (.in-view) que lorsqu'on remonte. On force donc l'en-tête
+   fixe à rester visible aussi lorsqu'on défile vers le BAS.
+   Limité au bureau (> 1024 px) pour ne pas perturber l'en-tête mobile du thème.
+   ========================================================================= */
+
+@media (min-width: 1025px) {
+    header.header-fixed {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateY(0) !important;
+    }
+}
