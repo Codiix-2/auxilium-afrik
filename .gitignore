@@ -1,0 +1,108 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+*.sql
+*.sqlite
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor/
+/composer.phar
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# WordPress Core (if installed via Composer or managed separately)
+/wp-admin/
+/wp-includes/
+
+# Root WordPress files (ignore if managed separately)
+index.php
+license.txt
+readme.html
+wp-*.php
+xmlrpc.php
+
+# Keep config example
+wp-config.php
+!wp-config-sample.php
+
+# Uploads
+/wp-content/uploads/
+
+# Cache
+/wp-content/cache/
+/wp-content/advanced-cache.php
+
+# Backup plugins
+/wp-content/backup-*/
+/wp-content/updraft/
+/wp-content/ai1wm-backups/
+/wp-content/backups/
+
+# Cache plugins
+/wp-content/w3tc*
+/wp-content/wp-cache-config.php
+/wp-content/object-cache.php
+
+# Upgrade files
+/wp-content/upgrade/
+
+# Languages (optional)
+/wp-content/languages/
+
+# Debug
+debug.log
+
+# Keep custom themes and plugins
+!/wp-content/themes/
+!/wp-content/plugins/
+
+# Ignore vendor inside themes/plugins if desired
+wp-content/themes/*/vendor/
+wp-content/plugins/*/vendor/
+
+# Ignore node_modules inside themes/plugins
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/node_modules/
+
+# Keep mu-plugins
+!/wp-content/mu-plugins/
+
+# Hostinger/server files
+.htaccess.bk
+DO_NOT_UPLOAD_HERE
+bv_connector_*.php
+create_autologin_*.php
+default.php
+dev/
+error_log
+malcare-waf.php
+*.zip
+staging/
+wordfence-waf.php
+.htaccess
+
+wp-content/backups-dup-lite/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/backups-dup-lite/
+*.part
+*.zip

@@ -1,0 +1,3464 @@
+# Copyright (C) 2023 Myles McNamara
+# This file is distributed under the same license as the Search and Filtering for WP Job Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Search and Filtering for WP Job Manager 1.2.0\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2023-05-23 12:48:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Myles McNamara\n"
+"Language-Team: sMyles <get@smyl.es>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: dependency-checker.php:61
+#. translators: %1$s is version of PHP that WP Job Manager requires; %2$s is
+#. the version of PHP WordPress is running on.
+msgid ""
+"<strong>WP Job Manager - Search and Filtering</strong> requires a minimum "
+"PHP version of %1$s, but you are running %2$s. Please update PHP to "
+"continue using this plugin."
+msgstr ""
+
+#: dependency-checker.php:72
+msgid "Learn more about updating PHP"
+msgstr ""
+
+#: dependency-checker.php:74
+#. translators: accessibility text
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: dependency-checker.php:109
+msgid ""
+"<strong>WP Job Manager - Search and Filtering</strong> requires a more "
+"recent version of WordPress."
+msgstr ""
+
+#: dependency-checker.php:125 dependency-checker.php:127
+msgid "WordPress Update Required"
+msgstr ""
+
+#: includes/admin/ajax.php:77
+msgid "Successfully Removed %s Sections"
+msgstr ""
+
+#: includes/admin/ajax.php:120
+msgid "Unknown error getting section to clone!"
+msgstr ""
+
+#: includes/admin/ajax.php:124
+#: languages/wp-job-manager-search-and-filtering.php:17
+msgid "Clone"
+msgstr ""
+
+#: includes/admin/ajax.php:145 includes/admin/ajax.php:154
+#: includes/ajax.php:482 includes/ajax.php:488
+msgid "Error creating and saving new section!"
+msgstr ""
+
+#: includes/admin/ajax.php:145 includes/admin/ajax.php:154
+#: includes/ajax.php:482 includes/ajax.php:488
+msgid "Error saving, post ID is not defined!"
+msgstr ""
+
+#: includes/admin/ajax.php:147
+msgid "Error cloning section!"
+msgstr ""
+
+#: includes/admin/ajax.php:156
+msgid "Error cloning section, no section ID returned on insert!"
+msgstr ""
+
+#: includes/admin.php:55 includes/admin.php:142 includes/admin.php:143
+msgid "Search & Filtering"
+msgstr ""
+
+#: includes/admin.php:70
+msgid "Enable Editing"
+msgstr ""
+
+#: includes/admin.php:80
+msgid "Disable Editing"
+msgstr ""
+
+#: includes/admin.php:90
+msgid "Disable %s Custom S&F"
+msgstr ""
+
+#: includes/admin.php:101
+msgid "Enable %s Custom S&F"
+msgstr ""
+
+#: includes/admin.php:109
+msgid "%s S&F Disabled in Settings by Page Exclude"
+msgstr ""
+
+#: includes/admin.php:120
+msgid "%s Section List"
+msgstr ""
+
+#: includes/admin.php:162 languages/wp-job-manager-search-and-filtering.php:8
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin.php:163
+msgid ""
+"Whether or not to enable the custom search and filtering for these type of "
+"listings. This MUST be enabled if you want to use custom search and "
+"filtering."
+msgstr ""
+
+#: includes/ajax.php:186
+msgid "Section ID is missing from request!"
+msgstr ""
+
+#: includes/ajax.php:192
+msgid "Unable to find section based on ID!"
+msgstr ""
+
+#: includes/ajax.php:215
+msgid "Error, section ID was not specified!"
+msgstr ""
+
+#: includes/ajax.php:277
+msgid "Settings saved successfully"
+msgstr ""
+
+#: includes/ajax.php:491
+msgid "Successfully created and saved new section!"
+msgstr ""
+
+#: includes/ajax.php:491
+msgid "Succesfully updated and saved section!"
+msgstr ""
+
+#: includes/cpt.php:121
+msgid "Disabled (%s)"
+msgid_plural "Disabled (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/cpt.php:130
+msgid "Enabled (%s)"
+msgid_plural "Enabled (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/fields/input.php:44
+msgid "Street Address"
+msgstr ""
+
+#: includes/fields/input.php:45
+msgid "Nearby Address Range (Route)"
+msgstr ""
+
+#: includes/fields/input.php:46
+msgid "Nearby Major Intersection"
+msgstr ""
+
+#: includes/fields/input.php:47
+msgid "Political"
+msgstr ""
+
+#: includes/fields/input.php:48
+msgid "Country"
+msgstr ""
+
+#: includes/fields/input.php:49
+msgid "Administrative Level 1 (State)"
+msgstr ""
+
+#: includes/fields/input.php:50
+msgid "Administrative Level 2 (County)"
+msgstr ""
+
+#: includes/fields/input.php:51
+msgid "Administrative Level 3"
+msgstr ""
+
+#: includes/fields/input.php:52
+msgid "Administrative Level 4"
+msgstr ""
+
+#: includes/fields/input.php:53
+msgid "Administrative Level 5"
+msgstr ""
+
+#: includes/fields/input.php:54 includes/fields/input.php:89
+msgid "City/Town (Locality)"
+msgstr ""
+
+#: includes/fields/input.php:55
+msgid "Sub Locality"
+msgstr ""
+
+#: includes/fields/input.php:56
+msgid "Neighborhood"
+msgstr ""
+
+#: includes/fields/input.php:57
+msgid "Street Address/Named Location (premise)"
+msgstr ""
+
+#: includes/fields/input.php:58
+msgid "Sub Premise"
+msgstr ""
+
+#: includes/fields/input.php:59
+msgid "Plus Code"
+msgstr ""
+
+#: includes/fields/input.php:60
+msgid "Postal Code"
+msgstr ""
+
+#: includes/fields/input.php:61
+msgid "Natural Feature"
+msgstr ""
+
+#: includes/fields/input.php:62
+msgid "Airport"
+msgstr ""
+
+#: includes/fields/input.php:63
+msgid "Park"
+msgstr ""
+
+#: includes/fields/input.php:64
+msgid "Point of Interest"
+msgstr ""
+
+#: includes/fields/input.php:80
+msgid "Result Type"
+msgstr ""
+
+#: includes/fields/input.php:82 includes/fields/input.php:96
+msgid "All (default)"
+msgstr ""
+
+#: includes/fields/input.php:85
+msgid "Geocode Results"
+msgstr ""
+
+#: includes/fields/input.php:86
+msgid "Address"
+msgstr ""
+
+#: includes/fields/input.php:87
+msgid "Business Results (establishment)"
+msgstr ""
+
+#: includes/fields/input.php:88
+msgid "State/County/Country/City (regions)"
+msgstr ""
+
+#: includes/fields/input.php:91
+msgid ""
+"If you only want specific types to be returned, select it from this list "
+"and only those results will show in the dropdown.  Default is all."
+msgstr ""
+
+#: includes/fields/input.php:94
+msgid "Countries"
+msgstr ""
+
+#: includes/fields/input.php:98
+msgid ""
+"If you want to restrict results to only specific countries, enter the "
+"two-character ISO 3166-1 Alpha-2 compatible country code.  Max is 5 "
+"countries, separated with a comma.  List of codes can be found on <a "
+"href=\"%s\" target=\"_blank\">Wikipedia</a>."
+msgstr ""
+
+#: includes/fields/input.php:101
+msgid "Strip Country"
+msgstr ""
+
+#: includes/fields/input.php:104 includes/fields/input.php:111
+msgid "Yes, strip the country from the value when not by itself"
+msgstr ""
+
+#: includes/fields/input.php:105
+msgid ""
+"When specific result types are chosen (ie State/County/Country/City), if "
+"the country is not the only value selected, when this option is enabled, it "
+"will be stripped from the value sent to the server.  This requires value(s) "
+"to be set in Countries field above to work correctly."
+msgstr ""
+
+#: includes/fields/input.php:108
+msgid "API Region"
+msgstr ""
+
+#: includes/fields/input.php:112
+msgid ""
+"When you load the Maps JavaScript API it applies a default bias for "
+"application behavior towards the United States. Enter a value here to "
+"override this. The region parameter accepts Unicode region subtag "
+"identifiers which (generally) have a one-to-one mapping to country code "
+"Top-Level Domains (ccTLDs). Most Unicode region identifiers are identical "
+"to <a href=\"%s\" target=\"_blank\">ISO 3166-1 codes</a>, with some notable "
+"exceptions. For example, Great Britain's ccTLD is “uk” (corresponding to "
+"the domain .co.uk) while its region identifier is GB.  NOTE: this only "
+"works if some a theme or plugin has not already loaded places/maps API."
+msgstr ""
+
+#: includes/fields/input.php:115
+msgid "Disable Radius"
+msgstr ""
+
+#: includes/fields/input.php:118
+msgid "Do not disable radius or radius unit"
+msgstr ""
+
+#: includes/fields/input.php:120
+msgid ""
+"When a user selects any of the result types selected here, the radius and "
+"radius unit (if exists) will automatically be disabled and hidden. This "
+"will most likely be needed for State and Country selections to work "
+"correctly."
+msgstr ""
+
+#: includes/fields/input.php:126 includes/fields/input.php:377
+msgid "Google API key"
+msgstr ""
+
+#: includes/fields/input.php:130 includes/fields/input.php:381
+#: includes/fields.php:328
+msgid ""
+"Enter the client side API key to use for the GeoLocation.  This key should "
+"be different from any server-side keys you use.  Aquire an API key from the "
+"<a href=\"%s\">Google Maps API Developer Site</a>."
+msgstr ""
+
+#: includes/fields/input.php:147
+msgid "Auto Min/Max"
+msgstr ""
+
+#: includes/fields/input.php:148
+msgid "Yes, automatically detect min and max"
+msgstr ""
+
+#: includes/fields/input.php:159
+msgid ""
+"Instead of using a defined mix/max, this will automatically detect the min "
+"and max based on the values from existing listings."
+msgstr ""
+
+#: includes/fields/input.php:162
+msgid "Min"
+msgstr ""
+
+#: includes/fields/input.php:165
+msgid "Minimum value that can be selected (default 0)"
+msgstr ""
+
+#: includes/fields/input.php:168
+msgid "Max"
+msgstr ""
+
+#: includes/fields/input.php:171
+msgid "Maximum value that can be selected (default 100)"
+msgstr ""
+
+#: includes/fields/input.php:174
+msgid "Interval"
+msgstr ""
+
+#: includes/fields/input.php:178
+msgid ""
+"The interval between two values. The value must be greater than 0 and MUST "
+"be divisible by (max - min)"
+msgstr ""
+
+#: includes/fields/input.php:181
+msgid "Tooltip"
+msgstr ""
+
+#: includes/fields/input.php:184 includes/fields/input.php:190
+msgid "Active (default)"
+msgstr ""
+
+#: includes/fields/input.php:186
+msgid "None"
+msgstr ""
+
+#: includes/fields/input.php:187
+msgid "Always"
+msgstr ""
+
+#: includes/fields/input.php:188
+msgid "Focus"
+msgstr ""
+
+#: includes/fields/input.php:189
+msgid "Hover"
+msgstr ""
+
+#: includes/fields/input.php:192
+msgid "When to show tooltip (if enabled)"
+msgstr ""
+
+#: includes/fields/input.php:195
+msgid "Tooltip Placement"
+msgstr ""
+
+#: includes/fields/input.php:198 includes/fields/input.php:200
+msgid "Top (default)"
+msgstr ""
+
+#: includes/fields/input.php:201
+msgid "Bottom"
+msgstr ""
+
+#: includes/fields/input.php:202
+msgid "Left"
+msgstr ""
+
+#: includes/fields/input.php:203
+msgid "Right"
+msgstr ""
+
+#: includes/fields/input.php:205
+msgid "The placement of the tooltip."
+msgstr ""
+
+#: includes/fields/input.php:208
+msgid "Prepend"
+msgstr ""
+
+#: includes/fields/input.php:211
+msgid ""
+"Any specific value you want to prepend on the value display output (before "
+"value).  If you want to use a space before or after any kind of string, you "
+"must use the string below, otherwise sanitizer will strip spaces before or "
+"after."
+msgstr ""
+
+#: includes/fields/input.php:217
+msgid "Append"
+msgstr ""
+
+#: includes/fields/input.php:220
+msgid ""
+"Any specific value you want to append on the value display output (after "
+"value).  If you want to use a space before or after any kind of string, you "
+"must use the string below, otherwise sanitizer will strip spaces before or "
+"after."
+msgstr ""
+
+#: includes/fields/input.php:226 includes/fields.php:492
+msgid "Format"
+msgstr ""
+
+#: includes/fields/input.php:230
+msgid "Yes, format numbers when displayed"
+msgstr ""
+
+#: includes/fields/input.php:231
+msgid ""
+"Uses JavaScript NumberFormat to output formatted number values (ie 3000 "
+"will show as 3,000)"
+msgstr ""
+
+#: includes/fields/input.php:247
+msgid "Clearable"
+msgstr ""
+
+#: includes/fields/input.php:250
+msgid "Yes, make selection clearable"
+msgstr ""
+
+#: includes/fields/input.php:253
+msgid "Filterable"
+msgstr ""
+
+#: includes/fields/input.php:256
+msgid "Yes, make selection filterable (searchable)"
+msgstr ""
+
+#: includes/fields/input.php:259
+msgid "No Match Text"
+msgstr ""
+
+#: includes/fields/input.php:262
+msgid "When filterable is enabled, text to show when no results are found"
+msgstr ""
+
+#: includes/fields/input.php:265
+msgid "Size"
+msgstr ""
+
+#: includes/fields/input.php:268
+msgid "Large (default)"
+msgstr ""
+
+#: includes/fields/input.php:269
+msgid ""
+"Size of the input. Three default sizes are included that can be used: mini, "
+"small, or large."
+msgstr ""
+
+#: includes/fields/input.php:271
+msgid "Mini"
+msgstr ""
+
+#: includes/fields/input.php:272
+msgid "Small"
+msgstr ""
+
+#: includes/fields/input.php:273
+msgid "Large"
+msgstr ""
+
+#: includes/fields/input.php:277 includes/fields/input.php:335
+#: includes/fields/input.php:566 includes/fields/input.php:659
+#: includes/fields.php:533
+msgid "Show Count"
+msgstr ""
+
+#: includes/fields/input.php:280 includes/fields/input.php:338
+#: includes/fields/input.php:569 includes/fields/input.php:662
+msgid "Yes, show the count in parenthesis next to the label"
+msgstr ""
+
+#: includes/fields/input.php:281 includes/fields/input.php:570
+#: includes/fields/input.php:663
+msgid ""
+"Enable this setting to show the total number of listings that have the "
+"taxonomy source for this field, in parenthesis, next to the label.  For "
+"example: Temporary (5).  Please note this value does NOT automatically "
+"update based on other field value selections (yet)."
+msgstr ""
+
+#: includes/fields/input.php:297
+msgid "Search Min"
+msgstr ""
+
+#: includes/fields/input.php:300
+msgid ""
+"Minimum number of option values that must in the dropdown to show the "
+"Search box.  Use -1 to disable search box."
+msgstr ""
+
+#: includes/fields/input.php:304
+msgid "Dropdown Parent"
+msgstr ""
+
+#: includes/fields/input.php:307
+msgid ""
+"Sometimes the dropdown will need to be attached to a different element to "
+"work correctly.  Enter the selector here to attach to something different "
+"than the body element.  ONLY enter the selector, for example "
+"\".some-class\" or \"#some-id\""
+msgstr ""
+
+#: includes/fields/input.php:311
+msgid "Allow Clear"
+msgstr ""
+
+#: includes/fields/input.php:314
+msgid ""
+"Allow user to clear selection. Will show a small X in the dropdown to click "
+"to remove selection. Default is FALSE"
+msgstr ""
+
+#: includes/fields/input.php:318
+msgid "Close on Select"
+msgstr ""
+
+#: includes/fields/input.php:321
+msgid ""
+"Controls whether the dropdown is closed after a selection is made. Default "
+"is TRUE"
+msgstr ""
+
+#: includes/fields/input.php:339
+msgid ""
+"Enable this setting to show the total number of listings that have the "
+"taxonomy source for this field, in parenthesis, next to the label.  For "
+"example: Temporary (5)"
+msgstr ""
+
+#: includes/fields/input.php:356
+msgid "Standard Text"
+msgstr ""
+
+#: includes/fields/input.php:360 includes/fields/input.php:437
+msgid "Icon Action"
+msgstr ""
+
+#: includes/fields/input.php:363 includes/fields/input.php:440
+msgid ""
+"Selecting a value from here will show an icon in the right corner of the "
+"text box, and will trigger the associated action."
+msgstr ""
+
+#: includes/fields/input.php:364 includes/fields/input.php:441
+msgid "No Action (default)"
+msgstr ""
+
+#: includes/fields/input.php:366 includes/fields/input.php:443
+msgid "Search (magnifying glass icon)"
+msgstr ""
+
+#: includes/fields/input.php:367 includes/fields/input.php:444
+msgid "Clear Value (round X icon)"
+msgstr ""
+
+#: includes/fields/input.php:373
+msgid "Standard Text (Locate Me)"
+msgstr ""
+
+#: includes/fields/input.php:384
+msgid "Result Type(s)"
+msgstr ""
+
+#: includes/fields/input.php:387 includes/fields/input.php:395
+msgid "Best Match"
+msgstr ""
+
+#: includes/fields/input.php:389
+msgid ""
+"Specific GeoCoding result types to limit for populating the field with. "
+"Specific details can be found on <a href=\"%s\" target=\"_blank\">Google "
+"Reverse GeoCoding Documentation</a>.  If you set one of these values, it is "
+"recommended to select at least 4 of them, and set a preference in setting "
+"below."
+msgstr ""
+
+#: includes/fields/input.php:392
+msgid "Type Preference"
+msgstr ""
+
+#: includes/fields/input.php:397
+msgid ""
+"When Google returns results for GeoLocate, it returns them in order of best "
+"to least matches.  When this value is not set, the first (best match) will "
+"be used. Set a value here to prefer a specific type, if one is available "
+"(but not best match) it will be used, otherwise the best match will be used."
+msgstr ""
+
+#: includes/fields/input.php:400
+msgid "Language"
+msgstr ""
+
+#: includes/fields/input.php:403
+msgid ""
+"To return the result in a specific language, specify the language code from "
+"<a href=\"%s\" target=\"_blank\">Google Maps Supported Language Codes</a>.  "
+"If not specified, Google will attempt to automatically detect the language "
+"based on the native language of this site."
+msgstr ""
+
+#: includes/fields/input.php:406
+msgid "Lat/Lng Fallback"
+msgstr ""
+
+#: includes/fields/input.php:409
+msgid "Yes, fallback to latitude/longitude if no results from Google"
+msgstr ""
+
+#: includes/fields/input.php:410
+msgid ""
+"If for some reason Google does not return any results (or the query errors "
+"out), the latitude/longitude value can be populated into the field instead"
+msgstr ""
+
+#: includes/fields/input.php:414 includes/fields/input.php:449
+msgid "Google Map Places AutoComplete"
+msgstr ""
+
+#: includes/fields/input.php:417
+msgid "AutoComplete"
+msgstr ""
+
+#: includes/fields/input.php:420
+msgid "Yes, enable Google Places Autocomplete on this field"
+msgstr ""
+
+#: includes/fields/input.php:433
+msgid "Standard Text (Google Places Autocomplete)"
+msgstr ""
+
+#: includes/fields/input.php:454
+#: languages/wp-job-manager-search-and-filtering.php:150
+msgid "Checkbox"
+msgstr ""
+
+#: includes/fields/input.php:458 includes/fields/input.php:554
+#: includes/fields/input.php:634
+msgid "Label Placement"
+msgstr ""
+
+#: includes/fields/input.php:461 includes/fields/input.php:463
+#: includes/fields/input.php:637 includes/fields/input.php:639
+msgid "Wrap Input (default)"
+msgstr ""
+
+#: includes/fields/input.php:464 includes/fields/input.php:560
+#: includes/fields/input.php:640
+msgid "Above Input"
+msgstr ""
+
+#: includes/fields/input.php:465 includes/fields/input.php:641
+msgid "Below Input"
+msgstr ""
+
+#: includes/fields/input.php:467 includes/fields/input.php:563
+#: includes/fields/input.php:643
+msgid ""
+"Labels and Checkbox Input placement all vary based on themes and opinions.  "
+"Some themes expect the label to be below/above the input, whereas the "
+"standard is to wrap the input with the label. If you're unsure which to "
+"use, try each one to see which one looks best for your theme."
+msgstr ""
+
+#: includes/fields/input.php:470 includes/fields/input.php:646
+msgid "Label Element"
+msgstr ""
+
+#: includes/fields/input.php:473 includes/fields/input.php:649
+#: languages/wp-job-manager-search-and-filtering.php:191
+msgid "label"
+msgstr ""
+
+#: includes/fields/input.php:474 includes/fields/input.php:650
+msgid ""
+"Type of HTML element to use for the checkbox label.  Almost always this "
+"should be 'label', but can also be any other kind of HTML element (span, "
+"div, etc)"
+msgstr ""
+
+#: includes/fields/input.php:479
+msgid "Single Select Dropdown (Select2)"
+msgstr ""
+
+#: includes/fields/input.php:484 includes/fields/input.php:498
+msgid ""
+"Due to the selected field type (which uses Select2), Input CSS will only be "
+"applied after Saving."
+msgstr ""
+
+#: includes/fields/input.php:490
+msgid "Single Select Dropdown (Element UI)"
+msgstr ""
+
+#: includes/fields/input.php:495
+msgid "Multi Select Dropdown (Select 2)"
+msgstr ""
+
+#: includes/fields/input.php:502 includes/fields/input.php:526
+msgid "Max Selections"
+msgstr ""
+
+#: includes/fields/input.php:505 includes/fields/input.php:529
+msgid ""
+"Maximum number of selections that can be made.  If less than 1, selections "
+"will not be limited."
+msgstr ""
+
+#: includes/fields/input.php:509
+msgid "Overflow"
+msgstr ""
+
+#: includes/fields/input.php:512
+msgid ""
+"What to do when the selected options would overflow or be outside of the "
+"normal size of the multiselect box.  Default is to expand/resize the box to "
+"fit the selected options."
+msgstr ""
+
+#: includes/fields/input.php:513 includes/fields/input.php:515
+msgid "Expand (default)"
+msgstr ""
+
+#: includes/fields/input.php:516
+msgid "Scroll"
+msgstr ""
+
+#: includes/fields/input.php:522
+msgid "Multi Select Dropdown (Element UI)"
+msgstr ""
+
+#: includes/fields/input.php:533
+msgid "Collapse Tags"
+msgstr ""
+
+#: includes/fields/input.php:536
+msgid "Yes, collapse tags when multiple selected"
+msgstr ""
+
+#: includes/fields/input.php:537
+msgid ""
+"By default when multiple tags are selected, each will show, collapsing them "
+"will only show the first one, and then another one with count of how many "
+"are selected."
+msgstr ""
+
+#: includes/fields/input.php:540
+msgid "Select All Checkbox"
+msgstr ""
+
+#: includes/fields/input.php:544
+msgid ""
+"Enter a value here to show as a \"Select All\" checkbox option in the "
+"dropdown.  Leave blank to disable adding a \"Select All\" checkbox option"
+msgstr ""
+
+#: includes/fields/input.php:550
+msgid "Radio Buttons (Single Select)"
+msgstr ""
+
+#: includes/fields/input.php:557 includes/fields/input.php:561
+msgid "Below Input (default)"
+msgstr ""
+
+#: includes/fields/input.php:559
+msgid "Wrap Input"
+msgstr ""
+
+#: includes/fields/input.php:573 includes/fields/input.php:666
+msgid "Indent Children"
+msgstr ""
+
+#: includes/fields/input.php:576 includes/fields/input.php:669
+msgid "Yes, indent children taxonomy values"
+msgstr ""
+
+#: includes/fields/input.php:577 includes/fields/input.php:670
+msgid ""
+"By default for checklist taxonomy fields, children are NOT automatically "
+"indented under their parent (for dropdowns they are)."
+msgstr ""
+
+#: includes/fields/input.php:582
+msgid "Slider"
+msgstr ""
+
+#: includes/fields/input.php:586
+msgid "Slider Indicator"
+msgstr ""
+
+#: includes/fields/input.php:589
+msgid "Yes, show slider indicator separately from slider"
+msgstr ""
+
+#: includes/fields/input.php:590
+msgid ""
+"Enabling this setting will show a separate area that outputs the slider "
+"value above the slider.  You should probably set tooltip to none if you "
+"enable this setting."
+msgstr ""
+
+#: includes/fields/input.php:595
+msgid "Range Slider"
+msgstr ""
+
+#: includes/fields/input.php:599
+msgid "Range Indicator"
+msgstr ""
+
+#: includes/fields/input.php:602
+msgid "Yes, show range indicator separately from range slider"
+msgstr ""
+
+#: includes/fields/input.php:603
+msgid ""
+"Enabling this setting will show a separate area that outputs the range "
+"values above the slider.  You should probably set tooltip to none if you "
+"enable this setting."
+msgstr ""
+
+#: includes/fields/input.php:607
+msgid ""
+"(Format: MIN-MAX) To set default values for range fields, you MUST specify "
+"the minimum value and maximum value, separated by a hyphen.  Example of 1 "
+"as min and 10 as max would be 1-10"
+msgstr ""
+
+#: includes/fields/input.php:610
+msgid "Min Source"
+msgstr ""
+
+#: includes/fields/input.php:611
+msgid "The source field to use as the minimum value search in the range slider"
+msgstr ""
+
+#: includes/fields/input.php:614
+msgid "Max Source"
+msgstr ""
+
+#: includes/fields/input.php:615
+msgid ""
+"The source field to use as the maximum value search in the range slider. "
+"This can be set to the same exact field as above if you only want to use "
+"one field."
+msgstr ""
+
+#: includes/fields/input.php:619
+msgid "Min Comparison"
+msgstr ""
+
+#: includes/fields/input.php:620
+msgid ""
+"Comparison operator to use for the Minimum Value source.  This should "
+"almost always be Greater Than or Equal To. Do not change this unless you "
+"know what you are doing."
+msgstr ""
+
+#: includes/fields/input.php:624
+msgid "Max Comparison"
+msgstr ""
+
+#: includes/fields/input.php:625
+msgid ""
+"Comparison operator to use for the Maximum Value source.  This should "
+"almost always be Less Than or Equal To.  Do not change this unless you know "
+"what you are doing."
+msgstr ""
+
+#: includes/fields/input.php:630
+msgid "Checklist"
+msgstr ""
+
+#: includes/fields/input.php:653
+#: languages/wp-job-manager-search-and-filtering.php:133
+msgid "Label Classes"
+msgstr ""
+
+#: includes/fields/input.php:656
+msgid ""
+"Any custom classes (separated by spaces) to add to the label element used "
+"for the checklist (not the main label for entire field)"
+msgstr ""
+
+#: includes/fields/input.php:675
+msgid "Button"
+msgstr ""
+
+#: includes/fields.php:106
+msgid "Do not automatically output"
+msgstr ""
+
+#: includes/fields.php:110
+msgid "Filters Top (above Main Filters)"
+msgstr ""
+
+#: includes/fields.php:114
+msgid "Main Filters Area (below filters top)"
+msgstr ""
+
+#: includes/fields.php:118
+msgid "Filters Bottom (below search bottom)"
+msgstr ""
+
+#: includes/fields.php:122
+msgid "Below Listings (below listing results)"
+msgstr ""
+
+#: includes/fields.php:176
+msgid "1x"
+msgstr ""
+
+#: includes/fields.php:177
+msgid "2x"
+msgstr ""
+
+#: includes/fields.php:178
+msgid "3x"
+msgstr ""
+
+#: includes/fields.php:179
+msgid "4x"
+msgstr ""
+
+#: includes/fields.php:180
+msgid "5x"
+msgstr ""
+
+#: includes/fields.php:181
+msgid "6x"
+msgstr ""
+
+#: includes/fields.php:182
+msgid "7x"
+msgstr ""
+
+#: includes/fields.php:183
+msgid "8x"
+msgstr ""
+
+#: includes/fields.php:184
+msgid "9x"
+msgstr ""
+
+#: includes/fields.php:185
+msgid "10x"
+msgstr ""
+
+#: includes/fields.php:186
+msgid "11x"
+msgstr ""
+
+#: includes/fields.php:187
+msgid "12x"
+msgstr ""
+
+#: includes/fields.php:188
+msgid "13x"
+msgstr ""
+
+#: includes/fields.php:189
+msgid "14x"
+msgstr ""
+
+#: includes/fields.php:190
+msgid "15x"
+msgstr ""
+
+#: includes/fields.php:191
+msgid "16x"
+msgstr ""
+
+#: includes/fields.php:192
+msgid "17x"
+msgstr ""
+
+#: includes/fields.php:193
+msgid "18x (Default Max)"
+msgstr ""
+
+#: includes/fields.php:194
+msgid "19x (may not show anything)"
+msgstr ""
+
+#: includes/fields.php:195
+msgid "20x (may not show anything)"
+msgstr ""
+
+#: includes/fields.php:196
+msgid "21x (may not show anything)"
+msgstr ""
+
+#: includes/fields.php:209
+msgid "Min Zoom"
+msgstr ""
+
+#: includes/fields.php:212
+msgid "0 (default)"
+msgstr ""
+
+#: includes/fields.php:213
+msgid "0 (No Zoom)"
+msgstr ""
+
+#: includes/fields.php:214
+msgid ""
+"The minimum amount of zoom that the map will show.  By default this is 0, "
+"meaning no zoom, showing the entire world."
+msgstr ""
+
+#: includes/fields.php:217
+msgid "Max Zoom"
+msgstr ""
+
+#: includes/fields.php:220
+msgid "18 (default)"
+msgstr ""
+
+#: includes/fields.php:222
+msgid ""
+"The maximum amount that the map can be zoomed in.  By default this is 18x, "
+"as anything over 18x potentially will not show anything."
+msgstr ""
+
+#: includes/fields.php:225
+msgid "Default Zoom"
+msgstr ""
+
+#: includes/fields.php:228
+msgid "5x (default)"
+msgstr ""
+
+#: includes/fields.php:230
+msgid "Default zoom when the page initially loads (before any listings are loaded)."
+msgstr ""
+
+#: includes/fields.php:233
+msgid "Center Point"
+msgstr ""
+
+#: includes/fields.php:236
+msgid ""
+"Latitude and Longitude, separated by comma, to use for center point on map "
+"when initially loaded (example: 28.5383,-81.3792)"
+msgstr ""
+
+#: includes/fields.php:239
+msgid "Move Map"
+msgstr ""
+
+#: includes/fields.php:242
+msgid "Yes, move the map outside the section grid"
+msgstr ""
+
+#: includes/fields.php:253
+msgid "Move to Element"
+msgstr ""
+
+#: includes/fields.php:257
+msgid ""
+"In the situation you want to move the map somewhere else on the page (other "
+"than inside the grid), enter the HTML Element selector here."
+msgstr ""
+
+#: includes/fields.php:260
+msgid "Map Height"
+msgstr ""
+
+#: includes/fields.php:264
+msgid ""
+"If you move the map outside the section grid you MUST specify a height "
+"otherwise it will not show.  Enter a valid CSS height (can NOT be %).  "
+"300px will be used by default."
+msgstr ""
+
+#: includes/fields.php:267
+msgid "Touch Text"
+msgstr ""
+
+#: includes/fields.php:271
+msgid ""
+"When someone attempts to move the map on a smaller device (like mobile), "
+"this is text shown when not using \"two fingers\" to move the map.  "
+"Language should be auto detected, but you can set a static value to use "
+"here if you wish. Leave blank to use default. If any of these are set, you "
+"must set the other values as well (or defaults will be used)."
+msgstr ""
+
+#: includes/fields.php:274
+msgid "Scroll Text"
+msgstr ""
+
+#: includes/fields.php:278
+msgid ""
+"When someone attempts to use scroll button on the map, this is text shown "
+"when NOT holding CTRL (Windows) to zoom in or out. Language should be auto "
+"detected, but you can set a static value to use here if you wish. Leave "
+"blank to use default. If any of these are set, you must set the other "
+"values as well (or defaults will be used)."
+msgstr ""
+
+#: includes/fields.php:281
+msgid "Scroll Text (Mac)"
+msgstr ""
+
+#: includes/fields.php:285
+msgid ""
+"When someone attempts to use scroll button on the map, this is text shown "
+"when NOT holding ⌘ (Mac/OSX) to zoom in or out. Language should be auto "
+"detected, but you can set a static value to use here if you wish. Leave "
+"blank to use default. If any of these are set, you must set the other "
+"values as well (or defaults will be used)."
+msgstr ""
+
+#: includes/fields.php:288
+msgid "Gesture Duration"
+msgstr ""
+
+#: includes/fields.php:292
+msgid ""
+"The amount of time to show the gesture (touch/scroll) overlay in "
+"milliseconds (1 second = 1000 milliseconds).  Leave blank for default (1 "
+"second = 1000 milliseconds)"
+msgstr ""
+
+#: includes/fields.php:295
+msgid "Hover Icon Size"
+msgstr ""
+
+#: includes/fields.php:299
+msgid ""
+"When a listing is hovered over in the results/list, multiple the size of "
+"the associated map icon by this value. Default is 1 (does nothing). This "
+"only works for single markers and does nothing for clustering icon."
+msgstr ""
+
+#: includes/fields.php:302
+msgid "Clustering"
+msgstr ""
+
+#: includes/fields.php:305
+msgid "Auto"
+msgstr ""
+
+#: includes/fields.php:306
+msgid ""
+"Set what zoom level clustering (grouping of markers into single marker with "
+"count) should be disabled and single markers shown. If set, at this zoom "
+"level and below, markers will not be clustered"
+msgstr ""
+
+#: includes/fields.php:307
+msgid "Auto (default)"
+msgstr ""
+
+#: includes/fields.php:307
+msgid "Disable Clustering"
+msgstr ""
+
+#: includes/fields.php:310
+msgid "Cluster Max Radius"
+msgstr ""
+
+#: includes/fields.php:314
+msgid ""
+"The maximum radius that a cluster will cover from the central marker (in "
+"pixels). Default 80. Decreasing will make more, smaller clusters. "
+msgstr ""
+
+#: includes/fields.php:320
+msgid "Google Map"
+msgstr ""
+
+#: includes/fields.php:324
+msgid "Google API Key"
+msgstr ""
+
+#: includes/fields.php:331
+msgid "Custom Language"
+msgstr ""
+
+#: includes/fields.php:334
+msgid ""
+"By default, the Maps JavaScript API uses the user's preferred language "
+"setting as specified in the browser (if this field is blank), to set a "
+"specific language, enter a valid language code from <a href=\"%s\" "
+"target=\"_blank\">Google Maps Supported Language Codes</a>."
+msgstr ""
+
+#: includes/fields.php:337
+msgid "Custom Region"
+msgstr ""
+
+#: includes/fields.php:340
+msgid ""
+"To set a custom region, enter a valid region code from <a href=\"%s\" "
+"target=\"_blank\">Google Maps Supported Region</a>."
+msgstr ""
+
+#: includes/fields.php:345
+msgid "OpenStreetMap Map"
+msgstr ""
+
+#: includes/fields.php:350
+msgid "MapBox Map"
+msgstr ""
+
+#: includes/fields.php:354
+msgid "Mapbox Token"
+msgstr ""
+
+#: includes/fields.php:358
+msgid ""
+"Enter the mapbox token to use for the GeoLocation.  Obtain this from the <a "
+"href=\"%s\">Mapbox website</a>."
+msgstr ""
+
+#: includes/fields.php:380
+msgid "Input Field Types"
+msgstr ""
+
+#: includes/fields.php:384
+msgid "Design Field Types"
+msgstr ""
+
+#: includes/fields.php:388
+msgid "Map Display Types"
+msgstr ""
+
+#: includes/fields.php:392
+msgid "Other Field Types"
+msgstr ""
+
+#: includes/fields.php:396
+msgid "WordPress Field Types"
+msgstr ""
+
+#: includes/fields.php:416
+msgid "Hidden"
+msgstr ""
+
+#: includes/fields.php:436
+msgid "HTML Content"
+msgstr ""
+
+#: includes/fields.php:440
+msgid "Spacer"
+msgstr ""
+
+#: includes/fields.php:460
+msgid "Tag Cloud"
+msgstr ""
+
+#: includes/fields.php:464
+msgid "Smallest Font Size"
+msgstr ""
+
+#: includes/fields.php:468
+msgid ""
+"Smallest font size used to display tags. Paired with the value of unit, to "
+"determine CSS text size unit. Default 8 (pt)."
+msgstr ""
+
+#: includes/fields.php:471
+msgid "Largest Font Size"
+msgstr ""
+
+#: includes/fields.php:475
+msgid ""
+"Largest font size used to display tags. Paired with the value of unit, to "
+"determine CSS text size unit. Default 22 (pt)."
+msgstr ""
+
+#: includes/fields.php:478
+msgid "Unit"
+msgstr ""
+
+#: includes/fields.php:482
+msgid ""
+"CSS text size unit to use with the $smallest and $largest values. Accepts "
+"any valid CSS text size unit. Default \"pt\""
+msgstr ""
+
+#: includes/fields.php:485
+msgid "Number"
+msgstr ""
+
+#: includes/fields.php:489
+msgid ""
+"The max number of tags to output. Accepts any positive integer or zero to "
+"return all. Default 0."
+msgstr ""
+
+#: includes/fields.php:495 includes/fields.php:497
+msgid "Flat (default)"
+msgstr ""
+
+#: includes/fields.php:498
+msgid "List"
+msgstr ""
+
+#: includes/fields.php:500
+msgid ""
+"Format to display the tag cloud in. Flat (tags separated with spaces), or "
+"\"list\" (tags displayed in an unordered list)"
+msgstr ""
+
+#: includes/fields.php:503
+msgid "Separator"
+msgstr ""
+
+#: includes/fields.php:506
+msgid "(new line)"
+msgstr ""
+
+#: includes/fields.php:507
+msgid ""
+"HTML or text to separate the tags. Default \"\\n"
+"\" (newline)"
+msgstr ""
+
+#: includes/fields.php:510 includes/job.php:750 includes/resume.php:585
+msgid "Order By"
+msgstr ""
+
+#: includes/fields.php:513 includes/fields.php:515
+msgid "Name (default)"
+msgstr ""
+
+#: includes/fields.php:516
+msgid "Count"
+msgstr ""
+
+#: includes/fields.php:518
+msgid "Value to order tags by"
+msgstr ""
+
+#: includes/fields.php:521 includes/job.php:792 includes/resume.php:618
+msgid "Order"
+msgstr ""
+
+#: includes/fields.php:524 includes/fields.php:526
+msgid "Ascending (default)"
+msgstr ""
+
+#: includes/fields.php:527 includes/job.php:800 includes/resume.php:626
+msgid "Descending"
+msgstr ""
+
+#: includes/fields.php:528 includes/job.php:774 includes/resume.php:609
+msgid "Random"
+msgstr ""
+
+#: includes/fields.php:530
+msgid "How to order the tags"
+msgstr ""
+
+#: includes/fields.php:536
+msgid "Yes, show the tag count with tag"
+msgstr ""
+
+#: includes/fields.php:537
+msgid "Whether or not to show the tag count with the tag (default no/unchecked)"
+msgstr ""
+
+#: includes/fields.php:676
+msgid "Location Search Radius"
+msgstr ""
+
+#: includes/fields.php:681
+msgid "Radius Unit"
+msgstr ""
+
+#: includes/fields.php:685 includes/fields.php:687
+msgid "Miles (default)"
+msgstr ""
+
+#: includes/fields.php:688 includes/fields.php:707
+msgid "Kilometres"
+msgstr ""
+
+#: includes/fields.php:690
+msgid ""
+"The unit of measurement to use for location search radius. If your users "
+"are expecting the slider to represent kilometers, make sure to change to "
+"kilometers otherwise results will be incorrect.  This value is used to "
+"determine the radius of the earth when doing calculations.  If you create a "
+"field for the user to select radius unit, this will be used as the default "
+"value when page loads, and a user selected value will always override this "
+"value."
+msgstr ""
+
+#: includes/fields.php:695
+msgid "Location Search Radius Unit (Miles/Kilometres)"
+msgstr ""
+
+#: includes/fields.php:703
+msgid "Miles"
+msgstr ""
+
+#: includes/fields.php:726
+msgid "City"
+msgstr ""
+
+#: includes/fields.php:729
+msgid "Country Long"
+msgstr ""
+
+#: includes/fields.php:732
+msgid "Country Short"
+msgstr ""
+
+#: includes/fields.php:735
+msgid "Formatted Address"
+msgstr ""
+
+#: includes/fields.php:738
+msgid "State Long"
+msgstr ""
+
+#: includes/fields.php:741
+msgid "State Short"
+msgstr ""
+
+#: includes/fields.php:744
+msgid "Street"
+msgstr ""
+
+#: includes/fields.php:747
+msgid "Street Number"
+msgstr ""
+
+#: includes/fields.php:750
+msgid "Zip Code"
+msgstr ""
+
+#: includes/fields.php:753
+msgid "Postcode"
+msgstr ""
+
+#: includes/fields.php:756
+msgid "Latitude"
+msgstr ""
+
+#: includes/fields.php:763
+msgid "Longitude"
+msgstr ""
+
+#: includes/fields.php:801
+msgid "Listing Taxonomies"
+msgstr ""
+
+#: includes/fields.php:805
+msgid "Listing Meta Fields"
+msgstr ""
+
+#: includes/fields.php:809
+#: languages/wp-job-manager-search-and-filtering.php:189
+msgid "Custom"
+msgstr ""
+
+#: includes/fields.php:816
+msgid "Geolocation"
+msgstr ""
+
+#: includes/job.php:132
+msgid "WPJM Job Search Sections"
+msgstr ""
+
+#: includes/job.php:133
+msgid "WPJM Job Search Section"
+msgstr ""
+
+#: includes/job.php:234
+msgid "Job"
+msgstr ""
+
+#: includes/job.php:251
+msgid "Jobs"
+msgstr ""
+
+#: includes/job.php:419 includes/resume.php:304
+msgid "Load previous listings"
+msgstr ""
+
+#: includes/job.php:696 includes/resume.php:553
+msgid "WP Job Manager Defaults"
+msgstr ""
+
+#: includes/job.php:699 includes/resume.php:556
+msgid "Keywords"
+msgstr ""
+
+#: includes/job.php:702 includes/resume.php:559
+msgid "Location"
+msgstr ""
+
+#: includes/job.php:705 includes/resume.php:562
+msgid "Include Anywhere"
+msgstr ""
+
+#: includes/job.php:709 includes/resume.php:566
+msgid "Yes, include listings in results that do not have a location value"
+msgstr ""
+
+#: includes/job.php:710 includes/resume.php:567
+msgid ""
+"By default, locations that do NOT have a value set on them (displayed as "
+"Anywhere) are not included in results when searching for a location.  "
+"Enable this setting to always include listings without a location value, in "
+"results."
+msgstr ""
+
+#: includes/job.php:715 includes/resume.php:572
+msgid "Categories"
+msgstr ""
+
+#: includes/job.php:719
+msgid "Job Types"
+msgstr ""
+
+#: includes/job.php:723 includes/job.php:727 includes/resume.php:576
+#: includes/resume.php:580
+msgid "Featured"
+msgstr ""
+
+#: includes/job.php:732 includes/job.php:736
+msgid "Filled"
+msgstr ""
+
+#: includes/job.php:741
+msgid "Remote Position"
+msgstr ""
+
+#: includes/job.php:745
+msgid "Include only Remote Positions"
+msgstr ""
+
+#: includes/job.php:754 includes/resume.php:589
+msgid "Distance"
+msgstr ""
+
+#: includes/job.php:758 includes/resume.php:593
+msgid "Date (Featured at Top)"
+msgstr ""
+
+#: includes/job.php:762 includes/resume.php:597
+msgid "Date"
+msgstr ""
+
+#: includes/job.php:766 includes/resume.php:601
+msgid "Title"
+msgstr ""
+
+#: includes/job.php:770 includes/resume.php:605
+msgid "Modified"
+msgstr ""
+
+#: includes/job.php:778 includes/resume.php:613
+msgid "Random (Featured at Top)"
+msgstr ""
+
+#: includes/job.php:796 includes/resume.php:622
+msgid "Ascending"
+msgstr ""
+
+#: includes/job.php:805 includes/resume.php:631
+msgid "Post Status"
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:96
+msgid "Unable to find correct class, please try again or contact support!"
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:133
+msgid "You must specify meta keys to search for in the database!"
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:141
+msgid "No empty meta values found in database!  You are good to go!"
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:163
+msgid "Meta db IDs are required!"
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:308
+msgid ""
+"You do not have high enough permissions to perform empty meta cleanup (for "
+"existing listings) in the database.  Please use an account that has "
+"\"manage_options\" capabilities/permissions."
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:318
+msgid "Show Existing Meta Cleaner"
+msgstr ""
+
+#: includes/metacleaner/cleaner.php:319
+msgid ""
+"To prevent excessive queries and load time on settings page load, the "
+"existing meta cleaner is only initialized when you click the button above."
+msgstr ""
+
+#: includes/mobile.php:207
+msgid "Mobile"
+msgstr ""
+
+#: includes/mobile.php:210
+msgid "Most Common 13%"
+msgstr ""
+
+#: includes/mobile.php:216 includes/mobile.php:257
+msgid "Most Common 8%"
+msgstr ""
+
+#: includes/mobile.php:221
+msgid "iPhone 6/7/8 Plus"
+msgstr ""
+
+#: includes/mobile.php:226
+msgid "iPhone 6/7/8"
+msgstr ""
+
+#: includes/mobile.php:231
+msgid "iPhone X"
+msgstr ""
+
+#: includes/mobile.php:236
+msgid "Galaxy S8/S9/S10 Note 8/9"
+msgstr ""
+
+#: includes/mobile.php:241
+msgid "Pixel (varies)"
+msgstr ""
+
+#: includes/mobile.php:248
+msgid "Tablet"
+msgstr ""
+
+#: includes/mobile.php:251
+msgid "Most Common 46%"
+msgstr ""
+
+#: includes/mobile.php:263
+msgid "Apple iPad Pro"
+msgstr ""
+
+#: includes/mobile.php:268
+msgid "Surface Duo"
+msgstr ""
+
+#: includes/mobile.php:275
+msgid "Desktop/Laptop"
+msgstr ""
+
+#: includes/mobile.php:278
+msgid "Most Common 22%"
+msgstr ""
+
+#: includes/mobile.php:283
+msgid "Most Common 21%"
+msgstr ""
+
+#: includes/mobile.php:288
+msgid "Most Common 10%"
+msgstr ""
+
+#: includes/plugins/afjcl.php:98
+msgid "Jobs at %s"
+msgstr ""
+
+#: includes/resume.php:131
+msgid "WPJM Resume Search Sections"
+msgstr ""
+
+#: includes/resume.php:132
+msgid "WPJM Resume Search Section"
+msgstr ""
+
+#: includes/resume.php:206
+msgid "Resume"
+msgstr ""
+
+#: includes/resume.php:223
+msgid "Resumes"
+msgstr ""
+
+#: includes/search/geolocation.php:101
+msgid "mi"
+msgstr ""
+
+#: includes/search/geolocation.php:102
+msgid "km"
+msgstr ""
+
+#: includes/search.php:139
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/themes/capstone/job.php:30
+msgid "Capstone Custom Field Types"
+msgstr ""
+
+#: includes/themes/capstone/job.php:33
+msgid "Capstone - Text Field"
+msgstr ""
+
+#: includes/themes/capstone/job.php:38
+msgid "Capstone - Location Field"
+msgstr ""
+
+#: includes/themes/capstone/job.php:75
+msgid "Capstone - Homepage Hero"
+msgstr ""
+
+#: includes/themes/capstone/job.php:78
+msgid "Hero Search (Recommended)"
+msgstr ""
+
+#: includes/themes/capstone/job.php:82
+msgid "Hero Search Bottom"
+msgstr ""
+
+#: includes/themes/capstone/job.php:88
+msgid "Capstone - Job Listings Page"
+msgstr ""
+
+#: includes/themes/capstone/job.php:91
+msgid "Search Module (Recommended)"
+msgstr ""
+
+#: includes/themes/capstone/job.php:95
+msgid "Search Module Bottom"
+msgstr ""
+
+#: includes/themes/capstone/job.php:99
+msgid "Filters Module (Recommended)"
+msgstr ""
+
+#: includes/themes/capstone/job.php:103
+msgid "Filters Module Bottom"
+msgstr ""
+
+#: includes/themes/cariera/job.php:75
+msgid "Cariera - Job Filters"
+msgstr ""
+
+#: includes/themes/cariera/job.php:78 includes/themes/cariera/resume.php:71
+msgid "Elementor Homepage Standard"
+msgstr ""
+
+#: includes/themes/cariera/job.php:87
+msgid "Elementor Homepage Boxed"
+msgstr ""
+
+#: includes/themes/cariera/job.php:96
+msgid "Job/Resumes Homepage Tabs (Jobs)"
+msgstr ""
+
+#: includes/themes/cariera/resume.php:68
+msgid "Cariera - Resume Filters"
+msgstr ""
+
+#: includes/themes/cariera/resume.php:80
+msgid "Job/Resumes Homepage Tabs (Resumes)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:14
+msgid "Jobify - Page: Job Search Hero (Widget)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:20
+msgid "Above Form (not recommended)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:24
+msgid "Form Top"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:28
+msgid "Form Inside Search Div (recommended)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:32
+msgid "Form Bottom"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:36
+msgid "Below Form (not recommended)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:42
+msgid "Jobify - Page: Jobs Map (Widget)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:48
+msgid "Map Overlay"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:56
+msgid "Jobify - Page: Jobs Search (Widget)"
+msgstr ""
+
+#: includes/themes/jobify/job/widgets.php:62
+msgid "Widget Output"
+msgstr ""
+
+#: includes/themes/listify/job/widgets.php:15
+msgid "Listify - Page: Search Listings"
+msgstr ""
+
+#: includes/themes/listify/job/widgets.php:21
+msgid "Homepage Top Hero Search"
+msgstr ""
+
+#: includes/themes/listify/job/widgets.php:32
+msgid "Search Listings (Widget)"
+msgstr ""
+
+#: includes/themes/listify/job.php:100
+msgid "Listify Custom Field Types"
+msgstr ""
+
+#: includes/themes/listify/job.php:103
+msgid "Search Radius Slider"
+msgstr ""
+
+#: includes/themes/listify/job.php:158
+msgid "Radius: <span class=\"radi\">%1$s</span> %2$s"
+msgstr ""
+
+#: includes/themes/listify/job.php:200
+msgid "Listify - Listings Page"
+msgstr ""
+
+#: includes/themes/listify/job.php:203
+msgid "Top of Form"
+msgstr ""
+
+#: includes/themes/listify/job.php:211
+msgid "Results Row"
+msgstr ""
+
+#: includes/themes/listify/job.php:219
+msgid "Bottom of Form"
+msgstr ""
+
+#: includes/themes/listify/job.php:257
+msgid "Loading results..."
+msgstr ""
+
+#: includes/themes/specialty/job.php:68 includes/themes/specialty/job.php:69
+msgid "Load more listings"
+msgstr ""
+
+#: includes/themes/specialty/job.php:165
+msgid "Specialty - Job Listings Template"
+msgstr ""
+
+#: includes/themes/specialty/job.php:168
+msgid "Below Hero"
+msgstr ""
+
+#: includes/themes/specialty/job.php:172
+msgid "Sidebar"
+msgstr ""
+
+#: includes/themes/specialty.php:64
+msgid ""
+"Unable to copy files, please try again and if you continue to receive this "
+"error, copy the files using manual method."
+msgstr ""
+
+#: includes/themes/specialty.php:147
+msgid ""
+"In order for this plugin to work correctly with your theme, we must copy a "
+"template file to your child theme. The template file was created so even if "
+"you decide to disable this plugin, your theme will still work correctly.  "
+"This template allows this plugin to inject the filters on the homepage as "
+"the theme not does natively support this."
+msgstr ""
+
+#: includes/themes/specialty.php:148
+msgid "Copy Theme Files"
+msgstr ""
+
+#: includes/themes/specialty.php:150
+msgid "Run Theme Setup / Copy Files"
+msgstr ""
+
+#: includes/themes/workscout/job.php:154
+msgid "WorkScout - Job Listings Page"
+msgstr ""
+
+#: includes/themes/workscout/job.php:157
+msgid "Jobs Sidebar"
+msgstr ""
+
+#: includes/themes/workscout/job.php:161
+msgid "Above Job Results"
+msgstr ""
+
+#: includes/themes/workscout/job.php:171
+msgid "WorkScout - Job Homepage"
+msgstr ""
+
+#: includes/themes/workscout/job.php:174
+msgid "Homepage Template Top"
+msgstr ""
+
+#: includes/themes/workscout/job.php:182
+msgid "Homepage Template Advanced"
+msgstr ""
+
+#: includes/themes/workscout/resume.php:99
+msgid "WorkScout - Resume Listings Page"
+msgstr ""
+
+#: includes/themes/workscout/resume.php:102
+msgid "Resumes Sidebar"
+msgstr ""
+
+#: includes/themes/workscout/resume.php:106
+msgid "Above Resume Results"
+msgstr ""
+
+#: includes/themes/workscout.php:37
+msgid "job offer"
+msgstr ""
+
+#: includes/themes/workscout.php:38
+msgid "job offers"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:186
+#: includes/updater/smyles-updater-licenses.php:280
+#: languages/wp-job-manager-search-and-filtering.php:22
+msgid "Error"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:186
+msgid "Unable to determine slug to deactivate license."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:200
+msgid "Error determining the plugin Product ID."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:204
+msgid "Error pulling the license key from option data."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:208
+msgid "Error pulling the email associated with the license key from option data."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:212
+msgid ""
+"Error pulling the instance ID associated with the license key from option "
+"data."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:225
+msgid "Connection failed to the License Key API server - possible server issue."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:232
+msgid " Successfully Deactivated!"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:233
+msgid "You have successfully deactivated the %s license."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:245
+#: includes/updater/smyles-updater-licenses.php:355
+msgid "Error!"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:245
+msgid ""
+"The license has been successfully deactivated locally, but please visit "
+"your sMyles Plugins <a href=\"%s\" target=\"_blank\">My Account</a> page to "
+"verify this activation has been removed from our server.  There was an "
+"error automatically removing it, and chances are that is because it was "
+"already removed via your <a href=\"%s\" target=\"_blank\">My Account</a> "
+"page already.."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:281
+msgid ""
+"Unable to determine slug, license key, and/or email to activate license, "
+"contact support."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:340
+msgid " Successfully Activated!"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:340
+msgid ""
+"You have successfully activated the %s license, and will now be able to "
+"automatically upgrade this plugin through WordPress when an update is "
+"available."
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:455
+msgid "Deactivate the %s License?"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:460
+#: languages/wp-job-manager-search-and-filtering.php:25
+msgid "No"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:464
+#: languages/wp-job-manager-search-and-filtering.php:24
+msgid "Yes"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:470
+msgid "sMyles Plugins Licensing"
+msgstr ""
+
+#: includes/updater/smyles-updater-licenses.php:473
+msgid "Plugins"
+msgstr ""
+
+#: includes/updater/views/html-key-input.php:5
+msgid ""
+"<a href=\"%1$s\">Click here to activate your license key</a> in order to "
+"receive updates and support for this plugin."
+msgstr ""
+
+#: includes/updater/views/html-key-notice.php:6
+msgid "Hide notice"
+msgstr ""
+
+#: includes/updater/views/html-key-notice.php:7
+msgid ""
+"<a href=\"%1$s\">Please activate your license key</a> in order to receive "
+"updates and support for \"%2$s\"."
+msgstr ""
+
+#: includes/updater/views/html-license-activate.php:3
+msgid "Activating ..."
+msgstr ""
+
+#: includes/updater/views/html-license-activate.php:6
+#: includes/updater/views/html-license-deactivate.php:6
+msgid "Plugin Not Found"
+msgstr ""
+
+#: includes/updater/views/html-license-activate.php:18
+#: includes/updater/views/html-license-deactivate.php:20
+msgid "Details"
+msgstr ""
+
+#: includes/updater/views/html-license-activate.php:33
+#: includes/updater/views/html-license-deactivate.php:35
+msgid "Installed Version:"
+msgstr ""
+
+#: includes/updater/views/html-license-activate.php:54
+msgid "Activate License"
+msgstr ""
+
+#: includes/updater/views/html-license-deactivate.php:3
+msgid "Deactivating ..."
+msgstr ""
+
+#: includes/updater/views/html-license-deactivate.php:43
+msgid "Activated:"
+msgstr ""
+
+#: includes/updater/views/html-license-deactivate.php:64
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/updater/views/html-ms-update.php:6
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: includes/widget.php:34
+msgid "%s Search and Filtering"
+msgstr ""
+
+#: includes/widget.php:35
+msgid ""
+"Widget to output %s search and filter sections for WP Job Manager and WP "
+"Resume Manager"
+msgstr ""
+
+#: includes/widget.php:80
+msgid "New title"
+msgstr ""
+
+#: includes/widget.php:86
+msgid "Title:"
+msgstr ""
+
+#: includes/widget.php:91
+msgid "Use Widget Style:"
+msgstr ""
+
+#: includes/widget.php:96 languages/wp-job-manager-search-and-filtering.php:12
+#: languages/wp-job-manager-search-and-filtering.php:219
+msgid "Section"
+msgstr ""
+
+#: includes/widget.php:102
+msgid "Please add a section and it will show up here to select from"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:3
+msgid "Search and Filtering"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:4
+msgid "Add New"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:5
+msgid "Settings"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:6
+msgid "Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:7
+msgid "Setup"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:9
+msgid "Disabled"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:10
+msgid "Edit"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:11
+msgid "Delete"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:13
+#: languages/wp-job-manager-search-and-filtering.php:43
+msgid "Shortcode"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:14
+#: languages/wp-job-manager-search-and-filtering.php:47
+msgid "Auto Output"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:15
+msgid "Status"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:16
+msgid "Delete Forever"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:18
+msgid "Enable"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:19
+msgid "Export"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:20
+msgid "Disable"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:21
+msgid "Unknown WordPress backend error!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:23
+msgid "Are you sure you want to clone this section?"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:26
+msgid "Success"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:27
+msgid "Successfully cloned section!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:28
+msgid ""
+"Are you sure you want to remove this section? It's suggested to disable a "
+"section unless you want to completely remove it."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:29
+msgid "YES, Remove"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:30
+msgid "Cancel"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:31
+msgid "Successfully removed section!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:32
+msgid "Successfully %s section!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:33
+msgid "New Section"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:34
+msgid "Edit Section"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:35
+msgid "Label"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:36
+msgid "Output"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:37
+msgid "Form"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:38
+msgid "Build"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:39
+msgid ""
+"Enter some kind of label to describe the section you want to create.  This "
+"can be changed later, is not required, and is only seen by admins."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:40
+msgid "Some unique label"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:41
+msgid ""
+"There are numerous ways to output this section, you can use any of the "
+"below methods:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:42
+msgid "The shortcode to output this this section will be shown after saving below."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:44
+msgid "Widget"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:45
+msgid "Listings Shortcode"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:46
+msgid ""
+"You can also specify the filter_section_id attribute in the shortcode, like "
+"this:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:48
+msgid ""
+"Or you can auto output the section, using one of the locations available "
+"below:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:49
+msgid "Select Auto Output Method"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:50
+msgid "Auto Output Priority"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:51
+msgid ""
+"Multiple sections can be output using the same auto output location.  To "
+"define which section is displayed first, you can set the priority below.  "
+"The lower the number, the higher the priority.  Default is 10."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:52
+msgid "Will the results from this section, be shown on a different page?"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:53
+msgid ""
+"If the results will be shown on a different page, the section must be "
+"inside a Form, and have a Submit Button (input) to submit the form."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:54
+msgid ""
+"For this to work correctly, you MUST add a Button field type, and set the "
+"action to \"Submit Form\""
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:55
+msgid ""
+"This prevents the values from being stored in memory, and allows you to "
+"configure the same search source, on multiple sections on the same page "
+"(otherwise you can't)."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:56
+msgid "Yes, results are shown on another page"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:57
+msgid "Section Saved!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:58
+msgid ""
+"The section has been saved, you can now configure the fields from the "
+"frontend of your site!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:59
+msgid ""
+"This section is not configured to auto output, you must use the shortcode "
+"below where you want it to output:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:60
+msgid ""
+"This section is configured to automatically output, but for reference you "
+"can also use this shortcode to output it:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:61
+msgid ""
+"Head on over to the search page where you have configured listings to be "
+"output on your site and get started."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:62
+msgid "Goto Listings Page"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:63
+msgid "Default Core Locations"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:64
+msgid "Back"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:65
+msgid "Done"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:66
+msgid "Save Section"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:67
+msgid "Next"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:68
+msgid ""
+"Whether or not to enable the custom search and filtering for these type of "
+"listings.  This MUST be enabled if you want to use custom search and "
+"filtering."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:69
+msgid "Search All"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:70
+msgid ""
+"By default, the KEYWORDS field does NOT search all meta keys.  Enable this "
+"setting to search all meta values for values entered in the keywords field."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:71
+msgid "Editing Enabled"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:72
+msgid ""
+"Whether or not editing mode should be enabled by default for admins when "
+"viewing frontend."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:73
+msgid "Save Settings"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:74
+msgid "Go Back"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:75
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:76
+msgid "Search & Filtering Setup"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:77
+msgid "Job Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:78
+msgid "Resume Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:79
+msgid "Tutorials"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:80
+msgid "Thanks for installing Search and Filtering for WP Job Manager!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:81
+msgid ""
+"To get you started with the plugin, we will run through a few setup "
+"processes, like importing default/example sections, configuring settings, "
+"and at then end providing some tutorial videos."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:82
+msgid ""
+"To get started, go ahead and click the Next button, or click Cancel to exit "
+"the setup process."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:83
+msgid "Job Section Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:84
+msgid "Resume Section Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:85
+msgid ""
+"Below are some video tutorials available for the plugin.  PLEASE make sure "
+"to watch the videos first (as they normally answer most questions), and if "
+"you still have issues or questions, please open a support ticket."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:86
+msgid ""
+"Below you will see a list of included section files that can be imported.  "
+"Select the sections you want to import.  It is recommended to import all "
+"listed below."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:87
+msgid ""
+"After selecting the sections to import, click the Import button to run the "
+"import, or click Next to skip and move on to the next step in setup process."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:88
+msgid "Detected Theme:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:89
+msgid ""
+"Section templates were found that specifically match the theme you are "
+"using, those are being shown instead of the default ones below."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:90
+msgid ""
+"The default section templates are listed below, these should work with any "
+"theme that is not using custom template overrides."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:91
+msgid "Successfully Imported %s Sections"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:92
+msgid "Sections"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:93
+msgid "Importing Section %1$s of %2$s Section(s), Please Wait..."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:94
+msgid "Successfully imported %s"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:95
+msgid "Import Failed"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:96
+msgid "Failed to import %s"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:97
+msgid "Invalid File"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:98
+msgid ""
+"This does not appear to be a valid file, please make sure it is a valid "
+"JSON file!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:99
+msgid ""
+"A section with the ID of %s already exists.  Do you want to import this as "
+"a new section, or update the existing section with the uploaded data?"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:100
+msgid "Update Existing"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:101
+msgid "Saving..."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:102
+msgid "Save"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:103
+msgid "Configuration"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:104
+msgid "Spacing"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:105
+msgid "Styles"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:106
+msgid "Editing Section"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:107
+msgid "Editing Field"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:108
+msgid "Add Field"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:109
+msgid "Are you sure you want to remove %s field?"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:110
+msgid "Remove Field?"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:111
+msgid "Field Temporarily Removed"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:112
+msgid ""
+"The field was removed, you must save the section to commit/save these "
+"changes."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:113
+msgid "Please wait, page is reloading to refresh changes..."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:114
+msgid "Field"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:115
+msgid "Show Label"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:116
+msgid "Field Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:117
+msgid "Select a Field Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:118
+msgid "Button Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:119
+msgid "Select a Button Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:120
+msgid "Action"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:121
+msgid ""
+"Select a custom action to perform when this button/link is clicked.  This "
+"will override any default actions/handling."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:122
+msgid "Select a Button Action"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:123
+msgid "Value to use when checked/selected"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:124
+msgid "Checked Value"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:125
+msgid "Value to show as a placeholder for the field."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:126
+msgid "Placeholder"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:127
+msgid "Whether or not should check checkbox by default"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:128
+msgid "Default"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:129
+msgid "Not Checked/Selected"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:130
+msgid "Checked/Selected"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:131
+msgid ""
+"A default value for the field on initial page load.  For checklist, "
+"multiselect, or other multi-value fields, use 'all' to select all "
+"initially, or CSV of values to select."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:132
+msgid "Any custom classes, separated by a space, to be added to the label element."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:134
+msgid "Any custom classes, separated by a space, to be added to the input element."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:135
+msgid "Input Classes"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:136
+msgid ""
+"Any custom classes, separated by a space, to be added to the field wrapper "
+"HTML element"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:137
+msgid "Wrapper Classes"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:138
+msgid "Caption/Label"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:139
+msgid "Content"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:140
+msgid "URL"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:141
+msgid "Yes, update the URL in browser when a value is selected"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:142
+msgid "Auto Size"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:143
+msgid ""
+"When you enable this setting, this plugin will attempt to auto size the box "
+"(height) based on the contents inside of it.  This feature can not be "
+"turned off if you are using either of the Checkbox show settings below.  "
+"Multiselect fields do this automatically when enough options are selected "
+"to require it (and configuration is set to expand)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:144
+msgid "Yes, auto size field container based on content"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:145
+msgid "Auto Hide"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:146
+msgid ""
+"Whether or not to hide this field and label, when there is no content "
+"output (ie tag cloud) or when conditional logic evaluates to not showing "
+"this field.  NOTE: this hides both the field AND the label!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:147
+msgid "Auto Update"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:148
+msgid ""
+"Enabling this setting will automatically update the shown values, based on "
+"the currently selected values. For example, in a tag cloud, if Artist "
+"category is selected, only tags for listings in Artist category will be "
+"shown."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:149
+msgid "Yes, auto update values based on selected values"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:151
+msgid ""
+"A checkbox can be shown next to the Field Label, to enable conditionally "
+"showing/hiding the field when the checkbox is checked."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:152
+msgid "Hide"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:153
+#: templates/specialty/template-listing-jobs.php:80
+msgid "Search"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:154
+msgid "Source"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:155
+msgid "The source field value to use for searching"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:156
+msgid "Select a Search Source"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:157
+msgid "Source 2"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:158
+msgid "The source field value to use for searching, for the second value"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:159
+msgid ""
+"How the search/filtering is triggered. Automatic will search after "
+"selection, manual requires submit button, or another field using automatic "
+"to trigger the search."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:160
+msgid "Trigger"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:161
+msgid "Select Search Trigger"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:162
+msgid "Automatic"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:163
+msgid "Manual"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:164
+msgid "Numeric value for the type of delay/debounce selected below."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:165
+msgid "After"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:166
+msgid "Debounce"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:167
+msgid ""
+"The delay, in milliseconds, after a user preses a key before triggering an "
+"update.  Default is 500 (half a second)."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:168
+msgid "The type of delay/debounce used before search results are updated."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:169
+msgid "Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:170
+msgid "Select Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:171
+msgid "Milliseconds"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:172
+msgid "Seconds"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:173
+msgid "Characters"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:174
+msgid "Type of comparison to use when filtering"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:175
+msgid "Compare"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:176
+msgid "Equals (default)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:177
+msgid "Type of comparison to use when filtering (for second search source)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:178
+msgid "Compare 2"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:179
+msgid ""
+"Whether or not listing should have ALL selected values, or ANY of selected "
+"values, when value is multi-value field type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:180
+msgid "Relation"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:181
+msgid "Any Match (default)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:182
+msgid "All Match (default)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:183
+msgid "Data Source"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:184
+msgid ""
+"Data source is the source of the options/values to show to the user on the "
+"frontend.  You can either manually define these or use the values that "
+"already exist in the field configuration."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:185
+msgid "Select a Data Source"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:186
+msgid "Use field values"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:187
+msgid "Use custom values"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:188
+msgid "Populate From Field Values"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:190
+msgid "value"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:192
+msgid "Add"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:193
+msgid "Wrapper"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:194
+msgid "A custom HTML wrapper element to wrap the entire field in (ie ul)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:195
+msgid "Full Wrapper"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:196
+msgid "Any custom classes, separated by a space, to be added to the full wrapper"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:197
+msgid "Full Classes"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:198
+msgid "A custom HTML wrapper element to wrap each input field in (ie li)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:199
+msgid "Input Wrapper"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:200
+msgid "Any custom classes, separated by a space, to be added to each input wrapper"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:201
+msgid "Type Config"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:202
+msgid "You must select a field type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:203
+msgid "You must select a source for searching"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:204
+msgid "You must select a source for field data"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:205
+msgid "Reset Filters"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:206
+msgid "Update Search Results"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:207
+msgid "Submit Form"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:208
+msgid "Does Not Equal"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:209
+msgid "Greater Than"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:210
+msgid "Greater Than or Equal To"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:211
+msgid "Less Than"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:212
+msgid "Less Than or Equal To"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:213
+msgid "Contains"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:214
+msgid "Does Not Contain"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:215
+msgid "All Match"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:216
+msgid "Any Match"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:217
+msgid "margin"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:218
+msgid "padding"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:220
+msgid "Advanced"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:221
+msgid "Basic"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:222
+msgid "Input CSS"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:223
+msgid "font-size"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:224
+msgid "10px"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:225
+msgid "Label CSS"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:226
+msgid "Wrapper CSS"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:227
+msgid "Custom CSS values to be added to the main wrapper element for this field."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:228
+msgid "Custom CSS"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:229
+msgid "Show This Section"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:230
+msgid "AND"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:231
+msgid "Check Source"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:232
+msgid "Value"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:233
+msgid "Comparison"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:234
+msgid "Add AND"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:235
+msgid "Add OR"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:236
+msgid "Local Logic"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:237
+msgid "Current Section Checkbox"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:238
+msgid "IF"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:239
+msgid "OR"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:240
+msgid ""
+"You have changed the auto output location (OR the priority), this requires "
+"a page refresh after saving.  When you click save, the settings will be "
+"saved and the page will be refreshed."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:241
+msgid ""
+"Sections can be output using shortcodes, or auto output method. To use an "
+"auto output method, select from the dropdown."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:242
+msgid "Priority"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:243
+msgid "Form?"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:244
+msgid ""
+"Enable this setting if results from this section are shown on a different "
+"page. This prevents values from being saved in memory, and limiting of "
+"search sources due to other sections shown on the same page."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:245
+msgid ""
+"A checkbox can be shown next to the Section Label, to enable conditionally "
+"showing/hiding the content inside of the section when the checkbox is "
+"checked."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:246
+msgid ""
+"Any custom classes, separated by a space, to be added to the section "
+"wrapper HTML element"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:247
+msgid "Logic"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:248
+msgid "You must specify a label"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:249
+msgid "Section CSS"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:250
+msgid "Checkbox CSS"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:251
+msgid "Show Editor"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:252
+msgid ""
+"You changed OR removed custom CSS code, if you save this section the page "
+"will automatically refresh to load the new CSS.  PLEASE make sure to use "
+"valid CSS or you will have errors!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:253
+msgid "Invalid width value specified!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:254
+msgid "Must be no value, or number followed by:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:255
+msgid "argument"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:256
+msgid "OBJECT"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:257
+msgid "Export/Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:258
+msgid "Edit Custom Type Config"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:259
+msgid "Parameter/Argument"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:260
+msgid "Value Type"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:261
+msgid "Yes, the value is an object"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:262
+msgid "Object Value(s)"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:263
+msgid "key"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:264
+msgid "Import Data:"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:265
+msgid "Do Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:266
+msgid "Export/Object"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:267
+msgid "Copy"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:268
+msgid "Show Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:269
+msgid "Hide Import"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:270
+msgid ""
+"The value entered does not appear to be valid JSON.  Please make sure the "
+"import value is valid JSON string, and try again. "
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:271
+msgid ""
+"Are you sure you want to import the following data entered in the import "
+"textarea?  This will overwrite any existing values!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:272
+msgid "Successfully imported data, you must click Done to use this updated data."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:273
+msgid "Generated object copied to clipboard!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:274
+msgid ""
+"There was an issue copying to clipboard. Please select the text and use "
+"CTRL+C (CMD +C for mac) to copy."
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:275
+msgid "Import/Export Custom Type Config"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:276
+msgid ""
+"Are you sure you want to import the following data entered in the import "
+"textarea?  This will overwrite any existing custom type config values!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:277
+msgid "Error parsing import data, please check it is valid JSON and try again!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:278
+msgid "Custom Type Configuration copied to clipboard!"
+msgstr ""
+
+#: languages/wp-job-manager-search-and-filtering.php:279
+msgid "Search Location"
+msgstr ""
+
+#: templates/capstone/includes/job-filters.inc.php:18
+msgid "Job Type"
+msgstr ""
+
+#: templates/capstone/includes/job-filters.inc.php:29
+msgid "Perks &amp; Privilges"
+msgstr ""
+
+#: templates/capstone/includes/job-search.inc.php:14
+msgid "or go to"
+msgstr ""
+
+#: templates/capstone/includes/job-search.inc.php:14
+msgid "advanced search"
+msgstr ""
+
+#: templates/job-filters.php:18 templates/resume-filters.php:20
+msgid ""
+"Listings were not initialized due to no sections configured to output on "
+"this page."
+msgstr ""
+
+#: templates/job-filters.php:19 templates/resume-filters.php:21
+msgid ""
+"Use one of the built in methods to output a section on this page, or if you "
+"want to disable Search and Filtering, set the shortcode like this:"
+msgstr ""
+
+#: templates/job-filters.php:25 templates/jobify/job-filters-flat.php:28
+#: templates/jobify/resume-filters-flat.php:27 templates/resume-filters.php:28
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript "
+"must be enabled in order to view listings."
+msgstr ""
+
+#: templates/specialty/template-listing-jobs.php:50
+#: templates/specialty/template-listing-jobs.php:84
+msgid "Filters"
+msgstr ""
+
+#: wp-job-manager-search-and-filtering.php:181
+msgid "<em>%s</em> requires WP Job Manager to be installed and activated."
+msgstr ""
+
+#: wp-job-manager-search-and-filtering.php:197
+#. translators:  %2$s is the version that is required; %3$s is the current
+#. version of WPJM.
+msgid "<em>%1$s</em> requires WP Job Manager %2$s (you are using %3$s)."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Search and Filtering for WP Job Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-search-and-filtering"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Customize and/or add search and filtering capabilities for WP Job Manager"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://plugins.smyl.es"
+msgstr ""
+
+#: includes/cpt.php:120
+msgctxt "Disabled Section Status"
+msgid "disabled"
+msgstr ""
+
+#: includes/cpt.php:129
+msgctxt "Enabled Section Status"
+msgid "enabled"
+msgstr ""
+
+#: includes/job.php:648 includes/resume.php:505
+msgctxt "post status"
+msgid "Draft"
+msgstr ""
+
+#: includes/job.php:649 includes/resume.php:506
+msgctxt "post status"
+msgid "Expired"
+msgstr ""
+
+#: includes/job.php:650 includes/resume.php:508
+msgctxt "post status"
+msgid "Preview"
+msgstr ""
+
+#: includes/job.php:651 includes/resume.php:509
+msgctxt "post status"
+msgid "Pending approval"
+msgstr ""
+
+#: includes/job.php:652 includes/resume.php:510
+msgctxt "post status"
+msgid "Pending payment"
+msgstr ""
+
+#: includes/job.php:653
+msgctxt "post status"
+msgid "Active"
+msgstr ""
+
+#: includes/resume.php:507
+msgctxt "post status"
+msgid "Hidden"
+msgstr ""
+
+#: includes/resume.php:511
+msgctxt "post status"
+msgid "Published"
+msgstr ""

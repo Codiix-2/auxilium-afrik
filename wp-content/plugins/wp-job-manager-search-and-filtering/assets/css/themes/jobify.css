@@ -1,0 +1,23 @@
+/* jobify revision 4eBeRwGwSCyumXQrQDVPwwEE */
+.wpjmsf_filters .search_jobs label, .wpjmsf_filters .search_resumes label {
+    position: inherit !important;
+    clip: inherit;
+}
+
+.wpjmsf_filters .search_jobs input.wpjmsf-checklist-field {
+    width: auto;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    height: auto;
+    padding-left: 12px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered input.select2-search__field {
+    margin-top: 10px;
+    width: 100% !important;
+}
+
+.wpjmsf-wrapper .section-wrapper .wpjmsf-field-checkbox-input {
+    width: auto;
+}

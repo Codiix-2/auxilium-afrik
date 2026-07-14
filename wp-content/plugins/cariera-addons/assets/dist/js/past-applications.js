@@ -1,0 +1,1 @@
+!function(){"use strict";jQuery(document).ready(function(t){t(document).on("click",".view-application",function(){var i=t(this).data("title"),n=t(this).data("id"),a=t("#application-content-"+n).html();t("#application-popup .title").text(i),t("#application-popup .small-dialog-content .application-content").html(a)})})}();

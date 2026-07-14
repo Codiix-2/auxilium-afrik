@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".candidate-dashboard-action-delete").click(function(){return!!confirm(cariera_addons_resume_dashboard.i18n_confirm_delete)})});

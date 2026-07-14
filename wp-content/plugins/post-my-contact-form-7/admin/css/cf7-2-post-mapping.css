@@ -1,0 +1,449 @@
+#c2p-factory-post h2 {
+	display: inline-block;
+	margin-top: 0 !important;
+}
+#c2p-factory-post .toggle {
+	float: right;
+  margin-top: 1px;
+  width: 75px;
+  height: 25px;
+}
+#c2p-factory-post .toggle-on {
+	background: #007cba;
+  color: white;
+}
+#c2p-factory-post .toggle-on, #c2p-factory-post .toggle-off {
+	font-weight: bold;
+	font-size: 16px;
+}
+.add-more-field::before {
+    padding-right: 2px;
+}
+.nice-select ul.list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+ol.helper-list {
+    padding-left: 13px;
+}
+#cf7-2-post .cf7-2-post-map-labels:hover {
+    width: auto;
+}
+#cf7-2-post #custom-meta-fields.mapping-published .post-meta-field:hover .cf7-2-post-map-labels {
+    width: auto;
+    min-width: 200px;
+}
+#cf7-2-post .select2{
+  min-width: 120px;
+}
+.misc-pub-section {
+    padding: 6px 0px 8px;
+}
+.select2-container:not(.select2-container--disabled):hover {
+    width: auto !important;
+}
+#cf7-2-post .default-meta-field select:disabled {
+	width: max-content;
+	max-width: 400px;
+}
+.hybrid-option.system-taxonomy {
+    color: #0015ff;
+}
+#c2p-default-post-fields{
+    padding: 0 12px 12px 12px;
+}
+#c2p-default-post-fields .cf7-2-post-map-labels {
+    display: inline-block;
+    font-size: 1.1em;
+    min-width: 7rem;
+    text-align: right;
+    margin-right: 5px;
+}
+#c2p-default-post-fields .nice-select.field-options.post-options {
+    display: inline-block;
+    float: none;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+#c2p-mapped-fields .cf7-post-msg {
+    display: inline-block;
+    margin: 0 5px;
+    /* width: calc(100% - 325px); */
+    line-height: 15px;
+    vertical-align: middle;
+    position: relative;
+}
+label{
+  cursor: default;
+}
+.nice-select .current {
+    display: block;
+    overflow: hidden;
+}
+.nice-select.disabled {
+    float: none;
+    clear: unset;
+    display: inline-block;
+    vertical-align: middle;
+}
+#postbox-container-1 .nice-select {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    clear: unset;
+}
+.post_type_labels {
+    font-size: 1.1em;
+}
+.display-none,.display-none+.hybrid-select-js,
+#c2p-mapped-fields .display-none:not(.custom-taxonomy-input-fields) + .cf7-post-msg,
+#cf7-2-post .cf7-2-post-map-labels.hide{
+  display:none;
+}
+#adminmenu ul.wp-submenu li a[href="admin.php?page=map_cf7_2_post"] {
+   display: none;
+}
+#save_post {
+    float: right;
+    margin-bottom: 10px;
+}
+#creation-action{
+  display: inline-block;
+  float: right;
+}
+#ajax-response{
+  display: inline-block;
+  padding: 0 5px;
+  width: 57%;
+}
+#save-draft-actions {
+    display: inline-block;
+    float: right;
+    margin-bottom: 5px;
+}
+#save-draft-action .spinner{
+  margin: 4px 5px;
+}
+#post-creation-actions .spinner{
+  float: left;
+}
+label[for="post_type"] {
+    min-width: 90px;
+    display: inline-block;
+}
+.add-more-field {
+	color: blue;
+	font-size: 1.4rem;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: -1px;
+}
+.remove-field {
+	color: red;
+	font-size: 1.5em;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: -1px;
+	margin-bottom: 3px;
+}
+.remove-field:hover,.add-more-field:hover { cursor: pointer; }
+#cf7-2-post .cf7-post-error-msg{
+  display: inline-block;
+  margin: 0 5px;
+  width: calc(100% - 435px);
+  line-height: 15px;
+  vertical-align: middle;
+  position: relative;
+}
+#cf7-2-post #c2p-post-meta-fields .cf7-post-error-msg,
+#cf7-2-post .taxonomy-fields .cf7-post-error-msg{
+  width: calc(100% - 480px);
+  min-width: 200px;
+  margin-left: 2px;
+  vertical-align: middle;
+  line-height: 15px;
+}
+#c2p-mapped-fields li > div:not(.display-none) {
+	display: inline-block;
+	margin-right: 10px;
+  box-sizing: border-box;
+}
+#cf7-2-post .cf7-post-error-msg a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: calc(100% - 50px);
+    vertical-align: middle;
+    margin-left: 0;
+    padding-right: 0;
+}
+#cf7-2-post .cf7-post-error-msg a.code:hover {
+    position: absolute;
+    width: auto;
+    top: -5px;
+}
+.custom-taxonomy-input-fields p {
+	margin-top: 0;
+}
+.custom-taxonomy-input-fields > p > em {
+	color: blue;
+	font-weight: bold;
+}
+.custom-meta-field select.field-options {
+    width: 200px;
+    padding: 3px 0;
+}
+/* #cf7-2-post .post-meta-field, */
+#cf7-2-post .custom-taxonomy-field{
+  min-width: 460px;
+}
+
+#cf7-2-post #custom-meta-fields.mapping-published .custom-meta-field,
+#cf7-2-post #post_taxonomy_map.mapping-published .custom-taxonomy-field {
+  max-width: 80%;
+  width: auto;
+}
+#cf7-2-post  #custom-meta-fields.mapping-published .cf7-post-error-msg,
+#cf7-2-post #post_taxonomy_map.mapping-published .cf7-post-error-msg{
+  width: auto;
+  min-width: 0;
+  max-width: calc(100% - 475px);
+  margin-right: 0;
+}
+#cf7-2-post #custom-meta-fields.mapping-published .cf7-post-error-msg .cf7-2-post-map-labels {
+    min-width: 0;
+    width: auto;
+}
+#cf7-2-post .mapping-published .cf7-2-post-map-labels:disabled {
+    max-width: 260px;
+    width: auto;
+}
+#cf7-2-post .custom-taxonomy-input-fields input {
+  width: 100px;
+}
+#cf7-2-post .cf7-2-post-map-labels.taxonomy-slug {
+    width: 170px;
+}
+.custom-taxonomy-input-fields label {
+    margin: 0 5px;
+}
+.misc-pub-section.misc-pub-post-type label[for="post_type"]::before{
+  font-family: "dashicons";
+  content: "\f537";
+}
+#post-type-display, p.post-type-display{
+  font-weight: 600;
+  margin-top:0;
+  margin-bottom:0;
+}
+#post-type-select input[type="text"],
+select#post_type_source,
+select#system-post-type {
+    /* width: calc(50% - 5px); */
+}
+#system-poststuff span.code {
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.post_type_labels {
+    min-width: 90px;
+    display: inline-block;
+    /* width: calc(50% - 5px); */
+}
+#c2p-factory-post {
+	background: white;
+	padding: 5px 10px;
+	border: solid 1px #d2d2d2;
+}
+#post_type_is_menu_position{
+  display: none;
+}
+input[name="mapped_post_type_show_in_menu"]:checked ~ div#post_type_is_menu_position{
+  display: block;
+}
+select.field-options option{
+  text-align: right;
+}
+select.field-options option.filter-option{
+  color: red;
+}
+p.cf7-post-error-msg span.code{
+  font-size: 1.1em;
+}
+#c2p-mapped-fields span.animate-color,
+#c2p-mapped-fields span.animate-change{
+    -webkit-animation: color-change 1s 3;
+    -moz-animation: color-change 1s 3;
+    -o-animation: color-change 1s 3;
+    -ms-animation: color-change 1s 3;
+    animation: color-change 1s 3;
+}
+#c2p-default-post-fields, #c2p-post-meta-fields, #c2p-taxonomy-fields {
+	background-color: white;
+	padding: 10px 5px;
+	border-radius: 3px;
+	border: solid 1px #dddada;
+}
+#menu-position {
+	display: inline-block;
+}
+.post-field-name {display: inline-block;}
+#c2p-post-meta-fields > li {margin: 0;}
+label.post_type_cb_labels {
+	border-bottom: blue 1px dotted;
+	padding: 2px 4px;
+	margin-right: 8px;
+	display: inline-block;
+	background-color: #ececec;
+	border-radius: 6px;
+}
+@-webkit-keyframes color-change {
+    0% { background-color: red; }
+    50% { background-color: inherit; }
+    100% { background-color: red; }
+}
+@-moz-keyframes color-change {
+  0% { background-color: red; }
+  50% { background-color: inherit; }
+  100% { background-color: red; }
+}
+@-ms-keyframes color-change {
+  0% { background-color: red; }
+  50% { background-color: inherit; }
+  100% { background-color: red; }
+}
+@-o-keyframes color-change {
+  0% { background-color: red; }
+  50% { background-color: inherit; }
+  100% { background-color: red; }
+}
+@keyframes color-change {
+  0% { background-color: red; }
+  50% { background-color: inherit; }
+  100% { background-color: red; }
+}
+
+span.link-button.disabled{
+  color: grey;
+  cursor: not-allowed;
+}
+span.link-button.enabled{
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+button.button-link.close-details {
+    vertical-align: middle;
+}
+.error-msg{
+  color:red;
+}
+#c2p-filter-clipboard {
+	position: relative;
+}
+.popup {
+    display: none;
+    position: absolute;
+    top: -38px;
+    left: 38px;
+    background: #515151;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#c2p-filter-clipboard .popup {
+    top: auto;
+    bottom: 23px;
+  }
+.cf7-post-msg a.code:hover + span.popup{
+  display:block;
+  width: max-content;
+}
+.popup span {
+	display: block;
+	font-weight: normal;
+}
+.spinner.meta-label {
+    float: none;
+    margin: 4px 57px;
+    display:none;
+    visibility: visible;
+}
+.code {
+    padding: 5px;
+    display: inline-block;
+    background: #efefef;
+    margin-left: 10px;
+}
+.code >.code {
+  padding:0px;
+  background:none;
+  margin-left: 0;
+}
+select.hybridddised.display-none + .hybrid-dropdown {
+	display: none;
+}
+.custom-meta-field .nice-select, #post_taxonomy_map .nice-select {
+    float: none;
+    clear: unset;
+    display: inline-block;
+    vertical-align: middle;
+}
+#c2p-tax-notes, #cf7-2-post p,#c2p-tax-notes li {
+	margin: 0;
+}
+#c2p-tax-notes li {
+	list-style: inside;
+}
+.custom-taxonomy-field span.php-filter-button {
+	background-image: url('./image/php-sprite.png');
+	width: 22px;
+	display: inline-block;
+	height: 11px;
+	background-size: 200%;
+	vertical-align: text-bottom;
+	margin-left: 4px;
+	border: solid 1px blue;
+	border-radius: 3px;
+	padding: 1px 2px;
+  display: none;
+}
+.dashicons.remove-field + .php-filter-button {
+	display: inline-block;
+}
+.hooked .dashicons.remove-field + .php-filter-button {
+	display: none;
+}
+.custom-taxonomy-field span.php-filter-button:hover {
+	cursor: pointer;
+	color: blue;
+  background-position-x: 26px;
+}
+#c2p-taxonomy-fields ul.helper-list > li {
+	display: block;
+}
+#c2p-taxonomy-fields{
+	position: relative;
+}
+#c2p-taxonomy-fields ul.helper-list:not(.display-none) {
+	display: inline-block;
+	position: absolute;
+	border: solid 1px;
+	border-radius: 3px;
+	padding: 3px;
+	list-style: none;
+	margin: -22px 0 0 3px;
+	background-color: white;
+  z-index: 108;
+}
+#c2p-taxonomy-fields ul.helper-list .dashicons {
+	position: absolute;
+	top: -13px;
+	right: -6px;
+	width: 14px;
+	height: 14px;
+	background: white;
+	transform: rotate(45deg);
+}

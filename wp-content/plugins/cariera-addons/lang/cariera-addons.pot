@@ -1,0 +1,3274 @@
+# Copyright (C) 2026 cariera-addons
+# This file is distributed under the same license as the cariera-addons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: cariera-addons\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-28 17:18+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cariera-addons.php:97
+msgid "<strong>Cariera Addons</strong> requires <strong>WP Job Manager</strong> to be installed and activated."
+msgstr ""
+
+#: cariera-addons.php:103
+msgid "<strong>Cariera Addons</strong> requires <strong>Cariera Core</strong> to be installed and activated."
+msgstr ""
+
+#: cariera-addons.php:109
+msgid "<strong>Cariera Addons</strong> requires <strong>Cariera Theme</strong> to be installed and activated."
+msgstr ""
+
+#: cariera-addons.php:256
+msgid "Changelog"
+msgstr ""
+
+#: cariera-addons.php:261
+msgid "Documentation"
+msgstr ""
+
+#: dependency-checker.php:72
+msgid "Cariera"
+msgstr ""
+
+#: dependency-checker.php:73
+msgid "is not activated with a valid license."
+msgstr ""
+
+#: dependency-checker.php:74
+msgid "Cariera Addons"
+msgstr ""
+
+#: dependency-checker.php:75
+msgid "requires the theme to be activated to function properly. Please activate the theme"
+msgstr ""
+
+#: dependency-checker.php:77
+msgid "here"
+msgstr ""
+
+#. translators: 1: required version, 2: current version
+#: dependency-checker.php:119
+msgid "<strong>Cariera Addons</strong> requires Cariera theme version %1$s or higher. You are running version %2$s. Please update the theme to continue."
+msgstr ""
+
+#. translators: %1$s is version of PHP that Cariera Addons requires; %2$s is the version of PHP WordPress is running on.
+#: dependency-checker.php:150
+msgid "<strong>Cariera Addons</strong> requires a minimum PHP version of %1$s, but you are running %2$s. Please update PHP to continue using this plugin."
+msgstr ""
+
+#: dependency-checker.php:161
+msgid "Learn more about updating PHP"
+msgstr ""
+
+#. translators: accessibility text
+#: dependency-checker.php:163
+msgid "(opens in a new tab)"
+msgstr ""
+
+#. translators: %s is the URL for the page where users can go to update WordPress.
+#: dependency-checker.php:194
+msgid "Please <a href=\"%s\">update WordPress</a> to avoid issues."
+msgstr ""
+
+#: dependency-checker.php:198
+msgid "<strong>Cariera Addons</strong> requires a more recent version of WordPress."
+msgstr ""
+
+#: dependency-checker.php:214, dependency-checker.php:212
+msgid "WordPress Update Required"
+msgstr ""
+
+#: inc/assets.php:42
+msgid "Are you sure you want to delete this alert?"
+msgstr ""
+
+#: inc/assets.php:54, inc/assets.php:68
+msgid "Are you sure you want to delete this bookmark?"
+msgstr ""
+
+#: inc/assets.php:55, templates/bookmarks/bookmark-form.php:39
+msgid "Add Bookmark"
+msgstr ""
+
+#: inc/assets.php:56, templates/bookmarks/bookmark-form.php:39
+msgid "Update Bookmark"
+msgstr ""
+
+#. translators: %s placeholder is the field name.
+#. translators: %s: Field label.
+#: inc/assets.php:83, inc/core/applications/apply.php:478
+msgid "\"%s\" is a required field"
+msgstr ""
+
+#: inc/assets.php:97, inc/core/applications/admin/writepanels.php:334
+msgid "Are you sure you want to delete this? There is no undo."
+msgstr ""
+
+#: inc/assets.php:98, templates/applications/job-application-header.php:76
+msgid "Details"
+msgstr ""
+
+#: inc/assets.php:99, templates/applications/job-application-header.php:73, inc/core/applications/admin.php:195, inc/core/applications/admin.php:195, inc/core/resumes/admin/writepanels.php:309, inc/core/resumes/admin/writepanels.php:348, inc/core/resumes/forms/submit-resume.php:354, inc/core/resumes/forms/submit-resume.php:389
+msgid "Notes"
+msgstr ""
+
+#: inc/assets.php:100, inc/core/resumes/dashboard.php:173
+msgid "Hide"
+msgstr ""
+
+#: inc/assets.php:130
+msgid "Are you sure you want to delete this row?"
+msgstr ""
+
+#: inc/assets.php:131
+msgid "Are you sure you want to reset your changes? This cannot be undone."
+msgstr ""
+
+#: inc/assets.php:163
+msgid "Are you sure you want to delete this resume?"
+msgstr ""
+
+#: inc/assets.php:173
+msgid "If you wish to edit the posted details use the \"edit resume\" button instead, otherwise changes may be lost."
+msgstr ""
+
+#: inc/assets.php:174
+msgid "Are you sure you want to remove this item?"
+msgstr ""
+
+#: inc/assets.php:175
+msgid "remove"
+msgstr ""
+
+#: inc/helpers.php:26
+msgid "Add New"
+msgstr ""
+
+#. translators: Placeholder is the singular post type label.
+#. translators: %s: singular taxonomy name.
+#: inc/helpers.php:28, inc/helpers.php:78
+msgid "Add New %s"
+msgstr ""
+
+#: inc/helpers.php:29, templates/applications/job-application-header.php:70, inc/core/job-alerts/shortcodes.php:722, inc/core/resumes/dashboard.php:168, inc/core/resumes/dashboard.php:180, inc/core/resumes/dashboard.php:193, inc/core/resumes/admin/cpt.php:199
+msgid "Edit"
+msgstr ""
+
+#. translators: Placeholder is the item title/name.
+#. translators: %s: singular taxonomy name.
+#: inc/helpers.php:31, inc/helpers.php:74
+msgid "Edit %s"
+msgstr ""
+
+#. translators: Placeholder is the singular post type label.
+#: inc/helpers.php:33
+msgid "New %s"
+msgstr ""
+
+#. translators: Placeholder is the plural post type label.
+#. translators: %s: plural taxonomy name.
+#: inc/helpers.php:35, inc/helpers.php:68, templates/resumes/resume-filters.php:37
+msgid "All %s"
+msgstr ""
+
+#. translators: Placeholder is the singular post type label.
+#: inc/helpers.php:37, inc/helpers.php:39, templates/applications/job-application-header.php:62
+msgid "View %s"
+msgstr ""
+
+#. translators: Placeholder is the plural post type label.
+#. translators: %s: plural taxonomy name.
+#: inc/helpers.php:41, inc/helpers.php:66, templates/resumes/resume-filters.php:93
+msgid "Search %s"
+msgstr ""
+
+#. translators: Placeholder is the lower-case plural post type label.
+#: inc/helpers.php:43
+msgid "No %s found"
+msgstr ""
+
+#. translators: Placeholder is the lower-case plural post type label.
+#: inc/helpers.php:45
+msgid "No %s found in Trash"
+msgstr ""
+
+#. translators: Placeholder is the singular post type label.
+#. translators: %s: singular taxonomy name.
+#: inc/helpers.php:47, inc/helpers.php:70
+msgid "Parent %s"
+msgstr ""
+
+#. translators: %s: singular taxonomy name.
+#: inc/helpers.php:72
+msgid "Parent %s:"
+msgstr ""
+
+#. translators: %s: singular taxonomy name.
+#: inc/helpers.php:76
+msgid "Update %s"
+msgstr ""
+
+#. translators: %s: singular taxonomy name.
+#: inc/helpers.php:80
+msgid "New %s Name"
+msgstr ""
+
+#: inc/helpers.php:110
+msgid "Application Deadline"
+msgstr ""
+
+#: inc/helpers.php:111, inc/core/applications/admin.php:95, inc/core/applications/dashboard.php:314, inc/core/applications/dashboard.php:648
+msgid "Applications"
+msgstr ""
+
+#: inc/helpers.php:112, inc/core/bookmarks/bookmarks.php:449
+msgid "Bookmarks"
+msgstr ""
+
+#: inc/helpers.php:113, inc/core/job-alerts/post-types.php:35, inc/core/job-alerts/settings.php:44
+msgid "Job Alerts"
+msgstr ""
+
+#: inc/helpers.php:114, inc/core/resumes/post-types.php:680, inc/core/resumes/resume-functions.php:965, inc/core/resumes/admin/settings.php:412
+msgid "Resumes"
+msgstr ""
+
+#: inc/helpers.php:115, templates/alerts/alert-form.php:160, inc/core/job-alerts/alert-form-fields.php:39, inc/core/job-alerts/post-types.php:225, inc/core/tags/tags.php:186, templates/alerts/emails/email-confirmation.php:24
+msgid "Tags"
+msgstr ""
+
+#. translators: %s: Cariera Addons documentation link.
+#: inc/settings.php:51
+msgid "Configure the core functionalities for Cariera Addons. Check full %s"
+msgstr ""
+
+#: inc/settings.php:51
+msgid "documentation."
+msgstr ""
+
+#: inc/settings.php:53
+msgid "Cariera Addons Settings"
+msgstr ""
+
+#: inc/settings.php:61
+msgid "Core Functionality"
+msgstr ""
+
+#: inc/settings.php:62
+msgid "Choose which core features you want to enable or disable."
+msgstr ""
+
+#: templates/alerts/add-alert-modal-login.php:27, inc/core/job-alerts/add-alert.php:132
+msgid "Add Alert"
+msgstr ""
+
+#: templates/alerts/add-alert-modal-login.php:28
+msgid "Sign in or create an account to continue."
+msgstr ""
+
+#: templates/alerts/add-alert-modal-login.php:33, templates/alerts/alert-form.php:61, templates/alerts/my-alerts-login.php:26, templates/applications/application-form-login.php:27, templates/applications/application-form-login.php:22, templates/bookmarks/my-bookmarks-login.php:26, templates/resumes/account-signin.php:81, templates/resumes/candidate-dashboard-login.php:35, inc/core/job-alerts/shortcodes.php:540
+msgid "Sign in"
+msgstr ""
+
+#: templates/alerts/add-alert-modal-login.php:38
+msgid "Create Account"
+msgstr ""
+
+#: templates/alerts/add-alert-modal.php:30, templates/alerts/alert-form.php:127, inc/core/job-alerts/post-types.php:213
+msgid "Keyword"
+msgstr ""
+
+#. translators: %s is the user's email
+#: templates/alerts/add-alert-modal.php:44
+msgid "Send e-mails to <strong>%s</strong> about new jobs matching this search."
+msgstr ""
+
+#: templates/alerts/add-alert-modal.php:34
+msgid "Get e-mails about new jobs matching this search."
+msgstr ""
+
+#: templates/alerts/add-alert-modal.php:36, templates/alerts/add-alert-modal.php:36, inc/core/applications/application-functions.php:256
+msgid "Email address"
+msgstr ""
+
+#: templates/alerts/add-alert-modal.php:56
+msgid "Frequency: "
+msgstr ""
+
+#: templates/alerts/add-alert-modal.php:68
+msgid "Subscribe"
+msgstr ""
+
+#: templates/alerts/add-alert-modal.php:69
+msgid "Cancel"
+msgstr ""
+
+#: templates/alerts/alert-form.php:57
+msgid "Sign in to manage your existing alerts."
+msgstr ""
+
+#: templates/alerts/alert-form.php:76
+msgid "Alert Details"
+msgstr ""
+
+#: templates/alerts/alert-form.php:88, templates/alerts/alert-form.php:81
+msgid "E-mail"
+msgstr ""
+
+#: templates/alerts/alert-form.php:83
+msgid "Enter your e-mail address"
+msgstr ""
+
+#: templates/alerts/alert-form.php:95
+msgid "E-mail Frequency"
+msgstr ""
+
+#: templates/alerts/alert-form.php:109
+msgid "Alert Name"
+msgstr ""
+
+#: templates/alerts/alert-form.php:111
+msgid "Enter a name for your alert"
+msgstr ""
+
+#: templates/alerts/alert-form.php:119
+msgid "Search terms"
+msgstr ""
+
+#: templates/alerts/alert-form.php:122
+msgid "The alert e-mails will contain new job listings matching these terms. Leave blank to receive all new jobs posted."
+msgstr ""
+
+#: templates/alerts/alert-form.php:129
+msgid "Optionally add a keyword to match jobs against"
+msgstr ""
+
+#: templates/alerts/alert-form.php:143, templates/resumes/resume-filters.php:41, inc/core/applications/integration.php:56, inc/core/job-alerts/alert-form-fields.php:37, inc/core/job-alerts/post-types.php:241, inc/core/job-alerts/post-types.php:237, inc/core/job-alerts/settings.php:101, templates/alerts/emails/email-confirmation.php:26, templates/alerts/emails/email-confirmation.php:27, templates/resumes/listing-templates/content-resume_grid1.php:58, templates/resumes/listing-templates/content-resume_list2.php:71, inc/core/resumes/admin/cpt.php:84, inc/core/resumes/forms/submit-resume.php:242
+msgid "Location"
+msgstr ""
+
+#: templates/alerts/alert-form.php:145
+msgid "Optionally define a location to search against"
+msgstr ""
+
+#: templates/alerts/alert-form.php:135
+msgid "Job Region"
+msgstr ""
+
+#: templates/alerts/alert-form.php:152, inc/core/job-alerts/alert-form-fields.php:38, templates/resumes/listing-templates/content-resume_list2.php:95, inc/core/resumes/admin/cpt.php:94, inc/core/resumes/admin/settings.php:71
+msgid "Categories"
+msgstr ""
+
+#: templates/alerts/alert-form.php:168, inc/core/job-alerts/alert-form-fields.php:40
+msgid "Job Type"
+msgstr ""
+
+#: templates/alerts/alert-form.php:184
+msgid "Save alert"
+msgstr ""
+
+#: templates/alerts/content-email_job_listing.php:27
+msgid "Invalid template usage: This template can only be used as part of an e-mail."
+msgstr ""
+
+#. translators: Placeholder is location of education experience.
+#: templates/alerts/content-email_job_listing.php:55, inc/core/resumes/email-notifications.php:226
+msgid "Location: %s"
+msgstr ""
+
+#: templates/alerts/content-email_job_listing.php:58
+msgid "Company: %s"
+msgstr ""
+
+#: templates/alerts/my-alerts-login.php:25
+msgid "Sign in or create an account to manage your alerts."
+msgstr ""
+
+#: templates/alerts/my-alerts.php:28
+msgid "Your job alerts are shown in the list below and will be emailed to %s."
+msgstr ""
+
+#: templates/alerts/my-alerts.php:49
+msgid "(Next: %s)"
+msgstr ""
+
+#: templates/alerts/my-alerts.php:43, inc/core/job-alerts/admin.php:98
+msgid "Disabled"
+msgstr ""
+
+#: templates/alerts/my-alerts.php:112, inc/core/job-alerts/add-alert.php:90
+msgid "Add alert"
+msgstr ""
+
+#: templates/applications/application-form-login.php:30
+msgid "You must %s to apply for this position."
+msgstr ""
+
+#: templates/applications/application-form.php:41, templates/resumes/account-signin.php:96, templates/resumes/resume-submit.php:43, templates/resumes/form-fields/repeated-field.php:66, templates/resumes/form-fields/repeated-field.php:113
+msgid "(optional)"
+msgstr ""
+
+#: templates/applications/application-form.php:52
+msgid "Send application"
+msgstr ""
+
+#: templates/applications/application-submitted.php:20
+msgid "Your job application has been submitted successfully!"
+msgstr ""
+
+#: templates/applications/applied-notice.php:20
+msgid "You have already applied for this job."
+msgstr ""
+
+#: templates/applications/job-application-edit.php:22, inc/core/applications/dashboard.php:215
+msgid "Application status"
+msgstr ""
+
+#: templates/applications/job-application-edit.php:33, inc/core/applications/admin/writepanels.php:59
+msgid "Rating (out of 5)"
+msgstr ""
+
+#: templates/applications/job-application-edit.php:40, inc/core/resumes/forms/edit-resume.php:114
+msgid "Save changes"
+msgstr ""
+
+#: templates/applications/job-application-edit.php:44
+msgid "Delete this application"
+msgstr ""
+
+#. translators: Placeholder %s is the job title.
+#: templates/applications/job-application-header.php:50
+msgid "Your job application for %s"
+msgstr ""
+
+#. translators: Placeholder %s is the applicant name.
+#: templates/applications/job-application-header.php:52
+msgid "Hello %s"
+msgstr ""
+
+#: templates/applications/job-application-header.php:55, templates/applications/job-application-header.php:55, inc/core/applications/dashboard.php:449, inc/core/applications/admin/form-editor.php:283
+msgid "Email"
+msgstr ""
+
+#: templates/applications/job-applications.php:25
+msgid "Download CSV"
+msgstr ""
+
+#: templates/applications/job-applications.php:27
+msgid "The job applications for \"%s\" are listed below."
+msgstr ""
+
+#: templates/applications/job-applications.php:35
+msgid "Filter by status..."
+msgstr ""
+
+#: templates/applications/job-applications.php:44
+msgid "Newest first"
+msgstr ""
+
+#: templates/applications/job-applications.php:45
+msgid "Sort by name"
+msgstr ""
+
+#: templates/applications/job-applications.php:46
+msgid "Sort by rating"
+msgstr ""
+
+#: templates/applications/job-applications.php:88
+msgid "No applications are found."
+msgstr ""
+
+#: templates/applications/past-applications-none.php:20
+msgid "You haven't made any applications yet!"
+msgstr ""
+
+#: templates/applications/past-applications.php:78
+msgid "View Application"
+msgstr ""
+
+#: templates/applications/past-applications.php:95
+msgid "Application Content:"
+msgstr ""
+
+#: templates/bookmarks/bookmark-form.php:46
+msgid "This %s is bookmarked!"
+msgstr ""
+
+#: templates/bookmarks/bookmark-form.php:47
+msgid "Remove Bookmark"
+msgstr ""
+
+#: templates/bookmarks/bookmark-form.php:51
+msgid "Notes:"
+msgstr ""
+
+#: templates/bookmarks/bookmark-popup.php:22
+msgid "Bookmark Details"
+msgstr ""
+
+#: templates/bookmarks/bookmark-trigger.php:23
+msgid "Bookmarked"
+msgstr ""
+
+#: templates/bookmarks/bookmark-trigger.php:23
+msgid "Bookmark"
+msgstr ""
+
+#: templates/bookmarks/bookmark-trigger.php:31
+msgid "Bookmark company"
+msgstr ""
+
+#: templates/bookmarks/bookmark-trigger.php:49, templates/bookmarks/bookmark-trigger.php:45
+msgid "Login to bookmark"
+msgstr ""
+
+#: templates/bookmarks/logged-out-bookmark-form.php:20
+msgid "Login to bookmark this %s"
+msgstr ""
+
+#: templates/bookmarks/my-bookmarks-login.php:25
+msgid "You need to be signed in to manage your bookmarks."
+msgstr ""
+
+#: templates/bookmarks/my-bookmarks.php:117
+msgid "You currently have no bookmarks."
+msgstr ""
+
+#: templates/bookmarks/my-bookmarks.php:34, inc/core/applications/admin.php:305, inc/core/job-alerts/shortcodes.php:730, inc/core/resumes/dashboard.php:209, inc/core/resumes/admin/cpt.php:204
+msgid "Delete"
+msgstr ""
+
+#: templates/bookmarks/my-bookmarks.php:103
+msgid "View Note"
+msgstr ""
+
+#: templates/bookmarks/my-bookmarks.php:125
+msgid "Bookmark Note:"
+msgstr ""
+
+#. translators: %s: Resume plural label.
+#: templates/resumes/access-denied-browse-resumes.php:26
+msgid "Sorry, you do not have permission to browse %s."
+msgstr ""
+
+#. translators: %s: singular label (e.g. Resume)
+#: templates/resumes/access-denied-single-resume.php:31
+msgid "Sorry, you do not have permission to view this %s."
+msgstr ""
+
+#: templates/resumes/access-denied-single-resume.php:25
+msgid "This listing has expired"
+msgstr ""
+
+#. translators: %s: singular label (e.g. Resume)
+#: templates/resumes/access-denied-submit-resume.php:26
+msgid "Sorry, you do not have permission to submit a %s."
+msgstr ""
+
+#: templates/resumes/account-signin.php:62
+msgid "You can proceed without an account, but if you already have one, feel free to log in."
+msgstr ""
+
+#: templates/resumes/account-signin.php:55
+msgid "You must sign in to submit a %s."
+msgstr ""
+
+#: templates/resumes/account-signin.php:47
+msgid "If you don&rsquo;t have an account you can create one below by entering your email address. Your account details will be confirmed via email."
+msgstr ""
+
+#: templates/resumes/account-signin.php:90
+msgid "Registration Details"
+msgstr ""
+
+#: templates/resumes/account-signin.php:26
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr ""
+
+#: templates/resumes/account-signin.php:31
+msgid "Sign out"
+msgstr ""
+
+#. translators: %s: singular resume label
+#: templates/resumes/apply-with-resume.php:90
+msgid "You can apply to this job and others using your online %1$s. Click the link below to submit your online %2$s and email your application to this employer."
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:98
+msgid "Submit %s &amp; Apply"
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:33
+msgid "Apply with your online %s by adding a short message."
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:43
+msgid "Online %s:"
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:57, inc/core/applications/application-functions.php:265, inc/core/applications/admin/form-editor.php:289
+msgid "Message"
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:63
+msgctxt "default cover letter"
+msgid "To whom it may concern,"
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:68
+msgid "I am very interested in the %1$s position at %2$s. I believe my skills and work experience make me an ideal candidate for this role. I look forward to speaking with you soon about this position."
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:74
+msgctxt "default cover letter"
+msgid "Thank you for your consideration."
+msgstr ""
+
+#: templates/resumes/apply-with-resume.php:80
+msgid "Send Application"
+msgstr ""
+
+#. translators: %s: number of resumes found
+#: templates/resumes/archive-resume.php:34
+msgid "We found %1$s %2$s in our database"
+msgid_plural "We found %1$s %2$s in our database"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: plural label (e.g. Resumes)
+#: templates/resumes/candidate-dashboard-login.php:30
+msgid "You need to be signed in to manage your %s."
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:37, templates/resumes/candidate-dashboard.php:37
+msgid "Search"
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:44, inc/core/resumes/admin/writepanels.php:220
+msgid "Add %s"
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:76, inc/core/applications/admin.php:203, inc/core/resumes/admin/cpt.php:98
+msgid "Actions"
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:100
+msgid "Default Candidate Photo"
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:116
+msgid "Title not specified"
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:123
+msgid "No expiration date"
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:58
+msgid "No results found for \"%s\"."
+msgstr ""
+
+#: templates/resumes/candidate-dashboard.php:61
+msgid "You do not have any active %s."
+msgstr ""
+
+#: templates/resumes/contact-details-email.php:19
+msgid "To contact this candidate email <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+
+#: templates/resumes/contact-details-email.php:22
+msgid "Contact using webmail: "
+msgstr ""
+
+#: templates/resumes/contact-details.php:29
+msgid "Contact"
+msgstr ""
+
+#: templates/resumes/contact-details.php:35
+msgid "Contact Candidate"
+msgstr ""
+
+#. translators: %s: plural resume label
+#: templates/resumes/content-no-resumes-found.php:28
+msgid "There are currently no %s."
+msgstr ""
+
+#: templates/resumes/content-no-resumes-found.php:22
+msgid "There are no listings matching your search."
+msgstr ""
+
+#. translators: %s: singular resume label
+#: templates/resumes/force-apply-with-resume.php:30
+msgid "Before applying for this position you need to submit your <strong>online %s</strong>. Click the button below to continue."
+msgstr ""
+
+#: templates/resumes/force-apply-with-resume.php:38
+msgid "Submit %s"
+msgstr ""
+
+#: templates/resumes/listing-submission-flow.php:79, templates/resumes/listing-submission-flow.php:90
+msgid "Choose Package"
+msgstr ""
+
+#. translators: %s: Singular label of the listing.
+#: templates/resumes/listing-submission-flow.php:83
+msgid "%s Details"
+msgstr ""
+
+#. translators: %s: Singular label of the listing.
+#: templates/resumes/listing-submission-flow.php:87
+msgid "Preview %s"
+msgstr ""
+
+#: templates/resumes/listing-submission-flow.php:94
+msgid "Checkout"
+msgstr ""
+
+#: templates/resumes/resume-filters.php:36, inc/core/job-alerts/alert-form-fields.php:36, templates/alerts/emails/email-confirmation.php:22
+msgid "Keywords"
+msgstr ""
+
+#: templates/resumes/resume-filters.php:42
+msgid "Any Location"
+msgstr ""
+
+#: templates/resumes/resume-filters.php:53, inc/core/job-alerts/post-types.php:219, templates/alerts/emails/email-confirmation.php:23, templates/resumes/single-resume/single-resume-overview.php:74
+msgid "Category"
+msgstr ""
+
+#: templates/resumes/resume-filters.php:73
+msgid "Any category"
+msgstr ""
+
+#: templates/resumes/resume-preview.php:32
+msgid "&larr; Edit %s"
+msgstr ""
+
+#: templates/resumes/resume-preview.php:34
+msgid "Submit %s &rarr;"
+msgstr ""
+
+#. translators: Placeholder %s is a link to the job listing with the title as the text.
+#: templates/resumes/resume-submitted-application-form.php:30
+msgid "Submit your application to the job \"%s\"."
+msgstr ""
+
+#: templates/resumes/resume-submitted.php:28
+msgid "Successfully Submitted!"
+msgstr ""
+
+#. translators: %s: singular resume label
+#: templates/resumes/resume-submitted.php:54
+msgid "Your %s has been submitted successfully."
+msgstr ""
+
+#: templates/resumes/resume-submitted.php:43
+msgid "Your %1$s has been submitted successfully. To view your %1$s <a href=\"%2$s\">click here</a>."
+msgstr ""
+
+#. translators: %s: singular resume label
+#: templates/resumes/resume-submitted.php:66
+msgid "Your %s has been submitted successfully and is pending approval."
+msgstr ""
+
+#. translators: %1$s: job URL, %2$s: job title, %3$s: singular resume label
+#: templates/resumes/resume-submitted.php:81
+msgid " You will be able to apply for <a href=\"%1$s\">%2$s</a> once your %3$s has been approved."
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:41
+msgid "Please deactivate <strong>WP Job Manager Application Deadline</strong> to enable the <strong>Cariera Addons Application Deadline</strong> feature."
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:97
+msgid "Automatic deadline expiry"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:98
+msgid "Enable automatic expiration"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:99
+msgid "Enable this option to automatically expire jobs when application closing dates pass."
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:118
+msgid "Deadline for new applicants. The listing will end automatically after this date."
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:116
+msgid "Deadline for new applicants."
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:124
+msgid "Closing date"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:149
+msgid "Please enter a valid closing date."
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:236
+msgid "Closed"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:236
+msgid "Closes"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:279
+msgid "Application closing date"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:338
+msgid "Closing"
+msgstr ""
+
+#: inc/core/application-deadline/application-deadline.php:341, inc/core/resumes/post-types.php:385, inc/core/resumes/admin/cpt.php:87
+msgid "Expires"
+msgstr ""
+
+#. translators: Placeholder is the closing date of the job listing.
+#: inc/core/application-deadline/application-deadline.php:433
+msgid "Closes in %s"
+msgstr ""
+
+#: inc/core/applications/admin.php:55, inc/core/applications/admin.php:56, inc/core/resumes/admin.php:57, inc/core/resumes/admin.php:58
+msgid "Settings"
+msgstr ""
+
+#: inc/core/applications/admin.php:147, inc/core/resumes/admin/cpt.php:64
+msgid "Candidate name"
+msgstr ""
+
+#: inc/core/applications/admin.php:162, inc/core/applications/admin.php:165
+msgid "Job application updated."
+msgstr ""
+
+#: inc/core/applications/admin.php:163, inc/core/resumes/admin/cpt.php:368
+msgid "Custom field updated."
+msgstr ""
+
+#: inc/core/applications/admin.php:164, inc/core/resumes/admin/cpt.php:369
+msgid "Custom field deleted."
+msgstr ""
+
+#: inc/core/applications/admin.php:167
+msgid "Job application published."
+msgstr ""
+
+#: inc/core/applications/admin.php:168
+msgid "Job application saved."
+msgstr ""
+
+#: inc/core/applications/admin.php:169
+msgid "Job application submitted."
+msgstr ""
+
+#: inc/core/applications/admin.php:171
+msgid "Job application draft updated."
+msgstr ""
+
+#: inc/core/applications/admin.php:191, inc/core/resumes/admin/cpt.php:85, inc/core/resumes/admin/cpt.php:85
+msgid "Status"
+msgstr ""
+
+#: inc/core/applications/admin.php:192, inc/core/resumes/email-notifications.php:168, inc/core/resumes/resumes.php:175, inc/core/resumes/admin/cpt.php:83
+msgid "Candidate"
+msgstr ""
+
+#: inc/core/applications/admin.php:193, inc/core/applications/dashboard.php:218
+msgid "Job applied for"
+msgstr ""
+
+#: inc/core/applications/admin.php:194, inc/core/applications/dashboard.php:221
+msgid "Rating"
+msgstr ""
+
+#: inc/core/applications/admin.php:196
+msgid "Attachment(s)"
+msgstr ""
+
+#: inc/core/applications/admin.php:199, inc/core/resumes/resume-functions.php:945, inc/core/applications/admin/form-editor.php:312, inc/core/resumes/admin/settings.php:404
+msgid "Resume"
+msgstr ""
+
+#: inc/core/applications/admin.php:202, inc/core/resumes/admin/cpt.php:86
+msgid "Posted"
+msgstr ""
+
+#: inc/core/applications/admin.php:228
+msgid "Application ID: %d"
+msgstr ""
+
+#. translators: %d is the number of notes.
+#: inc/core/applications/admin.php:288
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/applications/admin.php:292, inc/core/resumes/admin/cpt.php:151
+msgid "by a guest"
+msgstr ""
+
+#: inc/core/applications/admin.php:292, inc/core/applications/application-templates.php:145, inc/core/resumes/admin/cpt.php:151
+msgid "by %s"
+msgstr ""
+
+#: inc/core/applications/admin.php:300, inc/core/resumes/admin/cpt.php:185
+msgid "View"
+msgstr ""
+
+#: inc/core/applications/admin.php:347
+msgid "Applications for all jobs"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:230
+msgctxt "Job application status"
+msgid "New"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:231
+msgctxt "Job application status"
+msgid "Interviewed"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:232
+msgctxt "Job application status"
+msgid "Offer extended"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:233
+msgctxt "Job application status"
+msgid "Hired"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:234
+msgctxt "Job application status"
+msgid "Rejected"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:235
+msgctxt "Job application status"
+msgid "Archived"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:248
+msgid "Full name"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:268
+msgid "Your cover letter/message sent to the employer"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:273, inc/core/applications/admin/writepanels.php:64
+msgid "Online Resume"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:281
+msgid "Upload CV"
+msgstr ""
+
+#. translators: %s is the maximum file size allowed.
+#: inc/core/applications/application-functions.php:289
+msgid "Upload your CV/resume or any other relevant file. Max. file size: %s."
+msgstr ""
+
+#: inc/core/applications/application-functions.php:372, inc/core/applications/post-types.php:121
+msgid "Application Form"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:432
+msgid "New job application for [job_title]"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:477
+msgid "Your job application for [job_title]"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:507
+msgid "Candidate Name"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:508
+msgid "Candidate Email"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:509
+msgid "Message from candidate"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:510
+msgid "All custom form fields in list format"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:511
+msgid "Application ID"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:512
+msgid "User ID of applicant"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:513
+msgid "Job ID"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:514, inc/core/resumes/admin/writepanels.php:336, inc/core/resumes/forms/submit-resume.php:377
+msgid "Job Title"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:515
+msgid "URL of the job listing"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:516
+msgid "URL to the frontend job dashboard page"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:517
+msgid "Name of the company which submitted the job listing"
+msgstr ""
+
+#: inc/core/applications/application-functions.php:518
+msgid "Some meta data from the job. e.g. <code>[job_post_meta key=\"_job_location\"]</code>"
+msgstr ""
+
+#. translators: %s is the field label.
+#: inc/core/applications/application-functions.php:530
+msgid "Custom field named \"%s\""
+msgstr ""
+
+#: inc/core/applications/application-templates.php:143
+msgid "added %s ago"
+msgstr ""
+
+#: inc/core/applications/application-templates.php:146, inc/core/applications/dashboard.php:499
+msgid "Delete note"
+msgstr ""
+
+#: inc/core/applications/application-templates.php:157
+msgid "Private note regarding this application"
+msgstr ""
+
+#: inc/core/applications/application-templates.php:158
+msgid "Add note"
+msgstr ""
+
+#: inc/core/applications/applications.php:45
+msgid "Please deactivate <strong>WP Job Manager Applications</strong> to enable the <strong>Cariera Addons Applications</strong> feature."
+msgstr ""
+
+#: inc/core/applications/apply.php:246
+msgid "Choose an option"
+msgstr ""
+
+#: inc/core/applications/apply.php:298
+msgid "Choose an online resume..."
+msgstr ""
+
+#: inc/core/applications/apply.php:424
+msgid "Invalid job"
+msgstr ""
+
+#: inc/core/applications/apply.php:428
+msgid "That job is not available"
+msgstr ""
+
+#: inc/core/applications/apply.php:437, inc/core/applications/apply.php:453
+msgid "You have already applied for this job"
+msgstr ""
+
+#: inc/core/applications/apply.php:488
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: inc/core/applications/apply.php:493
+msgid "Please enter a number"
+msgstr ""
+
+#: inc/core/applications/apply.php:560
+msgid "Yes"
+msgstr ""
+
+#: inc/core/applications/apply.php:560
+msgid "No"
+msgstr ""
+
+#: inc/core/applications/apply.php:575
+msgid "Failed to create the job application."
+msgstr ""
+
+#: inc/core/applications/dashboard.php:52, inc/core/applications/post-types.php:61
+msgid "Job Applications"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:199
+msgid "applications"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:214
+msgid "Application date"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:216
+msgid "Applicant name"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:217
+msgid "Applicant email"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:219, inc/core/applications/admin/form-editor.php:290, inc/core/applications/admin/writepanels.php:48
+msgid "Attachment"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:220
+msgid "Applicant message"
+msgstr ""
+
+#. translators: Placeholder is the number of applications.
+#: inc/core/applications/dashboard.php:342
+msgid "%s application"
+msgid_plural "%s applications"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Placeholder is the number of new applications.
+#: inc/core/applications/dashboard.php:349
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/applications/dashboard.php:391
+msgid "You do not have permission to view this job."
+msgstr ""
+
+#: inc/core/applications/dashboard.php:448, inc/core/resumes/dashboard.php:109, inc/core/resumes/admin/writepanels.php:263, inc/core/resumes/forms/submit-resume.php:310
+msgid "Name"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:450
+msgid "Date Received"
+msgstr ""
+
+#: inc/core/applications/dashboard.php:641
+msgid "Total"
+msgstr ""
+
+#: inc/core/applications/default-form.php:53
+msgid "Default"
+msgstr ""
+
+#: inc/core/applications/default-form.php:74
+msgid "The default application form cannot be deleted."
+msgstr ""
+
+#: inc/core/applications/default-form.php:74
+msgid "To disable it for new job listings, unpublish the form."
+msgstr ""
+
+#: inc/core/applications/default-form.php:172
+msgid "Default Form"
+msgstr ""
+
+#: inc/core/applications/integration.php:55, inc/core/resumes/dashboard.php:110
+msgid "Title"
+msgstr ""
+
+#: inc/core/applications/post-types.php:60
+msgid "Application"
+msgstr ""
+
+#: inc/core/applications/post-types.php:69
+msgid "This is where you can edit and view applications."
+msgstr ""
+
+#: inc/core/applications/post-types.php:122, inc/core/applications/admin/settings.php:50
+msgid "Application Forms"
+msgstr ""
+
+#: inc/core/applications/post-types.php:135
+msgid "This is where you can edit and view application forms."
+msgstr ""
+
+#: inc/core/applications/post-types.php:212, inc/core/applications/admin/form-editor.php:171
+msgid "Form Fields"
+msgstr ""
+
+#: inc/core/applications/post-types.php:222
+msgid "Employer Email Subject"
+msgstr ""
+
+#: inc/core/applications/post-types.php:231
+msgid "Employer Email Content"
+msgstr ""
+
+#: inc/core/applications/post-types.php:240
+msgid "Candidate Email Subject"
+msgstr ""
+
+#: inc/core/applications/post-types.php:249
+msgid "Candidate Email Content"
+msgstr ""
+
+#: inc/core/applications/post-types.php:345
+msgid "Applied"
+msgstr ""
+
+#: inc/core/applications/post-types.php:539
+msgid "Application status changed from \"%1$s\" to \"%2$s\""
+msgstr ""
+
+#: inc/core/bookmarks/bookmarks.php:53
+msgid "Please deactivate <strong>WP Job Manager Bookmarks</strong> to enable the <strong>Cariera Addons Bookmarks</strong> feature."
+msgstr ""
+
+#: inc/core/bookmarks/bookmarks.php:108, inc/core/bookmarks/bookmarks.php:170
+msgid "Bad request"
+msgstr ""
+
+#: inc/core/job-alerts/add-alert.php:178
+msgid "Alert me to jobs like this"
+msgstr ""
+
+#: inc/core/job-alerts/admin.php:47
+msgid "Search Terms"
+msgstr ""
+
+#: inc/core/job-alerts/admin.php:48
+msgid "User"
+msgstr ""
+
+#: inc/core/job-alerts/alert-form-fields.php:41
+msgid "Permission Checkbox"
+msgstr ""
+
+#: inc/core/job-alerts/alert-form-fields.php:140
+msgid "Any job category"
+msgstr ""
+
+#: inc/core/job-alerts/alert-form-fields.php:164
+msgid "Any job tag"
+msgstr ""
+
+#: inc/core/job-alerts/alert-form-fields.php:187
+msgid "Any job region"
+msgstr ""
+
+#: inc/core/job-alerts/alert-form-fields.php:210
+msgid "Any job type"
+msgstr ""
+
+#: inc/core/job-alerts/alert-stats.php:59
+msgid "Alerts sent"
+msgstr ""
+
+#: inc/core/job-alerts/alert-stats.php:62
+msgid "How many times the listing was seen in search results or sent out in job alert e-mails."
+msgstr ""
+
+#: inc/core/job-alerts/job-alerts.php:44
+msgid "Please deactivate <strong>WP Job Manager Alerts</strong> to enable the <strong>Cariera Addons Alerts</strong> feature."
+msgstr ""
+
+#: inc/core/job-alerts/notifier.php:80
+msgid "Daily"
+msgstr ""
+
+#: inc/core/job-alerts/notifier.php:85
+msgid "Weekly"
+msgstr ""
+
+#: inc/core/job-alerts/notifier.php:90
+msgid "Fortnightly"
+msgstr ""
+
+#: inc/core/job-alerts/notifier.php:95
+msgid "Monthly"
+msgstr ""
+
+#: inc/core/job-alerts/post-types.php:34
+msgid "Job Alert"
+msgstr ""
+
+#: inc/core/job-alerts/post-types.php:231, templates/alerts/emails/email-confirmation.php:25, inc/core/applications/admin/form-editor.php:327
+msgid "Type"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:51, inc/core/resumes/admin/settings.php:141
+msgid "Account Required"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:52
+msgid "Require an account to create job alerts"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:53
+msgid "Limit alert creation to registered, logged-in users."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:59
+msgid "Brand Color"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:62
+msgid "Set the color used for links and buttons in e-mails and shortcodes."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:67
+msgid "Alert Form Fields"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:80
+msgid "Alert Email Content"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:81
+msgid "Enter the content for your email alerts or leave it blank to use the default message. The following tags can be used to insert data dynamically:"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:82
+msgid "The name of the alert being sent"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:83
+msgid "The jobs found matching your alert"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:84
+msgid "The next date this alert will be sent"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:85
+msgid "When this job alert expires"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:86
+msgid "The user WordPress username"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:88
+msgid " is not available when accounts are not required."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:96
+msgid "Job Details Visible"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:99
+msgid "Company Name"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:100
+msgid "Company Logo"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:109
+msgid "Alert Duration"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:110
+msgid "Enter the number of days before alerts are automatically disabled, or leave blank to disable this feature. By default, alerts will be turned off for a search after 90 days."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:117
+msgid "Alert Matches"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:118
+msgid "Send alerts with matches only"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:119
+msgid "Only send an alert when jobs are found matching its criteria. When disabled, an alert is sent regardless."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:126
+msgid "Alerts Page ID"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:127
+msgid "So that the plugin knows where to link users to view their alerts, you must select the page where you have placed the [job_alerts] shortcode."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:163
+msgid ""
+"Hello {display_name},\n"
+"\n"
+"The following jobs were found matching your \"{alert_name}\" job alert.\n"
+"\n"
+"{jobs}\n"
+"\n"
+"Your next alert for this search will be sent {alert_next_date}.\n"
+"\n"
+"{alert_expiry}\n"
+""
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:206
+msgid "I agree to receiving job alert e-mails"
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:206
+msgid "By subscribing, you agree to receive job alert e-mails"
+msgstr ""
+
+#. translators: %s: alert consent message when no privacy policy is set.
+#: inc/core/job-alerts/settings.php:218
+msgid "%s."
+msgstr ""
+
+#: inc/core/job-alerts/settings.php:211
+msgid "%1$s and accept the %2$sPrivacy Policy%3$s."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:94
+msgid "You need to be logged in to create alerts."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:149, inc/core/job-alerts/shortcodes.php:376
+msgid "Invalid Alert"
+msgstr ""
+
+#. translators: %s is the alert name.
+#: inc/core/job-alerts/shortcodes.php:166
+msgid "%s: Alert deleted."
+msgstr ""
+
+#. translators: placeholder is the alert name.
+#: inc/core/job-alerts/shortcodes.php:332
+msgid "Jobs matching your \"%s\" alert:"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:346
+msgid "No jobs found"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:384
+msgid "Alert deleted"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:385
+msgid "You will no longer receive e-mails for this search."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:396, inc/core/job-alerts/shortcodes.php:449, templates/alerts/emails/email-job-alert.php:29
+msgid "Manage Alerts"
+msgstr ""
+
+#. translators: %1$ is the alert title, %2$s is Enabled or Disabled.
+#: inc/core/job-alerts/shortcodes.php:419
+msgid "%1$s: Alert %2$s."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:419
+msgid "enabled"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:419
+msgid "disabled"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:439
+msgid "Alert confirmed"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:440, inc/core/job-alerts/shortcodes.php:508
+msgid "You will start receiving new job listings matching your search."
+msgstr ""
+
+#. translators: %s is the alert name.
+#: inc/core/job-alerts/shortcodes.php:468
+msgid "%s: Alert e-mail sent."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:488
+msgid "You need to approve receiving emails for this alert."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:507, inc/core/job-alerts/shortcodes.php:571
+msgid "Alert created"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:536
+msgid "A user account already exists for this e-mail."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:552
+msgid "Invalid email address."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:572
+msgid "A confirmation e-mail has been sent to your e-mail address."
+msgstr ""
+
+#. translators: %s is the user's e-mail domain.
+#: inc/core/job-alerts/shortcodes.php:577
+msgid "Open %s"
+msgstr ""
+
+#. translators: %s is the alert name.
+#: inc/core/job-alerts/shortcodes.php:602
+msgid "%s: Alert updated."
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:714
+msgid "Results"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:718
+msgid "Send&nbsp;Now"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:726
+msgid "Disable"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:726
+msgid "Enable"
+msgstr ""
+
+#: inc/core/job-alerts/shortcodes.php:793
+msgid "All Jobs"
+msgstr ""
+
+#. translators: Placeholder %d is the number of found search results.
+#: inc/core/resumes/ajax.php:95
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Placeholder is the job title.
+#: inc/core/resumes/apply.php:95
+msgid "Submit your resume below to apply for the job \"%s\"."
+msgstr ""
+
+#: inc/core/resumes/apply.php:171
+msgid "Please choose a resume to apply with."
+msgstr ""
+
+#: inc/core/resumes/apply.php:175
+msgid "This job cannot be applied for using a resume."
+msgstr ""
+
+#: inc/core/resumes/apply.php:179
+msgid "Please enter a message to include with your application."
+msgstr ""
+
+#: inc/core/resumes/apply.php:185
+msgid "This job cannot be applied for using a resume"
+msgstr ""
+
+#: inc/core/resumes/apply.php:192
+msgid "Error sending application."
+msgstr ""
+
+#: inc/core/resumes/apply.php:189
+msgid "Your application has been sent successfully."
+msgstr ""
+
+#: inc/core/resumes/dashboard.php:108
+msgid "Candidate Image"
+msgstr ""
+
+#: inc/core/resumes/dashboard.php:111, templates/resumes/single-resume/single-resume-overview.php:38
+msgid "Date Posted"
+msgstr ""
+
+#: inc/core/resumes/dashboard.php:185
+msgid "Publish"
+msgstr ""
+
+#: inc/core/resumes/dashboard.php:303
+msgid "Invalid ID"
+msgstr ""
+
+#. translators: Placeholder %s is the resume title.
+#: inc/core/resumes/dashboard.php:313
+msgid "%s has been deleted"
+msgstr ""
+
+#. translators: Placeholder %s is the resume title.
+#: inc/core/resumes/dashboard.php:324
+msgid "%s has been hidden"
+msgstr ""
+
+#. translators: Placeholder %s is the resume title.
+#: inc/core/resumes/dashboard.php:335
+msgid "%s has been published"
+msgstr ""
+
+#: inc/core/resumes/dashboard.php:340
+msgid "Missing submission page."
+msgstr ""
+
+#: inc/core/resumes/email-notifications.php:180
+msgid "Resume expires"
+msgstr ""
+
+#: inc/core/resumes/email-notifications.php:214
+msgid "Link"
+msgstr ""
+
+#. translators: Placeholder is date of education experience.
+#. translators: Placeholder is date of experience.
+#: inc/core/resumes/email-notifications.php:228, inc/core/resumes/email-notifications.php:249
+msgid "Date: %s"
+msgstr ""
+
+#. translators: Placeholder is qualifications/degrees of education experience.
+#: inc/core/resumes/email-notifications.php:230
+msgid "Certification: %s"
+msgstr ""
+
+#. translators: Placeholder is notes for education experience.
+#. translators: Placeholder is notes for experience.
+#: inc/core/resumes/email-notifications.php:232, inc/core/resumes/email-notifications.php:253
+msgid "Notes: %s"
+msgstr ""
+
+#: inc/core/resumes/email-notifications.php:237, inc/core/resumes/admin/writepanels.php:101, inc/core/resumes/admin/writepanels.php:380, inc/core/resumes/forms/submit-resume.php:328
+msgid "Education"
+msgstr ""
+
+#. translators: Placeholder is employer name of experience.
+#: inc/core/resumes/email-notifications.php:247
+msgid "Employer: %s"
+msgstr ""
+
+#. translators: Placeholder is job title of experience.
+#: inc/core/resumes/email-notifications.php:251
+msgid "Job Title: %s"
+msgstr ""
+
+#: inc/core/resumes/email-notifications.php:258, templates/resumes/single-resume/single-resume-overview.php:126, inc/core/resumes/admin/writepanels.php:102, inc/core/resumes/admin/writepanels.php:392, inc/core/resumes/forms/submit-resume.php:363
+msgid "Experience"
+msgstr ""
+
+#: inc/core/resumes/email-notifications.php:267, inc/core/applications/admin/writepanels.php:54, inc/core/resumes/admin/writepanels.php:40
+msgid "Posted by"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:37
+msgid "Resume base"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:45
+msgid "Resume archive page"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:54
+msgid "Resume category base"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:64
+msgid "Resume skill base"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:79
+msgctxt "Resume base permalink - resave permalinks after changing this"
+msgid "resume"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:90
+msgctxt "Resumes archive permalink - resave permalinks after changing this"
+msgid "resumes"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:101
+msgctxt "Resume category slug - resave permalinks after changing this"
+msgid "resume-category"
+msgstr ""
+
+#: inc/core/resumes/permalinks.php:112, inc/core/resumes/post-types.php:1133
+msgctxt "Resume skill slug - resave permalinks after changing this"
+msgid "resume-skill"
+msgstr ""
+
+#. translators: %s placeholder is the plural lable of company cpt.
+#: inc/core/resumes/post-types.php:121
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: inc/core/resumes/post-types.php:163, inc/core/resumes/resume-functions.php:679
+msgctxt "post status"
+msgid "Hidden"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:168
+msgid "Hidden <span class=\"count\">(%s)</span>"
+msgid_plural "Hidden <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: singular resume CPT label
+#: inc/core/resumes/post-types.php:202
+msgid "%s Category"
+msgstr ""
+
+#. translators: %s: singular resume CPT label
+#: inc/core/resumes/post-types.php:205
+msgid "%s Categories"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:237
+msgid "Candidate Skill"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:238
+msgid "Candidate Skills"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:320
+msgid "Professional Title"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:329, inc/core/applications/admin/writepanels.php:43
+msgid "Contact Email"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:330, inc/core/applications/admin/writepanels.php:44, inc/core/resumes/forms/submit-resume.php:229
+msgid "you@yourdomain.com"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:338, inc/core/resumes/templates.php:231
+msgid "Candidate Location"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:339, inc/core/resumes/forms/submit-resume.php:245
+msgid "e.g. \"London, UK\", \"New York\", \"Houston, TX\""
+msgstr ""
+
+#: inc/core/resumes/post-types.php:347, inc/core/resumes/forms/submit-resume.php:250
+msgid "Photo"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:348
+msgid "URL to the candidate photo"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:356, inc/core/resumes/forms/submit-resume.php:266
+msgid "Video"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:357
+msgid "URL to the candidate video"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:366
+msgid "Resume File"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:367
+msgid "URL to the candidate's resume file"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:375
+msgid "Feature this Resume?"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:377
+msgid "Featured resumes will be sticky during searches, and can be styled differently."
+msgstr ""
+
+#: inc/core/resumes/post-types.php:386
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:608
+msgid "File not found"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:608
+msgid "Go to homepage"
+msgstr ""
+
+#. translators: 1: resume title, 2: site URL
+#: inc/core/resumes/post-types.php:789
+msgid "Contact via the resume for \"%1$s\" on %2$s"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:1115
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "resumes"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:1130
+msgctxt "Resume permalink - resave permalinks after changing this"
+msgid "resume"
+msgstr ""
+
+#: inc/core/resumes/post-types.php:1132
+msgctxt "Resume category permalink - resave permalinks after changing this"
+msgid "resume-category"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:374
+msgid "Reset"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:677
+msgctxt "post status"
+msgid "Draft"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:678
+msgctxt "post status"
+msgid "Expired"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:680
+msgctxt "post status"
+msgid "Preview"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:681
+msgctxt "post status"
+msgid "Pending approval"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:682
+msgctxt "post status"
+msgid "Pending payment"
+msgstr ""
+
+#: inc/core/resumes/resume-functions.php:683
+msgctxt "post status"
+msgid "Published"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:200
+msgid "Candidate Photo"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:333
+msgid "Inactive"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:331
+msgid "Hidden"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:329
+msgid "Pending Review"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:327
+msgid "Expired"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:325, templates/resumes/listing-templates/content-resume_grid1.php:71, templates/resumes/listing-templates/content-resume_list2.php:101
+msgid "Published"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:355
+msgid "Username"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:364
+msgid "Password"
+msgstr ""
+
+#: inc/core/resumes/resume-templates.php:376
+msgid "Verify Password"
+msgstr ""
+
+#: inc/core/resumes/resumes.php:62
+msgid "Please deactivate <strong>WP Job Manager Resumes</strong> to enable the <strong>Cariera Addons Resumes</strong> feature."
+msgstr ""
+
+#: inc/core/resumes/shortcodes.php:252, inc/core/resumes/shortcodes.php:217
+msgid "Load more resumes"
+msgstr ""
+
+#. translators: %s: tag list
+#: inc/core/tags/shortcodes.php:108
+msgid "No jobs found tagged with %s."
+msgstr ""
+
+#: inc/core/tags/shortcodes.php:188
+msgid "Filter by tag:"
+msgstr ""
+
+#: inc/core/tags/shortcodes.php:369
+msgid "tagged"
+msgstr ""
+
+#. translators: %s is the number of jobs in the tag cloud.
+#: inc/core/tags/shortcodes.php:404
+msgid "%s job"
+msgid_plural "%s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/tags/tags.php:40
+msgid "Please deactivate <strong>WP Job Manager Job Tags</strong> to enable the <strong>Cariera Addons Job Tags</strong> feature."
+msgstr ""
+
+#: inc/core/tags/tags.php:90
+msgid "Job Tag"
+msgstr ""
+
+#: inc/core/tags/tags.php:91
+msgid "Job Tags"
+msgstr ""
+
+#: inc/core/tags/tags.php:112
+msgctxt "permalink"
+msgid "job-tag"
+msgstr ""
+
+#: inc/core/tags/tags.php:131
+msgid "Tag Archives"
+msgstr ""
+
+#: inc/core/tags/tags.php:132
+msgid "Enable Tag Archives"
+msgstr ""
+
+#: inc/core/tags/tags.php:133
+msgid "Enabling tag archives will make job tags (inside jobs and tag clouds) link through to an archive of all jobs with said tag. Please note, tag archives will look like your post archives unless you create a special template to handle the display of job listings called <code>taxonomy-job_listing_tag.php</code> inside your theme. See <a href=\"http://codex.wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template Hierarchy</a> for more information."
+msgstr ""
+
+#: inc/core/tags/tags.php:140
+msgid "Tags Filter Type"
+msgstr ""
+
+#: inc/core/tags/tags.php:141
+msgid "Determines how jobs are queried when selecting tags."
+msgstr ""
+
+#: inc/core/tags/tags.php:144
+msgid "Jobs will be shown if within ANY chosen tag"
+msgstr ""
+
+#: inc/core/tags/tags.php:145
+msgid "Jobs will be shown if within ALL chosen tags"
+msgstr ""
+
+#: inc/core/tags/tags.php:152
+msgid "Maximum Job Tags"
+msgstr ""
+
+#: inc/core/tags/tags.php:153
+msgid "Enter the number of tags per job submission you wish to allow, or leave blank for unlimited tags."
+msgstr ""
+
+#: inc/core/tags/tags.php:160
+msgid "Tag Input"
+msgstr ""
+
+#. translators: %d: max number of tags allowed
+#. translators: Placeholder %d is the maximum number of skills a visitor can add.
+#: inc/core/tags/tags.php:251, inc/core/resumes/forms/submit-resume.php:207
+msgid "Maximum of %d."
+msgstr ""
+
+#: inc/core/tags/tags.php:260, inc/core/tags/tags.php:271, inc/core/tags/tags.php:281
+msgid "Job tags"
+msgstr ""
+
+#: inc/core/tags/tags.php:261, inc/core/tags/tags.php:272
+msgid "Choose some tags, such as required skills or technologies, for this job."
+msgstr ""
+
+#: inc/core/tags/tags.php:262
+msgid "Choose some tags&hellip;"
+msgstr ""
+
+#: inc/core/tags/tags.php:282
+msgid "Comma separate tags, such as required skills or technologies, for this job."
+msgstr ""
+
+#: inc/core/tags/tags.php:285
+msgid "e.g. PHP, Social Media, Management"
+msgstr ""
+
+#. translators: %d is max number of tags allowed.
+#: inc/core/tags/tags.php:311
+msgid "Please enter no more than %d tags."
+msgstr ""
+
+#: inc/core/tags/tags.php:391
+msgid "Tagged as:"
+msgstr ""
+
+#: templates/alerts/emails/email-confirmation.php:32
+msgid "Hello,"
+msgstr ""
+
+#. translators: Placeholder is the link to the site.
+#: templates/alerts/emails/email-confirmation.php:40
+msgid "You set up a new job alert on the site %s. Please verify your e-mail address by clicking the button below to start receiving messages for this alert."
+msgstr ""
+
+#: templates/alerts/emails/email-confirmation.php:52
+msgid "Alert details:"
+msgstr ""
+
+#: templates/alerts/emails/email-confirmation.php:58
+msgid "Any"
+msgstr ""
+
+#: templates/alerts/emails/email-confirmation.php:63
+msgid "If you didn't request this email, please ignore it."
+msgstr ""
+
+#: templates/alerts/emails/email-confirmation.php:65
+msgid "Confirm Job Alert"
+msgstr ""
+
+#. translators: Placeholder is the link to the site.
+#: templates/alerts/emails/email-confirmation.php:75, templates/alerts/emails/email-job-alert.php:40
+msgid "You are receiving this email because you created a job alert on %s."
+msgstr ""
+
+#. translators: Placeholder is the company name.
+#: templates/alerts/emails/email-job-alert-jobs.php:35
+msgid "%s logo"
+msgstr ""
+
+#: templates/alerts/emails/email-job-alert-no-jobs.php:17
+msgid "No jobs were found matching your search."
+msgstr ""
+
+#: templates/alerts/emails/email-job-alert.php:31
+msgid "Unsubscribe"
+msgstr ""
+
+#: templates/resumes/emails/admin-new-resume.php:31
+msgid "A new %3$s has been submitted to <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: templates/resumes/emails/admin-new-resume.php:40, templates/resumes/emails/plain/admin-new-resume.php:39
+msgid "It has been published and is now available to the public."
+msgstr ""
+
+#. translators: Placeholder is URL for WP admin.
+#: templates/resumes/emails/admin-new-resume.php:44
+msgid "It is awaiting approval by an administrator in <a href=\"%s\">WordPress admin</a>."
+msgstr ""
+
+#. translators: %1$s is the URL for the site; %2$s is the name of the site; %3$s is the job listing permalink; %4$s is the job listing title.
+#: templates/resumes/emails/apply-with-resume.php:32
+msgid "A candidate has applied on the site <a href=\"%1$s\">%2$s</a> for the position <a href=\"%3$s\">%4$s</a>."
+msgstr ""
+
+#. translators: %s: singular resume label
+#. translators: %s is the singular resume label.
+#: templates/resumes/emails/apply-with-resume.php:43, templates/resumes/emails/plain/apply-with-resume.php:60
+msgid "They included the following message along with their %s:"
+msgstr ""
+
+#: templates/resumes/emails/apply-with-resume.php:56
+msgid "You can <a href=\"%1$s\">view their %2$s online</a>."
+msgstr ""
+
+#. translators: Placeholder is the candidate email address.
+#: templates/resumes/emails/apply-with-resume.php:66, templates/resumes/emails/plain/apply-with-resume.php:54
+msgid " Additionally, you can contact them directly at %s."
+msgstr ""
+
+#: templates/resumes/form-fields/repeated-field.php:41, templates/resumes/form-fields/repeated-field.php:88
+msgid "Drag to reorder"
+msgstr ""
+
+#: templates/resumes/form-fields/repeated-field.php:44, templates/resumes/form-fields/repeated-field.php:91
+msgid "Toggle details"
+msgstr ""
+
+#: templates/resumes/form-fields/repeated-field.php:53, templates/resumes/form-fields/repeated-field.php:100
+msgid "Remove item"
+msgstr ""
+
+#: templates/resumes/form-fields/repeated-field.php:132, inc/core/resumes/forms/submit-resume.php:302
+msgid "Add URL"
+msgstr ""
+
+#: templates/resumes/listing-templates/content-resume_grid1.php:64, templates/resumes/listing-templates/content-resume_grid3.php:51, templates/resumes/listing-templates/content-resume_list1.php:67, templates/resumes/listing-templates/content-resume_list2.php:77, templates/resumes/single-resume/single-candidate-details.php:39, templates/resumes/single-resume/single-resume-v1.php:59
+msgid "No location"
+msgstr ""
+
+#: templates/resumes/listing-templates/content-resume_grid1.php:73, templates/resumes/listing-templates/content-resume_list2.php:103
+msgid "Posted %s ago"
+msgstr ""
+
+#: templates/resumes/listing-templates/content-resume_grid3.php:71, templates/resumes/listing-templates/content-resume_list1.php:78
+msgid "No occupation"
+msgstr ""
+
+#: templates/resumes/listing-templates/content-resume_list1.php:109
+msgid "%s ago"
+msgstr ""
+
+#: templates/resumes/listing-templates/content-resume_list2.php:88, templates/resumes/single-resume/single-resume-overview.php:87
+msgid "Rate"
+msgstr ""
+
+#: templates/resumes/single-resume/candidate-portfolio.php:32
+msgid "Candidate Portfolio"
+msgstr ""
+
+#: templates/resumes/single-resume/candidate-portfolio.php:57
+msgid "Candidate portfolio image."
+msgstr ""
+
+#: templates/resumes/single-resume/featured-listings.php:60
+msgid "Featured %s"
+msgstr ""
+
+#: templates/resumes/single-resume/invite-candidate.php:28, templates/resumes/single-resume/invite-candidate.php:34, templates/resumes/single-resume/invite-candidate.php:60
+msgid "Invite Candidate"
+msgstr ""
+
+#: templates/resumes/single-resume/invite-candidate.php:63
+msgid "You don't have any published job listings on your account!"
+msgstr ""
+
+#: templates/resumes/single-resume/invite-candidate.php:47
+msgid "Invite candidate to apply to one of your jobs."
+msgstr ""
+
+#: templates/resumes/single-resume/invite-candidate.php:51
+msgid "Select Job"
+msgstr ""
+
+#: templates/resumes/single-resume/private-message.php:60, templates/resumes/single-resume/private-message.php:43
+msgid "Direct message"
+msgstr ""
+
+#: templates/resumes/single-resume/related-resumes.php:63
+msgid "Related %s"
+msgstr ""
+
+#: templates/resumes/single-resume/single-candidate-details.php:45, templates/resumes/single-resume/single-resume-v1.php:66
+msgid "Member Since "
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-overview.php:27
+msgid "Candidate Overview"
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-overview.php:62
+msgid "Occupation"
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-overview.php:100
+msgid "Education Level"
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-overview.php:113
+msgid "Languages"
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-print.php:28
+msgid "Print"
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-print.php:28
+msgid "Print %s"
+msgstr ""
+
+#: templates/resumes/single-resume/single-resume-v1.php:75
+msgid "Download CV"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:148
+msgid "The fields were successfully reset."
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:149
+msgid "The email was successfully reset."
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:172
+msgid "Employer Notification"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:173
+msgid "Candidate Notification"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:197
+msgid "Below you will find the email that is sent to an employer after a candidate submits an application."
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:202
+msgid "Below you will find the email that is sent to a candidate after submitting an application. Leave blank to disable."
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:243
+msgid "Reset to defaults"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:281
+msgid "Validation"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:282
+msgid "Required"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:284
+msgid "Numeric"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:286
+msgid "Data Handling"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:287
+msgid "From Name"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:288
+msgid "From Email"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:305
+msgid "Text"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:306
+msgid "Textarea"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:307
+msgid "File"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:308
+msgid "Select"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:309
+msgid "Multiselect"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:310
+msgid "Checkbox"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:311
+msgid "Date"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:313
+msgid "Output content"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:326
+msgid "Field Label"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:328
+msgid "Description"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:329
+msgid "Placeholder / Options"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:342
+msgid "Validation / Rules"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:350
+msgid "Add field"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:500
+msgid "Subject"
+msgstr ""
+
+#: inc/core/applications/admin/form-editor.php:507
+msgid "The following tags can be used to add content dynamically:"
+msgstr ""
+
+#. translators: %s - HTML code.
+#: inc/core/applications/admin/form-editor.php:517
+msgid "All tags can be passed a prefix and a suffix which is only output when the value is set e.g. %s"
+msgstr ""
+
+#. translators: Placeholder %d is the number of days before items are removed from trash.
+#: inc/core/applications/admin/settings.php:41, inc/core/resumes/admin/settings.php:48
+msgid "They will then be permanently deleted after %d days."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:38, inc/core/resumes/admin/settings.php:45
+msgid "They will then need to be manually removed from the trash"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:55
+msgid "Email Application Method"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:56, inc/core/applications/admin/settings.php:64
+msgid "Use application form"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:57
+msgid "Show application form for jobs with an email application method. Disable to use the default application functionality, or another form plugin."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:63
+msgid "Website URL Application Method"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:65
+msgid "Show application form for jobs with a website URL application method. Disable to use the default application functionality, or another form plugin. <strong>Note: URLs entered for the <em>Application Method</em> will be ignored.</strong>"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:71
+msgid "User Restriction"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:72
+msgid "Only allow registered users to apply"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:73
+msgid "If enabled, only logged in users can apply. Non-logged in users will see the contents of the <code>application-form-login.php</code> file instead of a form."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:79
+msgid "Multiple Applications"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:80
+msgid "Prevent users from applying to the same job multiple times"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:81
+msgid "If enabled, the apply form will be hidden after applying."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:87, inc/core/resumes/admin/settings.php:241
+msgid "Terms and Conditions Checkbox"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:88, inc/core/resumes/admin/settings.php:242
+msgid "Enable required Terms and Conditions checkbox on the form"
+msgstr ""
+
+#. translators: Placeholder %s is the URL to the page in WP Job Manager's settings to set the pages.
+#: inc/core/applications/admin/settings.php:91
+msgid "Require a Terms and Conditions checkbox to be marked before an application can be submitted. The linked page can be set from the <a href=\"%s\">WP Job Manager's settings</a>."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:100, inc/core/resumes/admin/settings.php:254
+msgid "reCAPTCHA"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:101
+msgid "Display a reCAPTCHA field on application submission form."
+msgstr ""
+
+#. translators: Placeholder %s is the URL to the page in WP Job Manager's settings to make the change.
+#: inc/core/applications/admin/settings.php:104
+msgid "This will help prevent bots from applying for jobs. You must have entered a valid site key and secret key in <a href=\"%s\">WP Job Manager's settings</a>."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:113
+msgid "Management"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:118
+msgid "Delete with Jobs"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:119
+msgid "Delete applications when a job is deleted"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:120
+msgid "If enabled, job applications will be deleted when the parent job listing is deleted. Otherwise they will be kept on file and visible in the backend."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:126
+msgid "Do not purge data"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:127
+msgid "Purge Applications"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:128
+msgid "Purge application data and files after X days. Leave blank to disable."
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:134, inc/core/resumes/admin/settings.php:310
+msgid "Pages"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:139
+msgid "Past Applications Page"
+msgstr ""
+
+#: inc/core/applications/admin/settings.php:140
+msgid "Select the page where you've used the <code>[past_applications]</code> shortcode. This lets the plugin know the location of the page."
+msgstr ""
+
+#. translators: Placeholder is the URL to the settings page in Applications.
+#: inc/core/applications/admin/settings.php:165
+msgid "The <a href=\"%s\">Website URL Application Method</a> setting is enabled in the Applications plugin. URLs entered for the Application Method on the Job Submission form will be ignored unless your theme uses them elsewhere."
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:49
+msgid "URL to the attachment if the candidate provided one"
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:67
+msgid "Search for a resume..."
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:70
+msgid "Job Listing"
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:73
+msgid "Search for a job listing..."
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:92
+msgid "Save Application"
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:93
+msgid "Job Application Data"
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:94
+msgid "Application Notes"
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:127
+msgid "Move to Trash"
+msgstr ""
+
+#: inc/core/applications/admin/writepanels.php:131
+msgid "Save"
+msgstr ""
+
+#: inc/core/job-alerts/emails/confirmation-email.php:57
+msgid "Alert Confirmation E-mail"
+msgstr ""
+
+#: inc/core/job-alerts/emails/confirmation-email.php:66
+msgid "Send an e-mail to confirm the e-mail address when not using an account."
+msgstr ""
+
+#: inc/core/job-alerts/emails/confirmation-email.php:75
+msgid "Confirm your Job Alert"
+msgstr ""
+
+#: inc/core/job-alerts/emails/job-alert-email.php:61
+msgid "Job Alert E-mail"
+msgstr ""
+
+#: inc/core/job-alerts/emails/job-alert-email.php:70
+msgid "Send regular e-mails with new job listings matching a search."
+msgstr ""
+
+#. translators: Placeholder is the alert name.
+#: inc/core/job-alerts/emails/job-alert-email.php:92
+msgid "Job Alert Results Matching \"%s\""
+msgstr ""
+
+#: inc/core/job-alerts/emails/job-alert-email.php:159
+msgid "Manage Alerts: {alert_page_url}"
+msgstr ""
+
+#: inc/core/job-alerts/emails/job-alert-email.php:160
+msgid "Unsubscribe: {alert_unsubscribe_url}"
+msgstr ""
+
+#: inc/core/job-alerts/emails/job-alert-email.php:292
+msgid "No jobs were found matching your search. Login to your account to change your alert criteria"
+msgstr ""
+
+#. translators: placeholder is the date the alert will stop sending.
+#: inc/core/job-alerts/emails/job-alert-email.php:321
+msgid "This job alert will automatically stop sending after %s."
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:90, inc/core/resumes/admin/settings.php:100, inc/core/resumes/forms/submit-resume.php:293
+msgid "Skills"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:97, inc/core/resumes/admin/cpt.php:97
+msgid "Featured?"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:116
+msgid "Resume ID: %d"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:150, inc/core/resumes/admin/cpt.php:155
+msgid "M j, Y"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:177
+msgid "Approve"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:193
+msgid "Email Candidate"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:367
+msgid "Resume updated. <a href=\"%s\">View Resume</a>"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:370
+msgid "Resume updated."
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:371
+msgid "Resume restored to revision from %s"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:372
+msgid "Resume published. <a href=\"%s\">View Resume</a>"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:373
+msgid "Resume saved."
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:374
+msgid "Resume submitted. <a target=\"_blank\" href=\"%s\">Preview Resume</a>"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:376
+msgid "Resume scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Resume</a>"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:377
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:380
+msgid "Resume draft updated. <a target=\"_blank\" href=\"%s\">Preview Resume</a>"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:398, inc/core/resumes/admin/cpt.php:399
+msgid "Approve Resumes"
+msgstr ""
+
+#. translators: 1: Resume title.
+#: inc/core/resumes/admin/cpt.php:501, inc/core/resumes/admin/cpt.php:498
+msgid "%s approved"
+msgstr ""
+
+#: inc/core/resumes/admin/cpt.php:560
+msgid "Select a category"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:58
+msgid "Resume Listings"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:64
+msgid "Resumes Per Page"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:65
+msgid "How many resumes should be shown per page by default?"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:72
+msgid "Enable resume categories"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:73
+msgid "Choose whether to enable resume categories. Categories must be setup by an admin for users to choose during resume submission."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:80
+msgid "Multi-select Categories"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:81
+msgid "Enable category multiselect by default"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:82
+msgid "If enabled, the category select box will default to a multiselect on the [resumes] shortcode."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:89
+msgid "Category Filter Type"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:90
+msgid "Choose how to filter resumes when Multi-select Categories option is enabled."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:93
+msgid "Resumes will be shown if within ANY selected category"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:94
+msgid "Resumes will be shown if within ALL selected categories"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:101
+msgid "Enable candidate skills"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:102
+msgid "Choose whether to enable the candidate skills field. Skills can be added by users during resume submission."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:109
+msgid "Maximum Skills"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:110
+msgid "Unlimited"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:111
+msgid "Enter the number of skills per resume submission you wish to allow, or leave blank for unlimited skills."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:117
+msgid "Resume Upload"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:118
+msgid "Enable resume upload"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:119
+msgid "Choose whether to allow candidates to upload a resume file."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:126
+msgid "Delete uploaded files"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:127
+msgid "Delete uploaded files when a resume is deleted"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:128
+msgid "Choose whether to deleted uploaded files when a resume is deleted and removed from the trash."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:134
+msgid "Single Resume"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:136
+msgid "Resume Submission"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:142
+msgid "Submitting listings requires an account"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:143
+msgid "If disabled, non-logged in users will be able to submit listings without creating an account. Please note that this will prevent non-registered users from being able to edit their listings at a later date."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:150
+msgid "Account Creation"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:151
+msgid "Allow account creation"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:152
+msgid "If enabled, non-logged in users will be able to create an account by entering their email address on the resume submission form."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:159
+msgid "Account Username"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:160
+msgid "Automatically Generate Username from Email Address"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:161
+msgid "If enabled, a username will be generated from the first part of the user email address. Otherwise, a username field will be shown."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:168
+msgid "Account Password"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:169
+msgid "Use WordPress' default behavior and email new users link to set a password"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:170
+msgid "If enabled, an email will be sent to the user with their username and a link to set their password. Otherwise, a password field will be shown and their email address won't be verified."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:177
+msgid "Account Role"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:178
+msgid "If you enable registration on your submission form, choose a role for the new user."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:185
+msgid "Approval Required"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:186
+msgid "New submissions require admin approval"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:187
+msgid "If enabled, new submissions will be inactive, pending admin approval."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:194
+msgid "Allow Pending Edits"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:195
+msgid "Allow editing of pending resumes"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:196
+msgid "Users can continue to edit pending resumes until they are approved by an admin."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:203
+msgid "Allow Published Edits"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:204
+msgid "Allow editing of published resumes"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:205
+msgid "Choose whether published resumes can be edited and if edits require admin approval. When moderation is required, the original resume will be unpublished while edits await admin approval."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:208
+msgid "Users cannot edit"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:209
+msgid "Users can edit without admin approval"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:210
+msgid "Users can edit, but edits require admin approval"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:217
+msgid "Listing Duration"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:218
+msgid "How many <strong>days</strong> listings are live before expiring. Can be left blank to never expire. Expired listings must be relisted to become visible."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:220
+msgid "Never expire"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:225
+msgid "Auto-hide Resumes"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:226
+msgid "How many <strong>days</strong> un-modified resumes should be published before being hidden. Can be left blank to never hide resumes automatically. Candidates can re-publish hidden resumes form their dashboard."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:228
+msgid "Never auto-hide"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:233
+msgid "Listing Limit"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:234
+msgid "How many listings are users allowed to post. Can be left blank to allow unlimited listings per account."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:236
+msgid "No limit"
+msgstr ""
+
+#. translators: Placeholder %s is the URL to the page in WP Job Manager's settings to set the pages.
+#: inc/core/resumes/admin/settings.php:245
+msgid "Require a Terms and Conditions checkbox to be marked before a resume can be submitted. The linked page can be set from the <a href=\"%s\">WP Job Manager's settings</a>."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:255
+msgid "Display a reCAPTCHA field on resume submission form."
+msgstr ""
+
+#. translators: Placeholder %s is the URL to the page in WP Job Manager's settings to make the change.
+#: inc/core/resumes/admin/settings.php:258
+msgid "This will help prevent bots from submitting resumes. You must have entered a valid site key and secret key in <a href=\"%s\">WP Job Manager's settings</a>."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:267
+msgid "Apply with Resume"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:272
+msgid "Email Based Applications"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:273
+msgid "Allow candidates to apply to jobs which use the email application method using their online resume"
+msgstr ""
+
+#. translators: Placeholder is link to settings tab which includes email Notifications.
+#: inc/core/resumes/admin/settings.php:276
+msgid "The employer will be mailed their message and a private link to the resume. Manage notification from the <a href=\"%s\" class=\"nav-internal\">Email Notifications</a> settings tab."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:284
+msgid "Website Based Applications"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:285
+msgid "Allow candidates to apply to jobs which use the the website URL application method using their online resume"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:286
+msgid "The application will be stored in the database."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:292
+msgid "Force Resume Creation"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:293
+msgid "Force candidates to create an online resume before applying to a job"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:294
+msgid "Candidates without a resume on file will be taken through the resume submission process. Other details, such as the application email address or application forms, will be hidden."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:301
+msgid "Force Apply with Resume"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:302
+msgid "Force candidates to apply through Resume Manager"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:303
+msgid "If the apply forms are enabled above, they must be used to apply. All other application methods will be hidden."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:315
+msgid "Submit Resume Page"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:316
+msgid "Select the page where you have placed the [submit_resume_form] shortcode. This lets the plugin know where the form is located."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:322
+msgid "Candidate Dashboard Page"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:323
+msgid "Select the page where you have placed the [candidate_dashboard] shortcode. This lets the plugin know where the dashboard is located."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:329
+msgid "Resume Listings Page"
+msgstr ""
+
+#. translators: Placeholder is link to settings tab which includes resume visibility settings.
+#: inc/core/resumes/admin/settings.php:332
+msgid "Select the page where you have placed the [resumes] shortcode. This lets the plugin know where the resume listings page is located. Manage access to this page and resumes from the <a href=\"%s\" class=\"nav-internal\">Resume Visibility</a> tab."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:340
+msgid "Resume Visibility"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:345
+msgid "View Resume name Capability"
+msgstr ""
+
+#. translators: Placeholder %s is the url to the WordPress core documentation for capabilities and roles.
+#: inc/core/resumes/admin/settings.php:349
+msgid "Enter which <a href=\"%s\">roles or capabilities</a> allow visitors to view resumes names. If no value is selected, everyone (including logged out guests) will be able view candidates full name."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:354
+msgid "Browse Resume Capability"
+msgstr ""
+
+#. translators: Placeholder %s is the url to the WordPress core documentation for capabilities and roles.
+#: inc/core/resumes/admin/settings.php:358
+msgid "Enter which <a href=\"%s\">roles or capabilities</a> allow visitors to browse resumes. If no value is selected, everyone (including logged out guests) will be able to browse resumes.."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:363
+msgid "View Resume Capability"
+msgstr ""
+
+#. translators: Placeholder %s is the url to the WordPress core documentation for capabilities and roles.
+#: inc/core/resumes/admin/settings.php:367
+msgid "Enter which <a href=\"%s\">roles or capabilities</a> allow visitors to view a single resume. If no value is selected, everyone (including logged out guests) will be able to view resumes."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:372
+msgid "Submit Capability"
+msgstr ""
+
+#. translators: Placeholder %s is the url to the WordPress core documentation for capabilities and roles.
+#: inc/core/resumes/admin/settings.php:376
+msgid "Enter which <a href=\"%s\">roles or capabilities</a> allow visitors to submit a resume. If no value is selected, everyone (including logged out guests) will be able to submit resumes."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:381
+msgid "Contact Details Capability"
+msgstr ""
+
+#. translators: Placeholder %s is the url to the WordPress core documentation for capabilities and roles.
+#: inc/core/resumes/admin/settings.php:385
+msgid "Enter which <a href=\"%s\">roles or capabilities</a> allow visitors to view contact details on a resume. If no value is selected, contact details will be publicly available."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:390
+msgid "Search Engine Visibility"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:391
+msgid "Discourage search engines from indexing resume listings"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:392
+msgid "Search engines choose whether to honor this request."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:399
+msgid "Other"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:405
+msgid "Singular Label"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:406
+msgid "You can change the singular label and use a custom label instead of \"Resume\"."
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:413
+msgid "Plural Label"
+msgstr ""
+
+#: inc/core/resumes/admin/settings.php:414
+msgid "You can change the plural label and use a custom label instead of \"Resumes\"."
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:99
+msgid "Candidate Data"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:100, inc/core/resumes/forms/submit-resume.php:301
+msgid "URL(s)"
+msgstr ""
+
+#. translators: %1$s placeholder is the object type singular name; %2$s is the relative date the resume was edited.
+#: inc/core/resumes/admin/writepanels.php:162
+msgid "%1$s was last modified by the user on %2$s."
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:265
+msgid "Your site"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:270, inc/core/resumes/admin/writepanels.php:368, inc/core/resumes/forms/submit-resume.php:317
+msgid "URL"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:290, inc/core/resumes/forms/submit-resume.php:336
+msgid "Institution"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:297, inc/core/resumes/forms/submit-resume.php:342
+msgid "Certification(s)"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:303, inc/core/resumes/admin/writepanels.php:342, inc/core/resumes/forms/submit-resume.php:348, inc/core/resumes/forms/submit-resume.php:383
+msgid "Start/end date"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:329, inc/core/resumes/forms/submit-resume.php:371
+msgid "Employer"
+msgstr ""
+
+#: inc/core/resumes/admin/writepanels.php:366, inc/core/resumes/forms/submit-resume.php:306
+msgid "Optionally provide links to any of your websites or social network profiles."
+msgstr ""
+
+#: inc/core/resumes/emails/admin-new-resume.php:27
+msgid "Admin Notice of New Resume"
+msgstr ""
+
+#: inc/core/resumes/emails/admin-new-resume.php:36
+msgid "Send a notice to the site administrator when a new resume is submitted on the frontend."
+msgstr ""
+
+#. translators: Placeholder is title of resume.
+#: inc/core/resumes/emails/admin-new-resume.php:51
+msgid "New Resume Submitted: %s"
+msgstr ""
+
+#: inc/core/resumes/emails/admin-new-resume.php:117
+msgid "Notify Email Address(es)"
+msgstr ""
+
+#: inc/core/resumes/emails/admin-new-resume.php:118
+msgid "Separate email addresses with commas. Recipients are assumed to have administrator access to this WordPress instance."
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:28
+msgid "Employer Notice of Application With Resume"
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:37
+msgid "Send a notice to the employer when someone applies to a job listing with a resume when the job listing application method is email."
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:60
+msgid "Hello"
+msgstr ""
+
+#. translators: Placeholder is the job title.
+#: inc/core/resumes/emails/apply-with-resume.php:62
+msgid "A candidate has applied online for the position \"%s\"."
+msgstr ""
+
+#. translators: Placeholder is the URL to their resume.
+#: inc/core/resumes/emails/apply-with-resume.php:67
+msgid "You can view their online resume here: %s."
+msgstr ""
+
+#. translators: Placeholder is the candidate email address.
+#: inc/core/resumes/emails/apply-with-resume.php:69
+msgid "Or you can contact them directly at: %s."
+msgstr ""
+
+#. translators: Placeholder is title of resume.
+#: inc/core/resumes/emails/apply-with-resume.php:100
+msgid "Resume submitted for job listing: %s"
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:253
+msgid "Legacy Message"
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:254
+msgid "Use legacy filter to generate email content"
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:255
+msgid "Legacy filter <code>apply_with_resume_email_message</code> has been set with a customization. Disable to use new template."
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:263
+msgid "Resume Details"
+msgstr ""
+
+#: inc/core/resumes/emails/apply-with-resume.php:264
+msgid "Include resume details in the content of the email"
+msgstr ""
+
+#: inc/core/resumes/forms/edit-resume.php:84, inc/core/resumes/forms/submit-resume.php:1164
+msgid "Invalid resume"
+msgstr ""
+
+#: inc/core/resumes/forms/edit-resume.php:120
+msgid "Submit changes for approval"
+msgstr ""
+
+#: inc/core/resumes/forms/edit-resume.php:185
+msgid "Your changes have been saved."
+msgstr ""
+
+#: inc/core/resumes/forms/edit-resume.php:194
+msgid "Your changes have been submitted and your resume will be available again once approved."
+msgstr ""
+
+#: inc/core/resumes/forms/edit-resume.php:192
+msgid "View &rarr;"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:69
+msgid "Submit Details"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:75
+msgid "Preview"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:81
+msgid "Done"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:218
+msgid "Your name"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:221
+msgid "Your full name"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:226
+msgid "Your email"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:234
+msgid "Professional title"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:237
+msgid "e.g. \"Web Developer\""
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:270
+msgid "A link to a video about yourself"
+msgstr ""
+
+#. translators: Placeholder is the singular resume label, e.g. "Resume".
+#: inc/core/resumes/forms/submit-resume.php:275
+msgid "%s category"
+msgstr ""
+
+#. translators: Placeholder is the singular resume label, e.g. "Resume".
+#: inc/core/resumes/forms/submit-resume.php:285
+msgid "%s Content"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:296
+msgid "Comma separate a list of relevant skills"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:329
+msgid "Add Education"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:364
+msgid "Add Experience"
+msgstr ""
+
+#. translators: Placeholder is the singular resume label, e.g. "Resume".
+#: inc/core/resumes/forms/submit-resume.php:399
+msgid "%s file"
+msgstr ""
+
+#. translators: 1: Resume label, 2: Maximum upload file size.
+#: inc/core/resumes/forms/submit-resume.php:404
+msgid "Optionally upload your %1$s for employers to view. Max. file size: %2$s."
+msgstr ""
+
+#. translators: Placeholder %s is the name of the required field.
+#: inc/core/resumes/forms/submit-resume.php:581
+msgid "%s is a required field"
+msgstr ""
+
+#. translators: Placeholder %s is the name of the invalid field.
+#: inc/core/resumes/forms/submit-resume.php:594, inc/core/resumes/forms/submit-resume.php:588
+msgid "%s is invalid"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:601
+msgid "Please enter a valid email address"
+msgstr ""
+
+#. translators: Placeholder %d is the maximum number of skills they can enter.
+#: inc/core/resumes/forms/submit-resume.php:615
+msgid "Please enter no more than %d skills."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:632
+msgid "Invalid attachment provided."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:707
+msgid "Preview &rarr;"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:757
+msgid "Please enter a username."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:761
+msgid "Please enter a password."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:765
+msgid "Please enter your email address."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:771
+msgid "Passwords must match."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:779
+msgid "Password is not valid."
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:777
+msgid "Invalid Password: %s"
+msgstr ""
+
+#: inc/core/resumes/forms/submit-resume.php:802
+msgid "You must be signed in to post your resume."
+msgstr ""
+
+#: templates/resumes/emails/plain/admin-new-resume.php:30
+msgid "A new %3$s has been submitted to %1$s (%2$s)."
+msgstr ""
+
+#. translators: Placeholder is URL for WP admin.
+#: templates/resumes/emails/plain/admin-new-resume.php:43
+msgid "It is awaiting approval by an administrator in WordPress admin (%s)."
+msgstr ""
+
+#. translators:  %1$s is the name of the site, %2$s is the URL for the site, %3$s is the job listing title, %4$s is the job listing permalink.
+#: templates/resumes/emails/plain/apply-with-resume.php:31
+msgid "A candidate has applied on the site %1$s (%2$s) for the position %3$s (%4$s)."
+msgstr ""
+
+#: templates/resumes/emails/plain/apply-with-resume.php:44
+msgid "You can view their online %2$s by visiting %1$s."
+msgstr ""
+
+#: inc/core/applications/admin/views/html-form-field-editor-row.php:33, inc/core/applications/admin/views/html-form-field-editor-row.php:36
+msgid "N/A"
+msgstr ""
+
+#: inc/core/applications/admin/views/html-form-field-editor-row.php:38
+msgid "Pipe (|) separate options."
+msgstr ""
+
+#: inc/core/applications/admin/views/html-form-field-editor-row.php:41
+msgid "Multiple Files?"
+msgstr ""

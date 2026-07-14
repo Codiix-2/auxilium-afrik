@@ -1,0 +1,3883 @@
+# Copyright (C) 2026 cariera
+# This file is distributed under the same license as the cariera package.
+msgid ""
+msgstr ""
+"Project-Id-Version: cariera\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-28 15:51+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:9
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:10
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: 404.php:13
+msgid "Back Home"
+msgstr ""
+
+#: comments.php:9
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:20
+msgid "Name"
+msgstr ""
+
+#: comments.php:26, wp-job-manager-applications/job-application-header.php:53, wp-job-manager-applications/job-application-header.php:53
+msgid "Email"
+msgstr ""
+
+#: comments.php:36
+msgid "Comment"
+msgstr ""
+
+#: comments.php:38
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:47
+msgid "No comments"
+msgstr ""
+
+#: comments.php:48
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "% Comments"
+msgstr ""
+
+#: searchform.php:2, woocommerce/product-searchform.php:25
+msgid "To search hit enter"
+msgstr ""
+
+#: inc/assets.php:123
+msgid "Main Menu"
+msgstr ""
+
+#: inc/assets.php:124
+msgid "Views"
+msgstr ""
+
+#: inc/demo.php:74
+msgid "You can not take this action on a demo account."
+msgstr ""
+
+#: inc/demo.php:89
+msgid "File uploads are disabled on the demo site."
+msgstr ""
+
+#: inc/demo.php:112
+msgid "Demo Handling"
+msgstr ""
+
+#: inc/demo.php:116
+msgid "Delete All Demo Data"
+msgstr ""
+
+#: inc/demo.php:117
+msgid "This will delete all unneeded demo data. Pending listings, applications, media etc."
+msgstr ""
+
+#: inc/demo.php:120
+msgid "Delete all demo "
+msgstr ""
+
+#: inc/demo.php:185
+msgid "All data except the demo data has been deleted."
+msgstr ""
+
+#: inc/mega-menu.php:446
+msgid "Trending"
+msgstr ""
+
+#: inc/mega-menu.php:444
+msgid "Hot"
+msgstr ""
+
+#: inc/mega-menu.php:442, job_manager/content-job_listing.php:132, job_manager/job-templates/content-job_listing_grid1.php:89, job_manager/job-templates/content-job_listing_grid2.php:90, job_manager/job-templates/content-job_listing_list1.php:126, job_manager/job-templates/content-job_listing_list2.php:129, job_manager/job-templates/content-job_listing_list3.php:89, job_manager/job-templates/content-job_listing_list4.php:89, job_manager/single-job/page-header.php:40
+msgid "New"
+msgstr ""
+
+#: inc/mega-menu.php:608
+msgid "Enable Icons"
+msgstr ""
+
+#: inc/mega-menu.php:614
+msgid "Icon"
+msgstr ""
+
+#: inc/mega-menu.php:615
+msgid "Select Icons"
+msgstr ""
+
+#: inc/mega-menu.php:635
+msgid "Enable megamenu"
+msgstr ""
+
+#: inc/mega-menu.php:641
+msgid "Mega Menu Width. For example \"55%\""
+msgstr ""
+
+#: inc/mega-menu.php:647
+msgid "Number of columns"
+msgstr ""
+
+#: inc/mega-menu.php:654
+msgid "2 columns"
+msgstr ""
+
+#: inc/mega-menu.php:660
+msgid "3 columns"
+msgstr ""
+
+#: inc/mega-menu.php:666
+msgid "4 columns"
+msgstr ""
+
+#: inc/mega-menu.php:674
+msgid "Set a badge for your menu item"
+msgstr ""
+
+#: inc/mega-menu.php:676
+msgid "No Badge"
+msgstr ""
+
+#: inc/mega-menu.php:677
+msgid "New Badge"
+msgstr ""
+
+#: inc/mega-menu.php:678
+msgid "Hot Badge"
+msgstr ""
+
+#: inc/mega-menu.php:679
+msgid "Trending Badge"
+msgstr ""
+
+#: inc/mega-menu.php:688
+msgid "Hide on mobile navigation"
+msgstr ""
+
+#: inc/notices.php:56
+msgid "PHP Compatibility Issue"
+msgstr ""
+
+#. translators: %s: maximum supported PHP version
+#: inc/notices.php:59
+msgid "Your current PHP version (%1$s) is not fully supported. This version of Cariera supports PHP up to %2$s."
+msgstr ""
+
+#: inc/setup.php:92
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:93
+msgid "User Extra Header Menu for Employer"
+msgstr ""
+
+#: inc/setup.php:94
+msgid "User Extra Header Menu for Candidate"
+msgstr ""
+
+#: inc/setup.php:95
+msgid "Dashboard Menu: Admin"
+msgstr ""
+
+#: inc/setup.php:96
+msgid "Dashboard Menu: Employer"
+msgstr ""
+
+#: inc/setup.php:97
+msgid "Dashboard Menu: Candidate"
+msgstr ""
+
+#: inc/setup.php:158
+msgid "Sidebar"
+msgstr ""
+
+#: inc/setup.php:159
+msgid "The primary widget area"
+msgstr ""
+
+#: inc/setup.php:170
+msgid "Jobs - Sidebar"
+msgstr ""
+
+#: inc/setup.php:171
+msgid "The sidebar widget area that can be used on general job pages."
+msgstr ""
+
+#: inc/setup.php:182
+msgid "Single Job - Sidebar"
+msgstr ""
+
+#: inc/setup.php:183
+msgid "The sidebar widget area for single job page."
+msgstr ""
+
+#: inc/setup.php:194
+msgid "Company - Sidebar"
+msgstr ""
+
+#: inc/setup.php:195
+msgid "The sidebar widget area that can be used on general company pages."
+msgstr ""
+
+#: inc/setup.php:206
+msgid "Single Company - Sidebar"
+msgstr ""
+
+#: inc/setup.php:207
+msgid "The sidebar widget area for single company page."
+msgstr ""
+
+#: inc/setup.php:218
+msgid "Resumes - Sidebar"
+msgstr ""
+
+#: inc/setup.php:219
+msgid "The sidebar widget area that can be used on general resume pages."
+msgstr ""
+
+#: inc/setup.php:230
+msgid "Single Resume - Sidebar"
+msgstr ""
+
+#: inc/setup.php:231
+msgid "The sidebar widget area for single resume page"
+msgstr ""
+
+#: inc/setup.php:242
+msgid "Shop - Sidebar"
+msgstr ""
+
+#: inc/setup.php:243
+msgid "The shop sidebar widget area"
+msgstr ""
+
+#. translators: %s is the column number.
+#: inc/setup.php:255
+msgid "Footer Widget Area Column %s"
+msgstr ""
+
+#: inc/setup.php:257
+msgid "Choose what should display in this footer widget column."
+msgstr ""
+
+#: job_manager/access-denied-browse-job_listings.php:19
+msgid "Sorry, you do not have permission to browse job listings."
+msgstr ""
+
+#: job_manager/access-denied-single-job_listing.php:24
+msgid "Sorry, you do not have permission to view this job listing."
+msgstr ""
+
+#: job_manager/access-denied-single-job_listing.php:22, wp-job-manager-resumes/access-denied-single-resume.php:21
+msgid "This listing has expired"
+msgstr ""
+
+#: job_manager/account-signin.php:55, wp-job-manager-companies/account-signin.php:53, wp-job-manager-resumes/account-signin.php:57
+msgid "You can proceed without an account, but if you already have one, feel free to log in."
+msgstr ""
+
+#: job_manager/account-signin.php:53
+msgid "You must sign in to create a new listing."
+msgstr ""
+
+#: job_manager/account-signin.php:47, wp-job-manager-companies/account-signin.php:46
+msgid "If you don't have an account you can %s create one below by entering your email address/username."
+msgstr ""
+
+#: job_manager/account-signin.php:47, wp-job-manager-companies/account-signin.php:46
+msgid "optionally"
+msgstr ""
+
+#: job_manager/account-signin.php:49
+msgid "Your account details will be confirmed via email."
+msgstr ""
+
+#: job_manager/account-signin.php:74, job_manager/job-dashboard-login.php:25, templates/login-register.php:60, templates/login-register.php:95, wp-job-manager-alerts/my-alerts-login.php:25, wp-job-manager-applications/application-form-login.php:26, wp-job-manager-applications/application-form-login.php:21, wp-job-manager-bookmarks/my-bookmarks-login.php:25, wp-job-manager-companies/account-signin.php:72, wp-job-manager-companies/company-dashboard-login.php:25, wp-job-manager-resumes/account-signin.php:76, wp-job-manager-resumes/candidate-dashboard-login.php:25, templates/popups/login-register.php:24
+msgid "Sign in"
+msgstr ""
+
+#: job_manager/account-signin.php:82, wp-job-manager-companies/account-signin.php:79, wp-job-manager-resumes/account-signin.php:85
+msgid "Registration Details"
+msgstr ""
+
+#: job_manager/account-signin.php:89, job_manager/job-submit.php:53, job_manager/job-submit.php:78, wp-job-manager-companies/account-signin.php:85, wp-job-manager-companies/company-submit-fields.php:24, wp-job-manager-resumes/account-signin.php:91, wp-job-manager-resumes/resume-submit.php:47, wp-job-manager-resumes/form-fields/repeated-field.php:25, wp-job-manager-resumes/form-fields/repeated-field.php:49
+msgid "(optional)"
+msgstr ""
+
+#: job_manager/account-signin.php:25, wp-job-manager-resumes/account-signin.php:27
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr ""
+
+#: job_manager/account-signin.php:30, wp-job-manager-companies/account-signin.php:30, wp-job-manager-resumes/account-signin.php:32
+msgid "Sign out"
+msgstr ""
+
+#. translators: %s is the count of listings.
+#: job_manager/archive-job_listing.php:25
+msgid "We found %s Job Listing in our database"
+msgid_plural "We found %s Job Listings in our database"
+msgstr[0] ""
+msgstr[1] ""
+
+#: job_manager/content-single-job_listing-company.php:79, job_manager/single-job/single-job_listing-company-v2.php:63, wp-job-manager-companies/single-company/single-company-details.php:40
+msgid "The company's website"
+msgstr ""
+
+#: job_manager/content-single-job_listing-company.php:81, job_manager/single-job/single-job_listing-company-v2.php:65, wp-job-manager-companies/single-company/single-company-details.php:40
+msgid "Website"
+msgstr ""
+
+#: job_manager/job-application.php:27
+msgid "Apply for job"
+msgstr ""
+
+#: job_manager/job-application.php:32
+msgid "Apply for this job"
+msgstr ""
+
+#: job_manager/job-dashboard-login.php:24
+msgid "You need to be signed in to manage your listings."
+msgstr ""
+
+#: job_manager/job-dashboard-overlay.php:49
+msgid "View"
+msgstr ""
+
+#: job_manager/job-dashboard.php:44
+msgid "View Job Statistics"
+msgstr ""
+
+#: job_manager/job-dashboard.php:53, job_manager/job-dashboard.php:55, job_manager/job-resume-search-company-form.php:55, job_manager/job-resume-search-job-form.php:56, job_manager/job-resume-search-resume-form.php:55, wp-job-manager-companies/company-dashboard.php:39, wp-job-manager-companies/company-dashboard.php:39
+msgid "Search"
+msgstr ""
+
+#: job_manager/job-dashboard.php:63
+msgid "Add Job"
+msgstr ""
+
+#: job_manager/job-dashboard.php:91, wp-job-manager-companies/company-dashboard.php:74, wp-job-manager-resumes/candidate-dashboard.php:69
+msgid "Actions"
+msgstr ""
+
+#: job_manager/job-dashboard.php:77, wp-job-manager-companies/company-dashboard.php:60
+msgid "No results found for \"%s\"."
+msgstr ""
+
+#: job_manager/job-dashboard.php:78, wp-job-manager-companies/company-dashboard.php:61
+msgid "You do not have any active listings."
+msgstr ""
+
+#: job_manager/job-filters.php:38, job_manager/job-filters.php:39, job_manager/job-resume-search-company-form.php:21, job_manager/job-resume-search-company-form.php:22, job_manager/job-resume-search-job-form.php:21, job_manager/job-resume-search-job-form.php:22, job_manager/job-resume-search-resume-form.php:21, job_manager/job-resume-search-resume-form.php:22, wp-job-manager-companies/company-filters.php:33, wp-job-manager-companies/company-filters.php:34, wp-job-manager-resume-alerts/my-alerts.php:30, wp-job-manager-resumes/resume-filters.php:37
+msgid "Keywords"
+msgstr ""
+
+#: job_manager/job-filters.php:43, job_manager/job-filters.php:44, job_manager/job-resume-search-company-form.php:26, job_manager/job-resume-search-company-form.php:27, job_manager/job-resume-search-job-form.php:27, job_manager/job-resume-search-job-form.php:28, job_manager/job-resume-search-resume-form.php:26, job_manager/job-resume-search-resume-form.php:27, wp-job-manager-alerts/alert-form.php:126, wp-job-manager-companies/company-filters.php:38, wp-job-manager-resume-alerts/alert-form.php:56, wp-job-manager-resume-alerts/my-alerts.php:38, wp-job-manager-resumes/resume-filters.php:42, job_manager/job-templates/content-job_listing_grid3.php:95, job_manager/job-templates/content-job_listing_list5.php:96, job_manager/single-job/single-job-listing-overview.php:90, wp-job-manager-companies/company-templates/content-company_grid1.php:54, wp-job-manager-companies/company-templates/content-company_list2.php:65, wp-job-manager-companies/single-company/single-company-overview.php:73, wp-job-manager-resumes/resume-templates/content-resume_grid1.php:55, wp-job-manager-resumes/resume-templates/content-resume_list2.php:68
+msgid "Location"
+msgstr ""
+
+#: job_manager/job-filters.php:52
+msgid "Remote positions only"
+msgstr ""
+
+#: job_manager/job-filters.php:64, job_manager/job-resume-search-company-form.php:35, job_manager/job-resume-search-job-form.php:36, job_manager/job-resume-search-resume-form.php:35, wp-job-manager-companies/company-filters.php:50, wp-job-manager-resumes/resume-filters.php:54, job_manager/single-job/single-job-listing-overview.php:102, wp-job-manager-companies/single-company/single-company-overview.php:86, wp-job-manager-resumes/single-resume/single-resume-overview.php:48
+msgid "Category"
+msgstr ""
+
+#: job_manager/job-filters.php:86, wp-job-manager-companies/company-filters.php:69, wp-job-manager-resume-alerts/alert-form.php:78, wp-job-manager-resumes/resume-filters.php:74
+msgid "Any category"
+msgstr ""
+
+#: job_manager/job-filters.php:120
+msgid "Search Jobs"
+msgstr ""
+
+#: job_manager/job-filters.php:130
+msgid "Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in order to view listings."
+msgstr ""
+
+#: job_manager/job-preview.php:35
+msgid "&larr; Edit listing"
+msgstr ""
+
+#: job_manager/job-preview.php:39
+msgid "Submit Listing &rarr;"
+msgstr ""
+
+#: job_manager/job-resume-search-company-form.php:54, job_manager/job-resume-search-job-form.php:55, job_manager/job-resume-search-resume-form.php:54
+msgid "Button"
+msgstr ""
+
+#: job_manager/job-submit.php:34
+msgid "You are editing an existing job. %s"
+msgstr ""
+
+#: job_manager/job-submit.php:34
+msgid "Create A New Job"
+msgstr ""
+
+#: job_manager/job-submit.php:72, wp-job-manager-companies/listing-submission-flow.php:29, inc/integrations/wpjm/job-manager.php:523
+msgid "Company Details"
+msgstr ""
+
+#: job_manager/job-submit.php:106
+msgid "Save Draft"
+msgstr ""
+
+#: job_manager/job-submitted.php:24, wp-job-manager-companies/company-submitted.php:24, wp-job-manager-resumes/resume-submitted.php:25
+msgid "Successfully Submitted!"
+msgstr ""
+
+#. translators: %1$s is the job listing post type name, %2$s is the job listing URL.
+#: job_manager/job-submitted.php:43
+msgid "%1$s listed successfully. To view your listing <a href=\"%2$s\">click here</a>."
+msgstr ""
+
+#. translators: Placeholder %s is the job listing post type name.
+#: job_manager/job-submitted.php:54
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+
+#: job_manager/job-submitted.php:76
+msgid "  <a href=\"%s\"> %s</a>"
+msgstr ""
+
+#: job_manager/job-submitted.php:68
+msgid "  <a href=\"%1$s\"> View your %2$s</a>"
+msgstr ""
+
+#. translators: %1$s is the job listing post type name.
+#: job_manager/job-submitted.php:99
+msgid "%1$s submitted successfully."
+msgstr ""
+
+#: job_manager/listing-submission-flow.php:73, job_manager/listing-submission-flow.php:81, wp-job-manager-resumes/listing-submission-flow.php:73, wp-job-manager-resumes/listing-submission-flow.php:81
+msgid "Choose Package"
+msgstr ""
+
+#: job_manager/listing-submission-flow.php:76
+msgid "Listing Details"
+msgstr ""
+
+#: job_manager/listing-submission-flow.php:79, inc/integrations/wpjm/job-manager.php:544
+msgid "Preview Listing"
+msgstr ""
+
+#: job_manager/listing-submission-flow.php:84, wp-job-manager-resumes/listing-submission-flow.php:84
+msgid "Checkout"
+msgstr ""
+
+#: templates/fullwidth-page.php:10
+msgid "Fullwidth Page"
+msgstr ""
+
+#: templates/fullwidth-page.php:33, templates/content/content-page.php:35
+msgid "Pages:"
+msgstr ""
+
+#: templates/login-register.php:10
+msgid "Login - Register"
+msgstr ""
+
+#: templates/login-register.php:65, templates/popups/login-register.php:31
+msgid "Don't have an account?"
+msgstr ""
+
+#: templates/login-register.php:66, templates/login-register.php:81, templates/popups/login-register.php:32, templates/popups/login-register.php:51
+msgid "Forgot Password?"
+msgstr ""
+
+#: templates/login-register.php:75, templates/popups/login-register.php:43
+msgid "Sign Up"
+msgstr ""
+
+#: templates/login-register.php:80, templates/popups/login-register.php:50
+msgid "Already registered?"
+msgstr ""
+
+#: templates/login-register.php:90, templates/popups/login-register.php:63
+msgid "Forgot Password"
+msgstr ""
+
+#: templates/login-register.php:101
+msgid "Back to home"
+msgstr ""
+
+#: templates/user-dashboard.php:10
+msgid "User Dashboard"
+msgstr ""
+
+#: templates/user-dashboard.php:46
+msgid "Dashboard Navigation"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:120, wc-paid-listings/resume-package-selection.php:124
+msgid "No packages found"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:29, wc-paid-listings/resume-package-selection.php:29
+msgid "Your Packages:"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:47
+msgid "%s job posted"
+msgid_plural "%s jobs posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:45
+msgid "%1$s job posted out of %2$d"
+msgid_plural "%1$s jobs posted out of %2$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:51, wc-paid-listings/package-selection.php:100, wc-paid-listings/resume-package-selection.php:51, wc-paid-listings/resume-package-selection.php:103
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:62
+msgid "Jobs Remaining"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:71, wc-paid-listings/resume-package-selection.php:72
+msgid "Purchase Package:"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:99
+msgid "%1$s for %2$s job"
+msgid_plural "%1$s for %2$s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:99, wc-paid-listings/resume-package-selection.php:100
+msgid "unlimited"
+msgstr ""
+
+#: wc-paid-listings/package-selection.php:108, wc-paid-listings/resume-package-selection.php:113
+msgid "%s days payment"
+msgid_plural "%s days payment"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/package-selection.php:117, wc-paid-listings/resume-package-selection.php:121
+msgid "Select a package from above and submit."
+msgstr ""
+
+#: wc-paid-listings/resume-package-selection.php:47
+msgid "%s resume posted"
+msgid_plural "%s resumes posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/resume-package-selection.php:45
+msgid "%1$s resume posted out of %2$d"
+msgid_plural "%1$s resumes posted out of %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc-paid-listings/resume-package-selection.php:62
+msgid "Resumes Remaining"
+msgstr ""
+
+#: wc-paid-listings/resume-package-selection.php:100
+msgid "%1$s to post %2$d resume"
+msgid_plural "%1$s to post %2$s resumes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:31, wp-job-manager-alerts/alert-form.php:108, wp-job-manager-resume-alerts/alert-form.php:28
+msgid "Keyword"
+msgstr ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:43
+msgid "Send e-mails to <strong>%s</strong> about new jobs matching this search."
+msgstr ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:36
+msgid "Get e-mails about new jobs matching this search."
+msgstr ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:39, wp-job-manager-alerts/add-alert-modal.php:40
+msgid "Email address"
+msgstr ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:48
+msgid "Frequency: "
+msgstr ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:65
+msgid "Subscribe"
+msgstr ""
+
+#: wp-job-manager-alerts/add-alert-modal.php:67
+msgid "Cancel"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:43
+msgid "Sign in to manage your existing alerts."
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:46
+msgid "Sign In"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:61
+msgid "Alert Details"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:74, wp-job-manager-alerts/alert-form.php:66
+msgid "E-mail"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:69
+msgid "Enter your e-mail address"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:81
+msgid "E-mail Frequency"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:88, wp-job-manager-resume-alerts/alert-form.php:22, wp-job-manager-resume-alerts/my-alerts.php:29
+msgid "Alert Name"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:92, wp-job-manager-resume-alerts/alert-form.php:24
+msgid "Enter a name for your alert"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:100
+msgid "Search terms"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:103
+msgid "The alert e-mails will contain new job listings matching these terms. Leave blank to receive all new jobs posted."
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:112
+msgid "Optionally add a keyword to match jobs against"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:130, wp-job-manager-resume-alerts/alert-form.php:58
+msgid "Optionally define a location to search against"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:118
+msgid "Job Region"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:137, wp-job-manager-resume-alerts/alert-form.php:64, wp-job-manager-resume-alerts/my-alerts.php:32, inc/customizer/blog.php:135, inc/customizer/blog.php:155, wp-job-manager-resumes/resume-templates/content-resume_list2.php:84
+msgid "Categories"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:145
+msgid "Tags"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:153
+msgid "Job Type"
+msgstr ""
+
+#: wp-job-manager-alerts/alert-form.php:169, wp-job-manager-resume-alerts/alert-form.php:113
+msgid "Save alert"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts-login.php:24
+msgid "Sign in or create an account to manage your alerts."
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:30
+msgid "Your job alerts are shown in the list below and will be emailed to %s."
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:51
+msgid "(Next: %s)"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:45
+msgid "Disabled"
+msgstr ""
+
+#: wp-job-manager-alerts/my-alerts.php:113, wp-job-manager-resume-alerts/my-alerts.php:192
+msgid "Add alert"
+msgstr ""
+
+#: wp-job-manager-applications/application-form-login.php:29
+msgid "You must %s to apply for this position."
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:21
+msgid "Application status"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:32
+msgid "Rating (out of 5)"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:39
+msgid "Save changes"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-edit.php:42
+msgid "Delete this application"
+msgstr ""
+
+#. translators: Placeholder %s is the job title.
+#: wp-job-manager-applications/job-application-header.php:48
+msgid "Your job application for %s"
+msgstr ""
+
+#. translators: Placeholder %s is the applicant name.
+#: wp-job-manager-applications/job-application-header.php:50
+msgid "Hello %s"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-header.php:60
+msgid "View Resume"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-header.php:68, wp-job-manager-resume-alerts/my-alerts.php:151, wp-job-manager-resumes/candidate-dashboard.php:138, wp-job-manager-resumes/candidate-dashboard.php:150, wp-job-manager-resumes/candidate-dashboard.php:163
+msgid "Edit"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-header.php:71, wp-job-manager-bookmarks/my-bookmarks.php:26
+msgid "Notes"
+msgstr ""
+
+#: wp-job-manager-applications/job-application-header.php:74
+msgid "Details"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:24
+msgid "Download CSV"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:26
+msgid "The job applications for \"%s\" are listed below."
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:35
+msgid "Filter by status..."
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:44
+msgid "Newest first"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:45
+msgid "Sort by name"
+msgstr ""
+
+#: wp-job-manager-applications/job-applications.php:46
+msgid "Sort by rating"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:25
+msgid "Job"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:26
+msgid "Date Applied"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:27, inc/onboarding/plugins/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#: wp-job-manager-applications/past-applications.php:28
+msgid "Application Message"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-popup.php:23
+msgid "Bookmark Details"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-trigger.php:21
+msgid "Bookmarked"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-trigger.php:21, wp-job-manager-bookmarks/my-bookmarks.php:25
+msgid "Bookmark"
+msgstr ""
+
+#: wp-job-manager-bookmarks/bookmark-trigger.php:36
+msgid "Login to bookmark"
+msgstr ""
+
+#: wp-job-manager-bookmarks/my-bookmarks-login.php:24
+msgid "You need to be signed in to manage your bookmarks."
+msgstr ""
+
+#: wp-job-manager-bookmarks/my-bookmarks.php:59, wp-job-manager-resume-alerts/my-alerts.php:159, wp-job-manager-resumes/candidate-dashboard.php:179
+msgid "Delete"
+msgstr ""
+
+#: wp-job-manager-bookmarks/my-bookmarks.php:77
+msgid "You currently have no bookmarks"
+msgstr ""
+
+#: wp-job-manager-companies/access-denied-browse-companies.php:18
+msgid "Sorry, you do not have permission to browse companies."
+msgstr ""
+
+#: wp-job-manager-companies/access-denied-single-company.php:20
+msgid "Sorry, you do not have permission to view this company."
+msgstr ""
+
+#: wp-job-manager-companies/access-denied-submit-company.php:18
+msgid "Sorry, you do not have permission to submit a company."
+msgstr ""
+
+#: wp-job-manager-companies/account-signin.php:50
+msgid "You must sign in to create a company."
+msgstr ""
+
+#: wp-job-manager-companies/account-signin.php:25
+msgid "You are currently signed in as %s."
+msgstr ""
+
+#. translators: %s is the count of listings.
+#: wp-job-manager-companies/archive-company.php:25
+msgid "We found %s Company in our database"
+msgid_plural "We found %s Companies in our database"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-companies/company-contact.php:31
+msgid "Contact Us"
+msgstr ""
+
+#: wp-job-manager-companies/company-contact.php:35
+msgid "Contact Company"
+msgstr ""
+
+#: wp-job-manager-companies/company-dashboard-login.php:24
+msgid "You need to be signed in to manage your companies."
+msgstr ""
+
+#: wp-job-manager-companies/company-dashboard.php:46
+msgid "Add Company"
+msgstr ""
+
+#: wp-job-manager-companies/company-dashboard.php:98
+msgid "Default Company Logo"
+msgstr ""
+
+#. translators: 1: job count
+#: wp-job-manager-companies/company-dashboard.php:115, wp-job-manager-companies/company-templates/company-carousel.php:62, wp-job-manager-companies/company-templates/content-company_grid1.php:71, wp-job-manager-companies/company-templates/content-company_grid2.php:56, wp-job-manager-companies/company-templates/content-company_grid3.php:66, wp-job-manager-companies/company-templates/content-company_list1.php:84, wp-job-manager-companies/company-templates/content-company_list2.php:101, wp-job-manager-companies/single-company/single-company-overview.php:61
+msgid "%s Job"
+msgid_plural "%s Jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Placeholder is the expiration date of the company listing.
+#: wp-job-manager-companies/company-dashboard.php:125
+msgid "Expires in %s"
+msgstr ""
+
+#: wp-job-manager-companies/company-filters.php:39
+msgid "Locations"
+msgstr ""
+
+#: wp-job-manager-companies/company-filters.php:95
+msgid "Search Companies"
+msgstr ""
+
+#: wp-job-manager-companies/company-list.php:25
+msgid "All"
+msgstr ""
+
+#: wp-job-manager-companies/company-list.php:46, wp-job-manager-companies/company-list.php:44, wp-job-manager-companies/company-list.php:94
+msgid "Other"
+msgstr ""
+
+#: wp-job-manager-companies/company-preview.php:32
+msgid "&larr; Edit Company"
+msgstr ""
+
+#: wp-job-manager-companies/company-preview.php:34
+msgid "Submit Company &rarr;"
+msgstr ""
+
+#: wp-job-manager-companies/company-submit-denied.php:18
+msgid "You have exceeded the limit of company submissions, you can not post another company."
+msgstr ""
+
+#. translators: Placeholder is URL to view the company.
+#: wp-job-manager-companies/company-submitted.php:32
+msgid "Your company has been submitted successfully. To view your company %1$sclick here%2$s."
+msgstr ""
+
+#: wp-job-manager-companies/company-submitted.php:41
+msgid "Your company has been submitted successfully and is pending approval."
+msgstr ""
+
+#: wp-job-manager-companies/content-company-job-listings.php:47
+msgid "Open Job Positions"
+msgstr ""
+
+#: wp-job-manager-companies/content-no-companies-found.php:18
+msgid "There are no companies matching your search."
+msgstr ""
+
+#: wp-job-manager-companies/listing-submission-flow.php:32
+msgid "Preview Company"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/alert-form.php:30
+msgid "Optionally add a keyword to match resumes against"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/alert-form.php:35
+msgid "Resume Region"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/alert-form.php:48
+msgid "Any region"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/alert-form.php:87
+msgid "Resume Skills"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/alert-form.php:89
+msgid "Any resume skills"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/alert-form.php:101
+msgid "Email Frequency"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:23
+msgid "Your resume alerts are shown in the table below and will be emailed to %s."
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:35, inc/integrations/wpjm/resume-manager.php:255
+msgid "Skills"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:40
+msgid "Frequency"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:132
+msgid "Next: %1$s at %2$s"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:143
+msgid "Results"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:147
+msgid "Send&nbsp;Now"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:155, inc/customizer/blog.php:78, inc/customizer/blog.php:172, inc/customizer/companies.php:65, inc/customizer/companies.php:83, inc/customizer/companies.php:100, inc/customizer/dashboard.php:38, inc/customizer/extra.php:52, inc/customizer/footer.php:88, inc/customizer/general.php:65, inc/customizer/general.php:108, inc/customizer/general.php:125, inc/customizer/header.php:182, inc/customizer/header.php:199, inc/customizer/header.php:216, inc/customizer/header.php:245, inc/customizer/header.php:262, inc/customizer/header.php:286, inc/customizer/header.php:310, inc/customizer/jobs.php:78, inc/customizer/jobs.php:106, inc/customizer/jobs.php:195, inc/customizer/jobs.php:212, inc/customizer/resumes.php:78, inc/customizer/resumes.php:163, inc/customizer/resumes.php:180, inc/customizer/woocommerce.php:56, inc/customizer/woocommerce.php:73
+msgid "Enable"
+msgstr ""
+
+#: wp-job-manager-resume-alerts/my-alerts.php:155, inc/customizer/blog.php:79, inc/customizer/blog.php:173, inc/customizer/companies.php:66, inc/customizer/companies.php:84, inc/customizer/companies.php:101, inc/customizer/dashboard.php:39, inc/customizer/extra.php:53, inc/customizer/footer.php:89, inc/customizer/general.php:66, inc/customizer/general.php:109, inc/customizer/general.php:126, inc/customizer/header.php:183, inc/customizer/header.php:200, inc/customizer/header.php:217, inc/customizer/header.php:246, inc/customizer/header.php:263, inc/customizer/header.php:287, inc/customizer/header.php:311, inc/customizer/jobs.php:79, inc/customizer/jobs.php:107, inc/customizer/jobs.php:196, inc/customizer/jobs.php:213, inc/customizer/resumes.php:79, inc/customizer/resumes.php:164, inc/customizer/resumes.php:181, inc/customizer/woocommerce.php:57, inc/customizer/woocommerce.php:74
+msgid "Disable"
+msgstr ""
+
+#: wp-job-manager-resumes/access-denied-single-resume.php:23
+msgid "Sorry, you do not have permission to view this resume."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:45
+msgid "Have an account?"
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:54
+msgid "You must sign in to submit a resume."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:50
+msgid "If you don&rsquo;t have an account you can create one below by entering your email address. Your account details will be confirmed via email."
+msgstr ""
+
+#: wp-job-manager-resumes/account-signin.php:21
+msgid "Your account"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:60
+msgid "You can apply to this job and others using your online resume. Click the link below to submit your online resume and email your application to this employer."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:63
+msgid "Submit Resume &amp; Apply"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:26
+msgid "Apply using your online resume; just enter a short message to send your application."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:28
+msgid "Online resume"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:38
+msgid "Message"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:44
+msgctxt "default cover letter"
+msgid "To whom it may concern,"
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:46
+msgctxt "default cover letter"
+msgid "I am very interested in the %s position at %s. I believe my skills and work experience make me an ideal candidate for this role. I look forward to speaking with you soon about this position."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:48
+msgctxt "default cover letter"
+msgid "Thank you for your consideration."
+msgstr ""
+
+#: wp-job-manager-resumes/apply-with-resume.php:54
+msgid "Send Application"
+msgstr ""
+
+#. translators: %s is the count of listings.
+#: wp-job-manager-resumes/archive-resume.php:25
+msgid "We found %s Resume in our database"
+msgid_plural "We found %s Resumes in our database"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-resumes/candidate-dashboard-login.php:24
+msgid "You need to be signed in to manage your resumes."
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:39
+msgid "Your resume can be viewed, edited or removed below."
+msgid_plural "Your resumes can be viewed, edited or removed below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:44
+msgid "Add Resume"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:93
+msgid "Default Candidate Photo"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:109
+msgid "Title not specified"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:143
+msgid "Hide"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:155
+msgid "Publish"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:171
+msgid "Relist"
+msgstr ""
+
+#: wp-job-manager-resumes/candidate-dashboard.php:56
+msgid "You do not have any active resume listings."
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details.php:29
+msgid "Contact"
+msgstr ""
+
+#: wp-job-manager-resumes/contact-details.php:35
+msgid "Contact Candidate"
+msgstr ""
+
+#: wp-job-manager-resumes/content-resume.php:97, wp-job-manager-resumes/resume-templates/content-resume_list1.php:96
+msgid "%s ago"
+msgstr ""
+
+#: wp-job-manager-resumes/listing-submission-flow.php:76
+msgid "Resume Details"
+msgstr ""
+
+#: wp-job-manager-resumes/listing-submission-flow.php:79
+msgid "Preview Resume"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-filters.php:38
+msgid "All Resumes"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-filters.php:43
+msgid "Any Location"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-preview.php:36
+msgid "&larr; Edit resume"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-preview.php:38
+msgid "Submit Resume &rarr;"
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:42
+msgid "Your resume has been submitted successfully."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:35
+msgid "Your resume has been submitted successfully. To view your resume <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: wp-job-manager-resumes/resume-submitted.php:48
+msgid "Your resume has been submitted successfully and is pending approval."
+msgstr ""
+
+#. translators: %1$s is the url to the job listing; %2$s is the title of the job listing.
+#: wp-job-manager-resumes/resume-submitted.php:59
+msgid " You will be able to apply for <a href=\"%1$s\">%2$s</a> once your resume has been approved."
+msgstr ""
+
+#: inc/customizer/blog.php:14
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer/blog.php:15, inc/customizer/blog.php:41
+msgid "Blog related options"
+msgstr ""
+
+#: inc/customizer/blog.php:27
+msgid "Page Header Blog Options"
+msgstr ""
+
+#: inc/customizer/blog.php:28
+msgid "Page header related options"
+msgstr ""
+
+#: inc/customizer/blog.php:40
+msgid "General Blog Options"
+msgstr ""
+
+#: inc/customizer/blog.php:53
+msgid "Single Blog Post Options"
+msgstr ""
+
+#: inc/customizer/blog.php:54
+msgid "Single blog post related options"
+msgstr ""
+
+#: inc/customizer/blog.php:72
+msgid "Page Header"
+msgstr ""
+
+#: inc/customizer/blog.php:73
+msgid "Select \"disable\" to remove the page header section on the blog pages."
+msgstr ""
+
+#: inc/customizer/blog.php:89
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/blog.php:90
+msgid "Our Blog"
+msgstr ""
+
+#: inc/customizer/blog.php:109
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/blog.php:110
+msgid "Choose the sidebar side for your blog."
+msgstr ""
+
+#: inc/customizer/blog.php:115, inc/customizer/woocommerce.php:38
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:116, inc/customizer/woocommerce.php:39
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:117, inc/customizer/woocommerce.php:40
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:127
+msgid "Meta Informations on Blog Posts"
+msgstr ""
+
+#: inc/customizer/blog.php:128
+msgid "Set which elements of posts meta data you want to display on blog and archive pages."
+msgstr ""
+
+#: inc/customizer/blog.php:133, inc/customizer/blog.php:153
+msgid "Author"
+msgstr ""
+
+#: inc/customizer/blog.php:134, inc/customizer/blog.php:154
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/blog.php:136, inc/customizer/blog.php:156
+msgid "Comments"
+msgstr ""
+
+#: inc/customizer/blog.php:147
+msgid "Meta Informations"
+msgstr ""
+
+#: inc/customizer/blog.php:148
+msgid "Set which elements of posts meta data you want to display on a single post."
+msgstr ""
+
+#: inc/customizer/blog.php:166, inc/customizer/woocommerce.php:50
+msgid "Show Sharing Icons"
+msgstr ""
+
+#: inc/customizer/blog.php:167
+msgid "Display social sharing icons on single post"
+msgstr ""
+
+#: inc/customizer/companies.php:14, inc/customizer/companies.php:27
+msgid "Company Options"
+msgstr ""
+
+#: inc/customizer/companies.php:15, inc/customizer/companies.php:28
+msgid "Company related options"
+msgstr ""
+
+#: inc/customizer/companies.php:40
+msgid "Single Company Options"
+msgstr ""
+
+#: inc/customizer/companies.php:41
+msgid "Single company related options"
+msgstr ""
+
+#: inc/customizer/companies.php:59
+msgid "General Company Search Map"
+msgstr ""
+
+#: inc/customizer/companies.php:60
+msgid "Select \"disable\" if you want to disable the company search map."
+msgstr ""
+
+#: inc/customizer/companies.php:77, inc/customizer/jobs.php:189, inc/customizer/resumes.php:157
+msgid "Sharing Options"
+msgstr ""
+
+#: inc/customizer/companies.php:78
+msgid "Display social sharing on single company page."
+msgstr ""
+
+#: inc/customizer/companies.php:94
+msgid "Company Map"
+msgstr ""
+
+#: inc/customizer/companies.php:95, inc/customizer/jobs.php:207, inc/customizer/resumes.php:73, inc/customizer/resumes.php:175
+msgid "Select \"disable\" to remove the map."
+msgstr ""
+
+#: inc/customizer/dashboard.php:13
+msgid "Dashboard Options"
+msgstr ""
+
+#: inc/customizer/dashboard.php:14
+msgid "User Dashboard related options"
+msgstr ""
+
+#: inc/customizer/dashboard.php:32
+msgid "Monthly Views Statistics"
+msgstr ""
+
+#: inc/customizer/dashboard.php:33
+msgid "Select \"disable\" to disable the Graph stats."
+msgstr ""
+
+#: inc/customizer/dashboard.php:49
+msgid "Statistics Border Color"
+msgstr ""
+
+#: inc/customizer/dashboard.php:50
+msgid "Change the border color of the statistics chart."
+msgstr ""
+
+#: inc/customizer/dashboard.php:69
+msgid "Statistics Background Color"
+msgstr ""
+
+#: inc/customizer/dashboard.php:70
+msgid "Change the background color of the statistics chart."
+msgstr ""
+
+#: inc/customizer/extra.php:14
+msgid "Extra Options"
+msgstr ""
+
+#: inc/customizer/extra.php:27
+msgid "Cookie Notice Options"
+msgstr ""
+
+#: inc/customizer/extra.php:46
+msgid "Cookie Notice"
+msgstr ""
+
+#: inc/customizer/extra.php:47
+msgid "If enabled, a cookie notice will show at the bottom of the page on load."
+msgstr ""
+
+#: inc/customizer/extra.php:63
+msgid "Cookie Text Message"
+msgstr ""
+
+#: inc/customizer/extra.php:64
+msgid "Write the message that you want to show up in the Cookie Notice."
+msgstr ""
+
+#: inc/customizer/extra.php:66
+msgid "We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies."
+msgstr ""
+
+#: inc/customizer/extra.php:83
+msgid "Cookie Details Page"
+msgstr ""
+
+#: inc/customizer/extra.php:84
+msgid "Choose page that will contain detailed information about your Privacy Policy."
+msgstr ""
+
+#: inc/customizer/footer.php:13
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/footer.php:14
+msgid "Footer related options"
+msgstr ""
+
+#: inc/customizer/footer.php:32
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/footer.php:33
+msgid "Select the background color for your footer."
+msgstr ""
+
+#: inc/customizer/footer.php:45
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: inc/customizer/footer.php:46
+msgid "Select the color for the widget titles in the footer."
+msgstr ""
+
+#: inc/customizer/footer.php:58
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer/footer.php:59
+msgid "Select the color for the text in the footer."
+msgstr ""
+
+#: inc/customizer/footer.php:82
+msgid "Footer Info Section"
+msgstr ""
+
+#: inc/customizer/footer.php:83
+msgid "Select \"disable\" to remove the footer info section. "
+msgstr ""
+
+#: inc/customizer/footer.php:99
+msgid "Footer Sidebar Column 1"
+msgstr ""
+
+#: inc/customizer/footer.php:105, inc/customizer/footer.php:135, inc/customizer/footer.php:165, inc/customizer/footer.php:195
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/footer.php:106, inc/customizer/footer.php:136, inc/customizer/footer.php:166, inc/customizer/footer.php:196
+msgid "3/4"
+msgstr ""
+
+#: inc/customizer/footer.php:107, inc/customizer/footer.php:137, inc/customizer/footer.php:167, inc/customizer/footer.php:197
+msgid "2/3"
+msgstr ""
+
+#: inc/customizer/footer.php:108, inc/customizer/footer.php:138, inc/customizer/footer.php:168, inc/customizer/footer.php:198
+msgid "1/2"
+msgstr ""
+
+#: inc/customizer/footer.php:109, inc/customizer/footer.php:139, inc/customizer/footer.php:169, inc/customizer/footer.php:199
+msgid "1/3"
+msgstr ""
+
+#: inc/customizer/footer.php:110, inc/customizer/footer.php:140, inc/customizer/footer.php:170, inc/customizer/footer.php:200
+msgid "1/4"
+msgstr ""
+
+#: inc/customizer/footer.php:111, inc/customizer/footer.php:141, inc/customizer/footer.php:171, inc/customizer/footer.php:201
+msgid "1/6"
+msgstr ""
+
+#: inc/customizer/footer.php:112, inc/customizer/footer.php:142, inc/customizer/footer.php:172, inc/customizer/footer.php:202
+msgid "disabled"
+msgstr ""
+
+#: inc/customizer/footer.php:129
+msgid "Footer Sidebar Column 2"
+msgstr ""
+
+#: inc/customizer/footer.php:159
+msgid "Footer Sidebar Column 3"
+msgstr ""
+
+#: inc/customizer/footer.php:189
+msgid "Footer Sidebar Column 4"
+msgstr ""
+
+#: inc/customizer/footer.php:230
+msgid "Copyrights text"
+msgstr ""
+
+#: inc/customizer/footer.php:231
+msgid "Enter your Copyright Text (HTML allowed)."
+msgstr ""
+
+#: inc/customizer/footer.php:243
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/footer.php:244
+msgid "Choose the social media that you want to be displayed in the footer."
+msgstr ""
+
+#: inc/customizer/footer.php:251
+msgid "Social Media Type"
+msgstr ""
+
+#: inc/customizer/footer.php:252
+msgid "Choose your social media type."
+msgstr ""
+
+#: inc/customizer/footer.php:259
+msgid "Social URL"
+msgstr ""
+
+#: inc/customizer/footer.php:260
+msgid "Enter the URL for this social"
+msgstr ""
+
+#: inc/customizer/general.php:14, inc/customizer/woocommerce.php:15
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer/general.php:15
+msgid "General options"
+msgstr ""
+
+#: inc/customizer/general.php:27
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/general.php:28
+msgid "General layout options"
+msgstr ""
+
+#: inc/customizer/general.php:40
+msgid "Color Options"
+msgstr ""
+
+#: inc/customizer/general.php:59
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/general.php:60
+msgid "Turn the switch \"ON\" to enable the website preloader."
+msgstr ""
+
+#: inc/customizer/general.php:76
+msgid "Preloader style"
+msgstr ""
+
+#: inc/customizer/general.php:82
+msgid "Preloader Version 1"
+msgstr ""
+
+#: inc/customizer/general.php:83
+msgid "Preloader Version 2"
+msgstr ""
+
+#: inc/customizer/general.php:84
+msgid "Preloader Version 3"
+msgstr ""
+
+#: inc/customizer/general.php:85
+msgid "Preloader Version 4"
+msgstr ""
+
+#: inc/customizer/general.php:102
+msgid "Back to Top Button"
+msgstr ""
+
+#: inc/customizer/general.php:103
+msgid "Turn the switch \"OFF\" to disable the back to top button."
+msgstr ""
+
+#: inc/customizer/general.php:119
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/general.php:120
+msgid "Turn the switch \"OFF\" to disable all breadcrumbs."
+msgstr ""
+
+#: inc/customizer/general.php:137
+msgid "Select body wrapper color"
+msgstr ""
+
+#: inc/customizer/general.php:150
+msgid "Select main theme color"
+msgstr ""
+
+#: inc/customizer/general.php:163
+msgid "Select secondary theme color"
+msgstr ""
+
+#: inc/customizer/header.php:14, inc/customizer/header.php:40
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/header.php:15, inc/customizer/header.php:41
+msgid "Header related options"
+msgstr ""
+
+#: inc/customizer/header.php:27, inc/customizer/header.php:59
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/header.php:60
+msgid "This logo is used for all site."
+msgstr ""
+
+#: inc/customizer/header.php:72
+msgid "Logo White"
+msgstr ""
+
+#: inc/customizer/header.php:73
+msgid "This white version of the logo can be used for transparent header."
+msgstr ""
+
+#: inc/customizer/header.php:85
+msgid "Text Logo"
+msgstr ""
+
+#: inc/customizer/header.php:103
+msgid "Logo Width(px)"
+msgstr ""
+
+#: inc/customizer/header.php:121
+msgid "Logo Height(px)"
+msgstr ""
+
+#: inc/customizer/header.php:139
+msgid "Logo Margin"
+msgstr ""
+
+#: inc/customizer/header.php:163
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/header.php:164
+msgid "Select the background color for your header."
+msgstr ""
+
+#: inc/customizer/header.php:176
+msgid "Full Width Header"
+msgstr ""
+
+#: inc/customizer/header.php:177
+msgid "Select \"enable\" to enable Full Width Header."
+msgstr ""
+
+#: inc/customizer/header.php:193
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer/header.php:194
+msgid "Select \"enable\" to enable Sticky Header."
+msgstr ""
+
+#: inc/customizer/header.php:210
+msgid "Sticky Responsive Header"
+msgstr ""
+
+#: inc/customizer/header.php:211
+msgid "Select \"enable\" to enable Sticky Header for responsive mode."
+msgstr ""
+
+#: inc/customizer/header.php:239
+msgid "Header Extra"
+msgstr ""
+
+#: inc/customizer/header.php:240
+msgid "Select \"disable\" to disable all links in the header extra section."
+msgstr ""
+
+#: inc/customizer/header.php:256
+msgid "Header Cart"
+msgstr ""
+
+#: inc/customizer/header.php:257
+msgid "select \"disable\" to disable Header Cart."
+msgstr ""
+
+#: inc/customizer/header.php:280
+msgid "Header Login/Account"
+msgstr ""
+
+#: inc/customizer/header.php:281
+msgid "Select \"disable\" to disable Header Login/Account."
+msgstr ""
+
+#: inc/customizer/header.php:304
+msgid "Header CTA"
+msgstr ""
+
+#: inc/customizer/header.php:305
+msgid "Select \"disable\" to disable Header CTA."
+msgstr ""
+
+#: inc/customizer/jobs.php:14, inc/customizer/jobs.php:27
+msgid "Job Options"
+msgstr ""
+
+#: inc/customizer/jobs.php:15, inc/customizer/jobs.php:28
+msgid "Job related options"
+msgstr ""
+
+#: inc/customizer/jobs.php:40
+msgid "Job Taxonomy Options"
+msgstr ""
+
+#: inc/customizer/jobs.php:41
+msgid "Job Taxonomy view options"
+msgstr ""
+
+#: inc/customizer/jobs.php:53
+msgid "Single Job Options"
+msgstr ""
+
+#: inc/customizer/jobs.php:54
+msgid "Single job related options"
+msgstr ""
+
+#: inc/customizer/jobs.php:72
+msgid "General Job Search Map"
+msgstr ""
+
+#: inc/customizer/jobs.php:73
+msgid "Select \"disable\" if you want to disable the job search map."
+msgstr ""
+
+#: inc/customizer/jobs.php:100
+msgid "Job Category Background"
+msgstr ""
+
+#: inc/customizer/jobs.php:101
+msgid "Select \"disable\" to hide the category background on single category pages."
+msgstr ""
+
+#: inc/customizer/jobs.php:118
+msgid "Job Layout"
+msgstr ""
+
+#: inc/customizer/jobs.php:119
+msgid "Choose the layout for the jobs that will be displayed in the taxonomy pages."
+msgstr ""
+
+#: inc/customizer/jobs.php:124, inc/customizer/resumes.php:96
+msgid "List Layout"
+msgstr ""
+
+#: inc/customizer/jobs.php:125, inc/customizer/resumes.php:97
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer/jobs.php:135
+msgid "Job List Layout"
+msgstr ""
+
+#: inc/customizer/jobs.php:136
+msgid "Choose the list layout for the jobs."
+msgstr ""
+
+#: inc/customizer/jobs.php:141, inc/customizer/resumes.php:113
+msgid "List Layout 1"
+msgstr ""
+
+#: inc/customizer/jobs.php:142, inc/customizer/resumes.php:114
+msgid "List Layout 2"
+msgstr ""
+
+#: inc/customizer/jobs.php:143
+msgid "List Layout 3"
+msgstr ""
+
+#: inc/customizer/jobs.php:144
+msgid "List Layout 4"
+msgstr ""
+
+#: inc/customizer/jobs.php:145
+msgid "List Layout 5"
+msgstr ""
+
+#: inc/customizer/jobs.php:162
+msgid "Job Grid Layout"
+msgstr ""
+
+#: inc/customizer/jobs.php:163
+msgid "Choose the grid layout for the jobs."
+msgstr ""
+
+#: inc/customizer/jobs.php:168, inc/customizer/resumes.php:137
+msgid "Grid Layout 1"
+msgstr ""
+
+#: inc/customizer/jobs.php:169, inc/customizer/resumes.php:138
+msgid "Grid Layout 2"
+msgstr ""
+
+#: inc/customizer/jobs.php:170, inc/customizer/resumes.php:139
+msgid "Grid Layout 3"
+msgstr ""
+
+#: inc/customizer/jobs.php:171
+msgid "Grid Layout 4"
+msgstr ""
+
+#: inc/customizer/jobs.php:190
+msgid "Display social sharing on single job page."
+msgstr ""
+
+#: inc/customizer/jobs.php:206
+msgid "Job Map"
+msgstr ""
+
+#: inc/customizer/pages.php:14
+msgid "Pages Options"
+msgstr ""
+
+#: inc/customizer/pages.php:15
+msgid "Pages related options"
+msgstr ""
+
+#: inc/customizer/pages.php:27
+msgid "Login & Register Page Options"
+msgstr ""
+
+#: inc/customizer/pages.php:28
+msgid "Login & Register related options"
+msgstr ""
+
+#: inc/customizer/pages.php:46
+msgid "Login Page Background Image"
+msgstr ""
+
+#: inc/customizer/pages.php:47
+msgid "Background image for the Login page"
+msgstr ""
+
+#: inc/customizer/pages.php:59
+msgid "Login Page Intro Text"
+msgstr ""
+
+#: inc/customizer/pages.php:60
+msgid "Edit the text that will be shown on the login page at the left section."
+msgstr ""
+
+#: inc/customizer/resumes.php:14
+msgid "Resumes Options"
+msgstr ""
+
+#: inc/customizer/resumes.php:15
+msgid "Resumes related options"
+msgstr ""
+
+#: inc/customizer/resumes.php:27
+msgid "Resume Options"
+msgstr ""
+
+#: inc/customizer/resumes.php:28
+msgid "Resume related options"
+msgstr ""
+
+#: inc/customizer/resumes.php:40
+msgid "Resume Taxonomy Options"
+msgstr ""
+
+#: inc/customizer/resumes.php:41
+msgid "Resume Taxonomy view options"
+msgstr ""
+
+#: inc/customizer/resumes.php:53
+msgid "Single Resume Options"
+msgstr ""
+
+#: inc/customizer/resumes.php:54
+msgid "Single resume related options"
+msgstr ""
+
+#: inc/customizer/resumes.php:72, inc/customizer/resumes.php:174
+msgid "Resume Map"
+msgstr ""
+
+#: inc/customizer/resumes.php:90
+msgid "Resume Layout"
+msgstr ""
+
+#: inc/customizer/resumes.php:91
+msgid "Choose the layout for the resumes that will be displayed in the taxonomy pages."
+msgstr ""
+
+#: inc/customizer/resumes.php:107
+msgid "Resume List Layout"
+msgstr ""
+
+#: inc/customizer/resumes.php:108
+msgid "Choose the list layout for the resumes."
+msgstr ""
+
+#: inc/customizer/resumes.php:131
+msgid "Resume Grid Layout"
+msgstr ""
+
+#: inc/customizer/resumes.php:132
+msgid "Choose the grid layout for the resumes."
+msgstr ""
+
+#: inc/customizer/resumes.php:158
+msgid "Display social sharing on single resume page."
+msgstr ""
+
+#: inc/customizer/typography.php:14
+msgid "Typography Options"
+msgstr ""
+
+#: inc/customizer/typography.php:15
+msgid "Typography related options"
+msgstr ""
+
+#: inc/customizer/typography.php:26
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/typography.php:39
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer/typography.php:52, inc/customizer/typography.php:256
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/typography.php:71
+msgid "Body Typography"
+msgstr ""
+
+#: inc/customizer/typography.php:99
+msgid "Heading 1"
+msgstr ""
+
+#: inc/customizer/typography.php:125
+msgid "Heading 2"
+msgstr ""
+
+#: inc/customizer/typography.php:151
+msgid "Heading 3"
+msgstr ""
+
+#: inc/customizer/typography.php:177
+msgid "Heading 4"
+msgstr ""
+
+#: inc/customizer/typography.php:203
+msgid "Heading 5"
+msgstr ""
+
+#: inc/customizer/typography.php:229
+msgid "Heading 6"
+msgstr ""
+
+#: inc/customizer/typography.php:282
+msgid "Submenu Item"
+msgstr ""
+
+#: inc/customizer/typography.php:308
+msgid "Menu Items Hover Color"
+msgstr ""
+
+#: inc/customizer/typography.php:309
+msgid "Color for any menu item when hovering."
+msgstr ""
+
+#: inc/customizer/woocommerce.php:16
+msgid "Woocommerce related options"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:32
+msgid "Shop Layout"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:33
+msgid "Choose the sidebar side for your shop."
+msgstr ""
+
+#: inc/customizer/woocommerce.php:51
+msgid "Display social sharing icons on single product"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:67
+msgid "Related Products"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:68
+msgid "Select \"disable\" to remove the related products on single product page."
+msgstr ""
+
+#: inc/onboarding/cariera-license-manager.php:227, inc/onboarding/cariera-license-manager.php:228
+msgid "Update Check"
+msgstr ""
+
+#: inc/onboarding/cariera-license-manager.php:243
+msgid "Update Checking.."
+msgstr ""
+
+#: inc/onboarding/license.php:269
+msgid "License code"
+msgstr ""
+
+#: inc/onboarding/license.php:270
+msgid "How to get purchase code?"
+msgstr ""
+
+#: inc/onboarding/license.php:276
+msgid "Your Email Address"
+msgstr ""
+
+#: inc/onboarding/license.php:284
+msgid "Activate License"
+msgstr ""
+
+#: inc/onboarding/license.php:301
+msgid "License Info:"
+msgstr ""
+
+#: inc/onboarding/license.php:304
+msgid "Thank you for choosing Cariera!"
+msgstr ""
+
+#: inc/onboarding/license.php:305
+msgid "You now have full access to utilize the theme on this domain. In the event that you choose to relocate your site to another domain, please ensure to deactivate the license by clicking the button below. Afterwards, you can proceed to activate the license on your new domain."
+msgstr ""
+
+#: inc/onboarding/license.php:309
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/onboarding/license.php:336
+msgid "Support has expired!"
+msgstr ""
+
+#: inc/onboarding/license.php:337
+msgid "Your support expired on:"
+msgstr ""
+
+#: inc/onboarding/license.php:339, inc/onboarding/license.php:389
+msgid "Renew Support"
+msgstr ""
+
+#: inc/onboarding/license.php:327
+msgid "Support is valid"
+msgstr ""
+
+#: inc/onboarding/license.php:328
+msgid "Your support ends on:"
+msgstr ""
+
+#: inc/onboarding/license.php:359
+msgid "Cariera has not been activated!"
+msgstr ""
+
+#: inc/onboarding/license.php:360
+msgid "Make sure to activate your license to be able to use all core functionalities."
+msgstr ""
+
+#: inc/onboarding/license.php:364
+msgid "Activate Cariera License"
+msgstr ""
+
+#: inc/onboarding/license.php:384
+msgid "Support Expired"
+msgstr ""
+
+#: inc/onboarding/license.php:385
+msgid "Your support for Cariera has expired."
+msgstr ""
+
+#: inc/onboarding/license.php:458
+msgid "Invalid nonce"
+msgstr ""
+
+#: inc/onboarding/license.php:480
+msgid "The theme has not been activated with a valid license code."
+msgstr ""
+
+#: inc/onboarding/license.php:490
+msgid "You have reached the maximum number of attempts. Please try again in an hour."
+msgstr ""
+
+#: inc/onboarding/license.php:519
+msgid "Failed to retrieve the plugin bundle URL. Your server can not connect to the licensing server."
+msgstr ""
+
+#. translators: 1. Latest version number.
+#: inc/onboarding/license.php:532
+msgid "To refresh the plugin URLs, please update to the latest version of the theme: %s."
+msgstr ""
+
+#: inc/onboarding/license.php:544
+msgid "No need to proceed further, the URLs are identical."
+msgstr ""
+
+#: inc/onboarding/license.php:568
+msgid "Bundle URL updated successfully."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:121, inc/onboarding/onboarding.php:122, templates/backend/onboarding/header.php:37
+msgid "Welcome"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:164
+msgid "...verifying"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:165
+msgid "Plugin could not be installed! Make sure to refresh plugin URLs before installing/updating the bundled plugins."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:166
+msgid "Fetching Data"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:167
+msgid "Importer Failed!"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:168
+msgid "There was an error occurs when applying this patch, please try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:169
+msgid "There was an error occurs when importing demo data, please try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:170
+msgid "The importer is running. Please don't navigate away from this page."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:171
+msgid "There was an error occurs when downloading the media package, please try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:172
+msgid "There was an error occurs when copying the media package, please try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:173
+msgid "There was an error occurs when importing, please try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:174
+msgid "Starting uninstallation..."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:175
+msgid "Could not create child theme. Please try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:176
+msgid "Skipping..."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:293
+msgid "Activating"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:310
+msgid "Updating"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:327
+msgid "Installing"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:340
+msgid "Success"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:357
+msgid "Activate the theme to be able to install required plugins."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:433
+msgid "All plugins have been installed and are up to date. Feel free to proceed with importing the demo content."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:401
+msgid "Your website needs a few essential plugins. The following plugins will be installed and activated."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:409
+msgid "<strong>Important Notice:</strong> If the plugins fail to install, click the <strong>\"Refresh Plugin URLs\"</strong> button above and try again."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:416
+msgid "Select all"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:417
+msgid "Deselect all"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:426
+msgid "Install & Activate"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:465
+msgid "Update available"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:492
+msgid "Activate the theme to be able to import the demo data."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:501
+msgid "Install & activate all the required plugins to be able to import the demo data."
+msgstr ""
+
+#: inc/utils/generic.php:19
+msgid "Add a menu"
+msgstr ""
+
+#: inc/utils/generic.php:73
+msgid "Blog post gallery image"
+msgstr ""
+
+#: inc/utils/generic.php:245
+msgid "« Previous"
+msgstr ""
+
+#: inc/utils/generic.php:246
+msgid "Next »"
+msgstr ""
+
+#: inc/utils/generic.php:247
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/utils/generic.php:279
+msgid "Home"
+msgstr ""
+
+#: inc/utils/generic.php:280, inc/utils/helper.php:204
+msgid "Archives"
+msgstr ""
+
+#: inc/utils/generic.php:281
+msgid "Blog"
+msgstr ""
+
+#: inc/utils/generic.php:282
+msgid "Search results for"
+msgstr ""
+
+#: inc/utils/generic.php:283
+msgid "Not Found"
+msgstr ""
+
+#: inc/utils/generic.php:284
+msgid "Author:"
+msgstr ""
+
+#: inc/utils/generic.php:285
+msgid "Daily:"
+msgstr ""
+
+#: inc/utils/generic.php:286
+msgid "Monthly:"
+msgstr ""
+
+#: inc/utils/generic.php:287
+msgid "Yearly:"
+msgstr ""
+
+#. translators: %1$s is the month label, %2$s is the date.
+#: inc/utils/generic.php:429, inc/utils/generic.php:421, inc/utils/generic.php:413
+msgid "%1$s %2$s"
+msgstr ""
+
+#: inc/utils/helper.php:159
+msgid "Error 404"
+msgstr ""
+
+#. translators: %s is the search query.
+#: inc/utils/helper.php:170
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/utils/helper.php:202
+msgid "Galleries"
+msgstr ""
+
+#: inc/utils/helper.php:200
+msgid "Quotes"
+msgstr ""
+
+#: inc/utils/helper.php:198
+msgid "Audio"
+msgstr ""
+
+#: inc/utils/helper.php:196
+msgid "Videos"
+msgstr ""
+
+#: inc/utils/helper.php:194
+msgid "Asides"
+msgstr ""
+
+#: inc/utils/helper.php:192
+msgid "Category: %s"
+msgstr ""
+
+#: inc/utils/helper.php:189
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/utils/helper.php:186
+msgid "Year: %s"
+msgstr ""
+
+#: inc/utils/helper.php:186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/utils/helper.php:183
+msgid "Month: %s"
+msgstr ""
+
+#: inc/utils/helper.php:183
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/utils/helper.php:180
+msgid "Day: %s"
+msgstr ""
+
+#: inc/utils/helper.php:177
+msgid "All posts by %s"
+msgstr ""
+
+#: inc/utils/helper.php:277
+msgid "Facebook"
+msgstr ""
+
+#: inc/utils/helper.php:278
+msgid "Twitter"
+msgstr ""
+
+#: inc/utils/helper.php:279
+msgid "X (Twitter)"
+msgstr ""
+
+#: inc/utils/helper.php:280
+msgid "Google Plus"
+msgstr ""
+
+#: inc/utils/helper.php:281
+msgid "Instagram"
+msgstr ""
+
+#: inc/utils/helper.php:282
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/utils/helper.php:283
+msgid "Pinterest"
+msgstr ""
+
+#: inc/utils/helper.php:284
+msgid "Tumblr"
+msgstr ""
+
+#: inc/utils/helper.php:285
+msgid "GitHub"
+msgstr ""
+
+#: inc/utils/helper.php:286
+msgid "Dribbble"
+msgstr ""
+
+#: inc/utils/helper.php:287
+msgid "WordPress"
+msgstr ""
+
+#: inc/utils/helper.php:288
+msgid "Amazon"
+msgstr ""
+
+#: inc/utils/helper.php:289
+msgid "Dropbox"
+msgstr ""
+
+#: inc/utils/helper.php:290
+msgid "PayPal"
+msgstr ""
+
+#: inc/utils/helper.php:291
+msgid "Yahoo"
+msgstr ""
+
+#: inc/utils/helper.php:292
+msgid "Flickr"
+msgstr ""
+
+#: inc/utils/helper.php:293
+msgid "Reddit"
+msgstr ""
+
+#: inc/utils/helper.php:294
+msgid "Vimeo"
+msgstr ""
+
+#: inc/utils/helper.php:295
+msgid "Spotify"
+msgstr ""
+
+#: inc/utils/helper.php:296
+msgid "YouTube"
+msgstr ""
+
+#: inc/utils/helper.php:297
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/utils/helper.php:298
+msgid "Telegram"
+msgstr ""
+
+#: inc/utils/helper.php:299
+msgid "Vkontakte"
+msgstr ""
+
+#: inc/utils/helper.php:300
+msgid "TikTok"
+msgstr ""
+
+#: inc/utils/helper.php:301
+msgid "Threads"
+msgstr ""
+
+#: inc/utils/helper.php:302
+msgid "Discord"
+msgstr ""
+
+#: inc/utils/helper.php:303
+msgid "Bluesky"
+msgstr ""
+
+#: inc/utils/helper.php:304
+msgid "Xing"
+msgstr ""
+
+#: inc/wp-job-manager/functions.php:91
+msgid "Application(s)"
+msgstr ""
+
+#: inc/wp-job-manager/functions.php:159, inc/wp-resume-manager/functions.php:232
+msgid "/hour"
+msgstr ""
+
+#: inc/wp-resume-manager/functions.php:66
+msgid "Candidate's Facebook account"
+msgstr ""
+
+#: inc/wp-resume-manager/functions.php:102
+msgid "Candidate's X account"
+msgstr ""
+
+#: inc/wp-resume-manager/functions.php:138
+msgid "Candidate's LinkedIn account"
+msgstr ""
+
+#: inc/wp-resume-manager/functions.php:173
+msgid "Candidate's Instagram account"
+msgstr ""
+
+#: inc/wp-resume-manager/functions.php:208
+msgid "Candidate's Youtube account"
+msgstr ""
+
+#: job_manager/form-fields/file-field.php:50
+msgid "Upload"
+msgstr ""
+
+#: job_manager/form-fields/file-field.php:70
+msgid "Maximum file size: %s."
+msgstr ""
+
+#: job_manager/form-fields/term-select-field.php:22
+msgid "Select an Option..."
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:49, job_manager/job-templates/content-job_listing_grid2.php:49, job_manager/job-templates/content-job_listing_list3.php:48, job_manager/job-templates/content-job_listing_list4.php:48
+msgid "featured"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:60, job_manager/job-templates/content-job_listing_grid2.php:62, job_manager/job-templates/content-job_listing_grid3.php:55, job_manager/job-templates/content-job_listing_list3.php:61, job_manager/job-templates/content-job_listing_list4.php:61, job_manager/job-templates/content-job_listing_list5.php:54
+msgid "Company page"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:122, job_manager/job-templates/content-job_listing_grid2.php:113, job_manager/job-templates/content-job_listing_list3.php:112, job_manager/job-templates/content-job_listing_list4.php:112
+msgid "Company: "
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:128, job_manager/job-templates/content-job_listing_grid2.php:119, job_manager/job-templates/content-job_listing_list3.php:118, job_manager/job-templates/content-job_listing_list4.php:118
+msgid "Location: "
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:138, job_manager/job-templates/content-job_listing_grid2.php:129, job_manager/job-templates/content-job_listing_list3.php:128, job_manager/job-templates/content-job_listing_list4.php:128
+msgid "Rate: "
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:149, job_manager/job-templates/content-job_listing_grid2.php:140, job_manager/job-templates/content-job_listing_list3.php:139, job_manager/job-templates/content-job_listing_list4.php:139
+msgid "Salary: "
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid1.php:159, job_manager/job-templates/content-job_listing_list3.php:148
+msgid "view details"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid3.php:105, job_manager/job-templates/content-job_listing_list5.php:106, job_manager/single-job/single-job-listing-overview.php:167, wp-job-manager-resumes/resume-templates/content-resume_list2.php:77, wp-job-manager-resumes/single-resume/single-resume-overview.php:61
+msgid "Rate"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid3.php:116, job_manager/job-templates/content-job_listing_list5.php:117, job_manager/single-job/single-job-listing-overview.php:180, job_manager/single-job/single-job-listing-overview.php:193
+msgid "Salary"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_grid4.php:98
+msgid "No job type"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_list3.php:149
+msgid "Job listing quick view action"
+msgstr ""
+
+#: job_manager/job-templates/content-job_listing_list5.php:123, wp-job-manager-companies/company-templates/content-company_list2.php:78, wp-job-manager-resumes/resume-templates/content-resume_grid1.php:60, wp-job-manager-resumes/resume-templates/content-resume_list2.php:90
+msgid "Published"
+msgstr ""
+
+#: job_manager/job-templates/job-carousel.php:74
+msgid "Apply For This Job"
+msgstr ""
+
+#: job_manager/job-templates/listing-quickview.php:25, job_manager/single-job/single-job-listing-v1.php:35, job_manager/single-job/single-job-listing-v2.php:62, job_manager/single-job/single-job-listing-v3.php:46
+msgid "This listing has expired."
+msgstr ""
+
+#: job_manager/search-fields/location-extra.php:41, job_manager/search-fields/radius-field.php:33
+msgid "Search by Radius"
+msgstr ""
+
+#: job_manager/search-fields/location-extra.php:45
+msgid "Get location"
+msgstr ""
+
+#: job_manager/search-fields/location-extra.php:61, job_manager/search-fields/radius-field.php:47
+msgid "Radius around selected location."
+msgstr ""
+
+#: job_manager/single-job/featured-listings.php:64
+msgid "Featured Job Listings"
+msgstr ""
+
+#: job_manager/single-job/private-message.php:62, job_manager/single-job/private-message.php:45, wp-job-manager-companies/single-company/private-message.php:57, wp-job-manager-companies/single-company/private-message.php:40, wp-job-manager-resumes/single-resume/private-message.php:57, wp-job-manager-resumes/single-resume/private-message.php:40
+msgid "Direct message"
+msgstr ""
+
+#: job_manager/single-job/related-jobs.php:69
+msgid "Related Jobs"
+msgstr ""
+
+#: job_manager/single-job/single-job-application.php:38
+msgid "apply for job"
+msgstr ""
+
+#: job_manager/single-job/single-job-application.php:34
+msgid "Please login to apply for this job."
+msgstr ""
+
+#: job_manager/single-job/single-job-application.php:36
+msgid "Login"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:37
+msgid "Job Overview"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:48, wp-job-manager-companies/single-company/single-company-overview.php:35
+msgid "Date Posted"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:62, wp-job-manager-companies/single-company/single-company-overview.php:47
+msgid "Expiration Date"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:78
+msgid "Applications Closed"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:78
+msgid "Applications Close"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:115
+msgid "Career Level"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:128, wp-job-manager-resumes/single-resume/single-resume-overview.php:100, inc/integrations/wpjm/resume-manager.php:219
+msgid "Experience"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:141
+msgid "Qualification"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:154
+msgid "Hours"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:155
+msgid "%s hr/week"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-overview.php:206
+msgid "Job Applications"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-print.php:25, wp-job-manager-companies/single-company/single-company-print.php:25, wp-job-manager-resumes/single-resume/single-resume-print.php:25
+msgid "Print"
+msgstr ""
+
+#: job_manager/single-job/single-job-listing-print.php:25
+msgid "Print Job Listing"
+msgstr ""
+
+#: job_manager/single-job/single-job_listing-company-v2.php:108
+msgid "View Company"
+msgstr ""
+
+#: templates/content/content-meta.php:23, templates/content/single-meta.php:27
+msgid "By"
+msgstr ""
+
+#: templates/content/content-meta.php:36, templates/content/single-meta.php:40
+msgid "0 comments"
+msgstr ""
+
+#: templates/content/content-meta.php:36, templates/content/single-meta.php:40
+msgid "1 comment"
+msgstr ""
+
+#: templates/content/content-meta.php:36, templates/content/single-meta.php:40
+msgid "% comments"
+msgstr ""
+
+#: templates/content/content-none.php:17
+msgid "Nothing found!"
+msgstr ""
+
+#: templates/content/content-none.php:18
+msgid "Sorry, but nothing matched your search terms. Please search again."
+msgstr ""
+
+#: templates/content/content-quote.php:70, templates/content/content.php:50
+msgid "Read More"
+msgstr ""
+
+#: templates/content/single-meta.php:40
+msgid "Comments are off"
+msgstr ""
+
+#: templates/content/single.php:52
+msgid "Previous Post"
+msgstr ""
+
+#: templates/content/single.php:53
+msgid "Next Post"
+msgstr ""
+
+#: templates/content/single.php:54
+msgid "Post navigation"
+msgstr ""
+
+#: templates/dashboard/account-menu.php:23
+msgid "Account"
+msgstr ""
+
+#: templates/dashboard/account-menu.php:26, templates/header/extra/user-menu-items.php:114
+msgid "My Profile"
+msgstr ""
+
+#: templates/dashboard/account-menu.php:31, templates/header/extra/user-menu.php:71
+msgid "Logout"
+msgstr ""
+
+#: templates/dashboard/listing-menu.php:27
+msgid "Listing"
+msgstr ""
+
+#: templates/dashboard/listing-menu.php:36
+msgid "Post Job"
+msgstr ""
+
+#: templates/dashboard/listing-menu.php:49
+msgid "Submit Company"
+msgstr ""
+
+#: templates/dashboard/listing-menu.php:70
+msgid "Submit Resume"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:37
+msgid "Main"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:40, templates/header/extra/user-menu-items.php:44
+msgid "Dashboard"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:51, templates/header/extra/user-menu-items.php:55
+msgid "My Jobs"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:64, templates/header/extra/user-menu-items.php:68
+msgid "My Companies"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:85, templates/header/extra/user-menu-items.php:81
+msgid "My Resumes"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:98
+msgid "Job Alerts"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:111
+msgid "Resume Alerts"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:123
+msgid "My Bookmarks"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:135
+msgid "Applied Jobs"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:147, templates/header/extra/user-menu-items.php:93
+msgid "Packages"
+msgstr ""
+
+#: templates/dashboard/main-menu.php:158, templates/header/extra/user-menu-items.php:104
+msgid "Orders"
+msgstr ""
+
+#: templates/dashboard/profile.php:24
+msgid "Administrator"
+msgstr ""
+
+#: templates/dashboard/profile.php:25
+msgid "Employer"
+msgstr ""
+
+#: templates/dashboard/profile.php:26
+msgid "Candidate"
+msgstr ""
+
+#: templates/dashboard/titlebar.php:31
+msgid "Welcome, %s!"
+msgstr ""
+
+#. translators: %1$s is the employer username, %2$s is the candidate username.
+#: templates/demo/login-accounts.php:26
+msgid "Username: <strong>%1$s</strong> or <strong>%2$s</strong>"
+msgstr ""
+
+#. translators: %s is the password.
+#: templates/demo/login-accounts.php:32
+msgid "Password: <strong>%s</strong>"
+msgstr ""
+
+#: templates/demo/theme-demo.php:57
+msgid "Compatible Third Party Plugins"
+msgstr ""
+
+#: templates/emails/footer.php:29
+msgid "All Rights Reserved."
+msgstr ""
+
+#: templates/extra/cookie-bar.php:27
+msgid "Accept"
+msgstr ""
+
+#: templates/extra/cookie-bar.php:30
+msgid "More info"
+msgstr ""
+
+#: templates/extra/preloader.php:57
+msgid "loading"
+msgstr ""
+
+#: templates/extra/preloader.php:76
+msgid "Site logo"
+msgstr ""
+
+#. translators: %s: social media platform name.
+#: templates/footer/social-media.php:38
+msgid "%s social media link"
+msgstr ""
+
+#: templates/header/header-default.php:83
+msgid "Mobile navigation toggler"
+msgstr ""
+
+#: templates/popups/login-register.php:70
+msgid "Go back"
+msgstr ""
+
+#: templates/popups/shopping-cart.php:20
+msgid "Cart"
+msgstr ""
+
+#: templates/popups/shopping-cart.php:25
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Enter your coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:40
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:41
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:45, woocommerce/checkout/form-coupon.php:45
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:32
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:33
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:47
+msgid "If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:45
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:47, woocommerce/checkout/payment.php:47
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:39
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: wp-job-manager-companies/company-templates/content-company_grid1.php:60, wp-job-manager-companies/company-templates/content-company_grid3.php:52, wp-job-manager-companies/company-templates/content-company_list2.php:71
+msgid "No location"
+msgstr ""
+
+#: wp-job-manager-companies/company-templates/content-company_grid1.php:67
+msgid "Open Positions"
+msgstr ""
+
+#: wp-job-manager-companies/company-templates/content-company_list2.php:80, wp-job-manager-resumes/resume-templates/content-resume_grid1.php:62, wp-job-manager-resumes/resume-templates/content-resume_list2.php:92
+msgid "Posted %s ago"
+msgstr ""
+
+#: wp-job-manager-companies/emails/admin-new-company.php:19
+msgid "Hello,"
+msgstr ""
+
+#: wp-job-manager-companies/emails/admin-new-company.php:20
+msgid "A new company has just been submitted, <strong>%s</strong>."
+msgstr ""
+
+#: wp-job-manager-companies/emails/admin-new-company.php:24
+msgid "It has been published and is now available to the public. You can view this company here: <a href=\"%s\">Company Link</a>"
+msgstr ""
+
+#: wp-job-manager-companies/emails/admin-new-company.php:27
+msgid "It is awaiting approval by an administrator in <a href=\"%s\">WordPress admin</a>."
+msgstr ""
+
+#: wp-job-manager-companies/single-company/featured-listings.php:56
+msgid "Featured Companies"
+msgstr ""
+
+#: wp-job-manager-companies/single-company/related-companies.php:61
+msgid "Related Companies"
+msgstr ""
+
+#: wp-job-manager-companies/single-company/single-company-overview.php:24
+msgid "Company Overview"
+msgstr ""
+
+#: wp-job-manager-companies/single-company/single-company-overview.php:59
+msgid "Posted Jobs"
+msgstr ""
+
+#: wp-job-manager-companies/single-company/single-company-overview.php:99
+msgid "Since"
+msgstr ""
+
+#: wp-job-manager-companies/single-company/single-company-overview.php:112
+msgid "Team Size"
+msgstr ""
+
+#: wp-job-manager-companies/single-company/single-company-print.php:25
+msgid "Print Company"
+msgstr ""
+
+#: wp-job-manager-resumes/form-fields/repeated-field.php:22, wp-job-manager-resumes/form-fields/repeated-field.php:46
+msgid "Remove"
+msgstr ""
+
+#: wp-job-manager-resumes/form-fields/repeated-field.php:62
+msgid "Add URL"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/candidate-portfolio.php:31
+msgid "Candidate Portfolio"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/candidate-portfolio.php:56
+msgid "Candidate portfolio image."
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/featured-listings.php:57
+msgid "Featured Resumes"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/invite-candidate.php:27, wp-job-manager-resumes/single-resume/invite-candidate.php:33, wp-job-manager-resumes/single-resume/invite-candidate.php:59
+msgid "Invite Candidate"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/invite-candidate.php:62
+msgid "You don't have any published job listings on your account!"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/invite-candidate.php:46
+msgid "Invite candidate to apply to one of your jobs."
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/invite-candidate.php:50
+msgid "Select Job"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/related-resumes.php:61
+msgid "Related Resumes"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-candidate-details.php:37, wp-job-manager-resumes/single-resume/single-resume-v1.php:59
+msgid "Member Since "
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-resume-overview.php:25
+msgid "Candidate Overview"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-resume-overview.php:36
+msgid "Occupation"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-resume-overview.php:74
+msgid "Education Level"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-resume-overview.php:87
+msgid "Languages"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-resume-print.php:25
+msgid "Print Resume"
+msgstr ""
+
+#: wp-job-manager-resumes/single-resume/single-resume-v1.php:68, inc/integrations/wpjm/resume-manager.php:446
+msgid "Download CV"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:38
+msgid "Job Listings - List Layout 1 & 2"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:39
+msgid "Jobs Listing Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:40
+msgid "Jobs Listing Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:43
+msgid "Job Listings - All Except Grid 5 Layout"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:44
+msgid "Jobs Listing Info Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:45
+msgid "Jobs Listing Info End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:48
+msgid "Single Job Page"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:49
+msgid "Before Company Meta"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:50, inc/integrations/wpjm/field-editor.php:77
+msgid "Company Contact Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:51, inc/integrations/wpjm/field-editor.php:78
+msgid "Company Contact Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:52
+msgid "After Company Meta"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:53
+msgid "Top of Job Description"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:54
+msgid "Bottom of Job Description"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:55
+msgid "Bottom of Job Listing"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:56
+msgid "Before Application Button"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:57
+msgid "After Application Button"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:60
+msgid "Single Job Page Sidebar"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:61
+msgid "Before Job Meta"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:62
+msgid "Job Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:63
+msgid "Job Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:64
+msgid "After Job Meta"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:70
+msgid "Company Listings - List Layout 1 & 2"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:71
+msgid "Company Listing Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:72
+msgid "Company Listing Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:75
+msgid "Single Company Page"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:76
+msgid "Company Title Output"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:79
+msgid "Top of Company Listing"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:80
+msgid "Bottom of Company Listing"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:81
+msgid "Bottom of Company Description"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:84
+msgid "Single Company Page Sidebar"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:85
+msgid "Company Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:86
+msgid "Company Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:92
+msgid "Resume Listings - List Layout 1 & 2"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:93
+msgid "Resume Listing Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:94
+msgid "Resume Listing Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:97
+msgid "Single Resume Page"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:98
+msgid "Resume Title Output"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:99
+msgid "Resume Contact Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:100
+msgid "Resume Contact Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:101
+msgid "Top of Resume Listing"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:102
+msgid "Bottom of Resume Listing"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:103
+msgid "Top of Resume Description"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:104
+msgid "Bottom of Resume Description"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:107
+msgid "Single Resume Page Sidebar"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:108
+msgid "Meta Start"
+msgstr ""
+
+#: inc/integrations/wpjm/field-editor.php:109
+msgid "Meta End"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:171
+msgid "filled"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:175
+msgid "expired"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:224
+msgid "Contact Clicks"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:251
+msgid "This position has been filled"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:257
+msgid "Applications have closed"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:321
+msgid "Edit Job"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:430
+msgid "Job Location"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:462, inc/integrations/wpjm/resume-manager.php:469
+msgid "Expiration Date:"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:481
+msgid "Select Package"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:502
+msgid "Job Details"
+msgstr ""
+
+#: inc/integrations/wpjm/job-manager.php:634
+msgid "Nothing found"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:144
+msgid "About the Candidate"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:184
+msgid "Education"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:277
+msgid "Candidate Video"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:393, inc/integrations/wpjm/resume-manager.php:576
+msgid "Resume"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:404
+msgid "Edit %s"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:521
+msgid "Candidate Location"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:554
+msgid "Candidate Details"
+msgstr ""
+
+#. translators: %s: Resume singular label.
+#: inc/integrations/wpjm/resume-manager.php:579
+msgid "Preview %s"
+msgstr ""
+
+#: inc/integrations/wpjm/resume-manager.php:598
+msgid "Resume Image"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:343
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:345
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:400, inc/onboarding/plugins/class-tgm-plugin-activation.php:3311
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:401, inc/onboarding/plugins/class-tgm-plugin-activation.php:3103
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:403
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:405
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:407
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:409
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:1052, inc/onboarding/plugins/class-tgm-plugin-activation.php:1042
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:1243, inc/onboarding/plugins/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2112
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2421, templates/backend/onboarding/import-requirements.php:45, templates/backend/onboarding/import-requirements.php:66, templates/backend/onboarding/import-requirements.php:87
+msgid "Required"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2469, templates/backend/onboarding/theme-info.php:25
+msgid "Active"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2490
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2536
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2540
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2544
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2548
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2756
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2762
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2751
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3658
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3660
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3672
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3674
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3677
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3664
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3666
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3669
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: inc/onboarding/plugins/class-tgm-plugin-activation.php:3655
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: templates/backend/admin/ajax-response.php:22
+msgid "Dismiss"
+msgstr ""
+
+#: templates/backend/admin/support-link.php:18
+msgid "Get Support"
+msgstr ""
+
+#: templates/backend/onboarding/addons.php:20
+msgid "Fully Compatible Third Party Plugins"
+msgstr ""
+
+#: templates/backend/onboarding/addons.php:22
+msgid "Please contact the author of the plugins regarding any presale or support related questions."
+msgstr ""
+
+#: templates/backend/onboarding/gnodesign-themes.php:33
+msgid "More Quality Themes"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:20
+msgid "activation required"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:30
+msgid "Gnodesign logo"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:32
+msgid "Version: %s"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:38
+msgid "Get started with Cariera!"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:44
+msgid "Plugins"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:48
+msgid "Install all required plugins"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:54
+msgid "Import"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:58
+msgid "Full demo import"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:62
+msgid "Add-ons"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:63
+msgid "Compatible third-party plugins"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:67
+msgid "Themes"
+msgstr ""
+
+#: templates/backend/onboarding/header.php:68
+msgid "More themes by Gnodesign"
+msgstr ""
+
+#: templates/backend/onboarding/import-requirements.php:33
+msgid "To ensure a successful demo import, please verify that your server meets the following requirements. If any of these requirements are not met, kindly reach out to your hosting provider for assistance."
+msgstr ""
+
+#: templates/backend/onboarding/import-requirements.php:53, templates/backend/onboarding/import-requirements.php:74, templates/backend/onboarding/import-requirements.php:95
+msgid "Current Value"
+msgstr ""
+
+#: templates/backend/onboarding/import-requirements.php:83
+msgid "Medium"
+msgstr ""
+
+#: templates/backend/onboarding/import-requirements.php:103
+msgid "Your \"max execution time\" is lower than recommended. Please contact your hosting provider to increase it to the recommended value in order to fully import the demo."
+msgstr ""
+
+#: templates/backend/onboarding/import-requirements.php:109
+msgid "Site Health Info"
+msgstr ""
+
+#: templates/backend/onboarding/installation-video.php:19
+msgid "Installation Video:"
+msgstr ""
+
+#: templates/backend/onboarding/installation-video.php:21
+msgid "You can view the complete list of Cariera related tutorial videos by clicking the button below."
+msgstr ""
+
+#: templates/backend/onboarding/installation-video.php:22
+msgid "Cariera Playlist"
+msgstr ""
+
+#: templates/backend/onboarding/main.php:33
+msgid "Get Started!"
+msgstr ""
+
+#: templates/backend/onboarding/main.php:34
+msgid "To activate the theme, please utilize your <strong>Envato Purchase Code</strong>. Remember, each license is valid for a single <strong>WordPress installation</strong>. Should you wish to transfer your license to a different domain, ensure to deregister it first and then activate it on your new domain."
+msgstr ""
+
+#: templates/backend/onboarding/main.php:48
+msgid "Required Plugins"
+msgstr ""
+
+#: templates/backend/onboarding/main.php:51
+msgid "Refresh Plugin URLs"
+msgstr ""
+
+#: templates/backend/onboarding/main.php:61
+msgid "Import Demo Content"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:20
+msgid "Documentation"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:21
+msgid "Explore our regularly updated knowledge base, designed to assist you in getting started with Cariera."
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:22
+msgid "Read Documentation"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:26
+msgid "If you enjoy Cariera, we kindly ask for your support by rating the theme positively. Your feedback means a lot to us!"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:27
+msgid "Rate Cariera"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:31
+msgid "One standard license "
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:31
+msgid "is valid only for %s. Running multiple websites on a single license is a copyright violation."
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:32
+msgid "Buy new license"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:36
+msgid "Would you like to customize Cariera to better suit your needs? Don't hesitate to open a custom work ticket, and we can discuss all details."
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:37
+msgid "Custom Work Ticket"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:41
+msgid "Mobile App"
+msgstr ""
+
+#: templates/backend/onboarding/sidebar.php:46
+msgid "Recommended Hosting"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:20
+msgid "Not Active"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:34
+msgid "Theme screenshot"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:38
+msgid "Welcome to Cariera!"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:41
+msgid "Child theme:"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:43
+msgid "Theme Version:"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:46
+msgid "Check for updates"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:49
+msgid "Full Changelog"
+msgstr ""
+
+#: templates/backend/onboarding/theme-info.php:49
+msgid "FB Group"
+msgstr ""
+
+#: templates/header/extra/account.php:35, templates/header/extra/account.php:28
+msgid "User login & register trigger."
+msgstr ""
+
+#: templates/header/extra/cart.php:30
+msgid "Shopping cart modal trigger"
+msgstr ""
+
+#: templates/header/extra/header-cta.php:37, templates/header/extra/header-cta.php:29
+msgid "Post a Job"
+msgstr ""
+
+#: templates/header/extra/header-cta.php:46
+msgid "Post a Resume"
+msgstr ""
+
+#: templates/header/extra/messages.php:27
+msgid "Messages modal trigger"
+msgstr ""
+
+#: templates/header/extra/notifications.php:31
+msgid "Notification trigger"
+msgstr ""
+
+#: templates/header/extra/notifications.php:44
+msgid "Notifications"
+msgstr ""
+
+#: templates/header/extra/notifications.php:55
+msgid "You don't have any notifications"
+msgstr ""
+
+#: templates/header/extra/notifications.php:61
+msgid "Mark all as read"
+msgstr ""
+
+#: templates/header/extra/user-menu.php:35
+msgid "Header user account"
+msgstr ""

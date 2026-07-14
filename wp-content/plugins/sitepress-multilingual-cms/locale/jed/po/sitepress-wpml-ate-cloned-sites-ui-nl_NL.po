@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/js/ate-cloned-sites/components/CloseButton.js:15
+msgid "Close"
+msgstr "Sluiten"
+
+#: src/js/ate-cloned-sites/components/ContactSupport.js:9
+msgid ""
+"Please take a screenshot of this message and report this issue to <a>WPML "
+"support</a>."
+msgstr "Maak een screenshot van dit bericht en meld dit probleem bij <a>WPML-ondersteuning</a>."
+
+#: src/js/ate-cloned-sites/components/UnregistrationInfo.js:7
+msgid ""
+"WPML has automatically unregistered your site as part of this wizard. After "
+"you close it, you’ll see a prompt to register the site again. This is "
+"expected, your content and translations are safe."
+msgstr "WPML heeft uw site automatisch afgemeld als onderdeel van deze wizard. Nadat u deze sluit, ziet u een prompt om de site opnieuw te registreren. Dit is verwacht, uw inhoud en vertalingen zijn veilig."
+
+#: src/js/ate-cloned-sites/steps/CopyCompleted.js:10
+#: src/js/ate-cloned-sites/steps/CopyWithCreditsCompleted.js:9
+msgid "You’re all set"
+msgstr "Alles is ingesteld"
+
+#: src/js/ate-cloned-sites/steps/CopyCompleted.js:22
+msgid ""
+"This site is a copy of the original site %s and it doesn’t currently have "
+"any automatic translation credits."
+msgstr "Deze site is een kopie van de originele site %s en heeft momenteel geen credits voor automatische vertaling."
+
+#: src/js/ate-cloned-sites/steps/CopyCompleted.js:32
+msgid ""
+"If you’d like to use automatic translation here in the future, you can "
+"either <a1>add credits</a1> or <a2>share them from the original site</a2>."
+msgstr "Als u in de toekomst automatische vertaling hier wilt gebruiken, kunt u <a1>credits toevoegen</a1> of <a2>deze delen van de originele site</a2>."
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:36
+msgid ""
+"To link %s and %s so they share automatic translation credits, follow these "
+"steps:"
+msgstr "Volg deze stappen om %s en %s te koppelen zodat ze credits voor automatische vertaling delen:"
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:47
+msgid ""
+"Open <a>this link</a> to access the original site’s admin area. (You can’t "
+"access this screen by visiting %s directly.)"
+msgstr "Open <a>deze link</a> om toegang te krijgen tot het admin-gedeelte van de originele site. (U kunt dit scherm niet openen door %s direct te bezoeken.)"
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:59
+msgid "Click <b>Copy migration code</b> on that page."
+msgstr "Klik op <b>Migratiecode kopiëren</b> op die pagina."
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:68
+msgid "Paste the code below to complete the connection."
+msgstr "Plak de code hieronder om de verbinding te voltooien."
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:75
+msgid ""
+"Can't access the original site? You can also get your migration code from "
+"your <a>wpml.org account</a>."
+msgstr "Kunt u de originele site niet bereiken? U kunt uw migratiecode ook ophalen via uw <a>wpml.org-account</a>."
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:87
+msgid "Migration code"
+msgstr "Migratiecode"
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:89
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:90
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:9
+msgid "Connect Automatic Translation Credits"
+msgstr "Credits voor automatische vertaling verbinden"
+
+#: src/js/ate-cloned-sites/steps/CopyCredits.js:92
+msgid "Go back"
+msgstr "Terug"
+
+#: src/js/ate-cloned-sites/steps/CopyError.js:15
+msgid ""
+"WPML was unable to copy your site's translations, translation memory, and "
+"glossary to this new URL."
+msgstr "WPML kon de vertalingen, het vertaalgeheugen en de woordenlijst van uw site niet kopiëren naar deze nieuwe URL."
+
+#: src/js/ate-cloned-sites/steps/CopyError.js:7
+msgid "Error with copying translation information to new URL"
+msgstr "Fout bij het kopiëren van vertaalinformatie naar nieuwe URL"
+
+#: src/js/ate-cloned-sites/steps/CopyWithCreditsCompleted.js:12
+msgid "This site and its copy on %s are now sharing automatic translation credits."
+msgstr "Deze site en de kopie ervan op %s delen nu credits voor automatische vertaling."
+
+#: src/js/ate-cloned-sites/steps/CopyWithCreditsCompleted.js:30
+msgid ""
+"Any credits you add to one site will be available on both. If you stop "
+"using this site, your credits will remain safe."
+msgstr "Alle credits die u aan één site toevoegt, zijn op beide beschikbaar. Als u deze site niet meer gebruikt, blijven uw credits veilig."
+
+#: src/js/ate-cloned-sites/steps/CopyWithCreditsError.js:15
+msgid ""
+"WPML was unable to connect your old and new URLs to share automatic "
+"translation credits."
+msgstr "WPML kon uw oude en nieuwe URL's niet verbinden om credits voor automatische vertaling te delen."
+
+#: src/js/ate-cloned-sites/steps/CopyWithCreditsError.js:7
+msgid "Error with sharing automatic translation credits"
+msgstr "Fout bij het delen van credits voor automatische vertaling"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:12
+msgid ""
+"The site on %s has %d credits for automatic translation. Do you want to "
+"share these credits with this new site %s?"
+msgstr "De site op %s heeft %d credits voor automatische vertaling. Wilt u deze credits delen met deze nieuwe site %s?"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:19
+msgid ""
+"The site on %s has a pay-as-you-go subscription for automatic translation. "
+"Do you want to share these credits between %s and this new location (%s)?"
+msgstr "De site op %s heeft een Pay-As-You-Go-abonnement voor automatische vertaling. Wilt u deze credits delen tussen %s en deze nieuwe locatie (%s)?"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:26
+msgid ""
+"Do you want to share automatic translation credits between the original "
+"site (%s) and this new site (%s)?"
+msgstr "Wilt u credits voor automatische vertaling delen tussen de originele site (%s) en deze nieuwe site (%s)?"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:72
+msgid "Yes (recommended)"
+msgstr "Ja (aanbevolen)"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:74
+msgid "In the next step, you’ll approve the use of same credits on both sites."
+msgstr "In de volgende stap keurt u het gebruik van dezelfde credits op beide sites goed."
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:77
+msgid "No"
+msgstr "Nee"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:79
+msgid "You’ll need to assign new credits or set up pay-as-you-go."
+msgstr "U moet nieuwe credits toewijzen of Pay-As-You-Go instellen."
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:9
+msgid "Translation credits for this site"
+msgstr "Vertaalcredits voor deze site"
+
+#: src/js/ate-cloned-sites/steps/CreditDecision.js:93
+msgid "What happens when you share credits between sites?"
+msgstr "Wat gebeurt er als u credits deelt tussen sites?"
+
+#: src/js/ate-cloned-sites/steps/Initial.js:7
+msgid "WPML detected a change in your site's URL"
+msgstr "WPML heeft een wijziging in de URL van uw site gedetecteerd"
+
+#: src/js/ate-cloned-sites/steps/NoAdmin.js:11
+msgid ""
+"Looks like this site is a copy of a different site, or moved to a different "
+"URL. Please contact your translation manager to update Translation "
+"Management plugin configuration."
+msgstr "Het lijkt erop dat deze site een kopie is van een andere site, of is verplaatst naar een andere URL. Neem contact op met uw vertaalmanager om de configuratie van de Translation Management-plugin bij te werken."
+
+#: src/js/ate-cloned-sites/steps/NoAdmin.js:5
+msgid "Site Moved or Copied - Action Required"
+msgstr "Site verplaatst of gekopieerd - actie vereist"
+
+#: src/js/ate-cloned-sites/steps/initial/MigrationSection.js:25
+msgid ""
+"WPML noticed that your site is being accessed from a different domain or "
+"URL."
+msgstr "WPML heeft opgemerkt dat uw site wordt benaderd vanaf een ander domein of URL."
+
+#: src/js/ate-cloned-sites/steps/initial/MigrationSection.js:30
+msgid ""
+"To make sure everything continues working correctly, including automatic "
+"translation and site registration, we need to verify and update your site "
+"settings."
+msgstr "Om ervoor te zorgen dat alles correct blijft werken, inclusief automatische vertaling en siteregistratie, moeten we uw site-instellingen verifiëren en bijwerken."
+
+#: src/js/ate-cloned-sites/steps/initial/MigrationSection.js:35
+msgid "This will only take a moment."
+msgstr "Dit duurt slechts een moment."
+
+#: src/js/ate-cloned-sites/steps/initial/MigrationSection.js:45
+msgid "Start Migration"
+msgstr "Migratie starten"
+
+#: src/js/ate-cloned-sites/steps/initial/MigrationSection.js:6
+msgid ""
+"Your domains use separate databases, so WPML turned off the alias domain "
+"setup. Complete the migration below to apply the correct settings."
+msgstr "Uw domeinen gebruiken afzonderlijke databases, daarom heeft WPML de aliasdomeininstelling uitgeschakeld. Voltooi de migratie hieronder om de juiste instellingen toe te passen."

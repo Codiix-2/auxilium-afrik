@@ -1,0 +1,118 @@
+<?php
+/**
+ * Resume Listing - List Version 1
+ *
+ * This template can be overridden by copying it to yourtheme/cariera-addons/resumes/listing-templates/content-resume_list1.php.
+ *
+ * @see         https://wpjobmanager.com/document/template-overrides/
+ * @author      Gnodesign
+ * @package     cariera-addons
+ * @category    Template
+ * @since       0.9.5
+ * @version     0.9.5
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+$resume_class = 'resume-list single_resume_1';
+$category     = get_the_resume_category();
+$featured     = absint( get_post_meta( get_the_ID(), '_featured', true ) ) === 1 ? 'featured' : '';
+$logo         = get_the_candidate_photo();
+
+if ( ! empty( $logo ) ) {
+	$logo_img = $logo;
+} else {
+	$logo_img = apply_filters( 'resume_manager_default_candidate_photo', get_template_directory_uri() . '/assets/images/candidate.png' );
+} ?>
+
+<li <?php cariera_resume_class( esc_attr( $resume_class ) ); ?> data-latitude="<?php echo esc_attr( $post->geolocation_lat ); ?>" data-longitude="<?php echo esc_attr( $post->geolocation_long ); ?>" data-thumbnail="<?php echo esc_attr( $logo_img ); ?>" data-id="listing-id-<?php echo esc_attr( get_the_ID() ); ?>" data-featured="<?php echo esc_attr( $featured ); ?>">
+	<a href="<?php the_resume_permalink(); ?>" class="resume-link">
+		<!-- Candidate Photo -->
+		<div class="candidate-photo-wrapper">
+			<div class="candidate-photo">
+				<?php cariera_the_candidate_photo(); ?>
+			</div>
+		</div>
+
+		<!-- Candidate Title & Info -->
+		<div class="candidate-content-main">
+			<div class="candidate-title">
+				<h2 class="title">
+					<?php the_title(); ?>
+					<?php do_action( 'cariera_resume_title_after' ); ?>
+				</h2>
+			</div>
+
+			<div class="candidate-info">
+				<?php
+				// Action to add support for WPJM Field Editor.
+				ob_start();
+					do_action( 'resume_listing_meta_start' );
+					$resume_listing_meta_start = ob_get_contents();
+				ob_end_clean();
+
+				if ( ! empty( $resume_listing_meta_start ) ) {
+					do_action( 'resume_listing_meta_start' );
+				}
+				?>
+
+				<span class="location">
+					<i class="las la-map-marker"></i>
+					<?php
+					if ( get_the_candidate_location() ) {
+						the_candidate_location( false );
+					} else {
+						esc_html_e( 'No location', 'cariera-addons' );
+					}
+					?>
+				</span>
+
+				<span class="occupation">
+					<i class="las la-briefcase"></i>
+					<?php
+					if ( get_the_candidate_title() ) {
+						the_candidate_title();
+					} else {
+						esc_html_e( 'No occupation', 'cariera-addons' );
+					}
+					?>
+				</span>
+
+				<?php
+				$rate = get_post_meta( $post->ID, '_rate', true );
+				if ( ! empty( $rate ) ) {
+					?>
+					<span class="rate">
+						<i class="las la-money-bill"></i>
+						<?php cariera_resume_rate(); ?>
+					</span>
+				<?php } ?>
+
+				<?php
+				// Action to add support for WPJM Field Editor.
+				ob_start();
+					do_action( 'resume_listing_meta_end' );
+					$resume_listing_meta_end = ob_get_contents();
+				ob_end_clean();
+
+				if ( ! empty( $resume_listing_meta_end ) ) {
+					do_action( 'resume_listing_meta_end' );
+				}
+				?>
+			</div>
+		</div>
+
+		<!-- Resume Posted & Category -->
+		<div class="resume-posted <?php echo esc_attr( $category ? 'resume-meta' : '' ); ?>">
+			<date><?php printf( esc_html__( '%s ago', 'cariera-addons' ), human_time_diff( get_post_time( 'U' ), current_time( 'timestamp' ) ) ); ?></date>
+
+			<?php if ( $category ) { ?>
+				<div class="resume-category">
+					<?php echo esc_html( $category ); ?>
+				</div>
+			<?php } ?>
+		</div>
+	</a>
+</li>
