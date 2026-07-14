@@ -15,6 +15,11 @@
 :root {
     --aa-navy: #0f1e3b;   /* bleu nuit */
     --aa-gold: #bd9144;   /* or */
+
+    /* Fond de la barre de navigation (au lieu du blanc).
+       Par défaut : or très clair / crème.
+       Pour une variante bleu clair, remplacer par : #eef1f6 */
+    --aa-nav-bg: #f6efe0;
 }
 
 /* =========================================================================
@@ -95,6 +100,13 @@
    Ne s'applique qu'aux liens de PREMIER niveau du menu (les sous-menus
    déroulants gardent le style d'origine du thème).
    ========================================================================= */
+
+/* Fond de la barre de navigation : teinte claire de la marque (plus de blanc).
+   S'applique aussi à l'en-tête fixe au défilement (même élément). */
+header.header1.main-header {
+    background-color: var(--aa-nav-bg);
+    border-bottom: 1px solid rgba(189, 145, 68, 0.22); /* fin liseré or pour séparer du contenu */
+}
 
 /* Espacement un peu plus aéré entre les entrées du menu */
 header.main-header ul.main-nav > li.menu-item {
