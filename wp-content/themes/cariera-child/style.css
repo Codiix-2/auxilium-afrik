@@ -30,7 +30,7 @@
     --aa-navy: #0f1e3b;   /* bleu nuit de la marque */
     --aa-gold: #bd9144;   /* or de la marque */
     background-color: var(--aa-gold);
-    color: var(--aa-navy);
+    color: #fff;
     font-size: 0.85rem;
     line-height: 1.2;
     border-bottom: 1px solid rgba(15, 30, 59, 0.22);
@@ -55,25 +55,25 @@
 }
 
 .aa-top-bar__email {
-    color: var(--aa-navy);
+    color: #fff;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .aa-top-bar__email:hover,
 .aa-top-bar__email:focus {
-    color: #fff;
+    color: var(--aa-navy);
 }
 
 .aa-top-bar__icon {
     width: 15px;
     height: 15px;
     flex: 0 0 auto;
-    color: var(--aa-navy);   /* les SVG utilisent stroke:currentColor */
+    color: #fff;   /* les SVG utilisent stroke:currentColor */
 }
 
 .aa-top-bar__label {
-    color: rgba(15, 30, 59, 0.7);
+    color: rgba(255, 255, 255, 0.82);
 }
 
 .aa-top-bar__clock {
