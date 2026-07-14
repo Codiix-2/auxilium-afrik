@@ -245,3 +245,59 @@ add_filter('wpml_user_can_translate', function ($user_can_translate, $user) {
     return $user_can_translate;
 }, 10, 2);
 
+
+/**
+ * Barre utilitaire au-dessus de l'en-tête.
+ * Gauche : heure de Kinshasa (mise à jour en direct côté client).
+ * Droite : adresse e-mail de contact.
+ *
+ * Accrochée à wp_body_open() : dans header.php ce hook s'exécute avant
+ * l'ouverture de .wrapper, la barre se place donc bien au-dessus de la
+ * navigation.
+ */
+add_action( 'wp_body_open', 'auxilium_top_bar', 5 );
+
+function auxilium_top_bar() {
+    // Heure initiale rendue côté serveur (fallback si le JavaScript est
+    // désactivé) — toujours calculée sur le fuseau de Kinshasa.
+    try {
+        $now = new DateTime( 'now', new DateTimeZone( 'Africa/Kinshasa' ) );
+        $initial_time = $now->format( 'H:i' );
+    } catch ( Exception $e ) {
+        $initial_time = '--:--';
+    }
+    ?>
+    <div class="aa-top-bar" aria-label="<?php esc_attr_e( 'Informations de contact', 'cariera' ); ?>">
+        <div class="aa-top-bar__inner">
+            <span class="aa-top-bar__time">
+                <svg class="aa-top-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 14"></polyline></svg>
+                <span class="aa-top-bar__label">Kinshasa</span>
+                <time class="aa-top-bar__clock" data-aa-clock><?php echo esc_html( $initial_time ); ?></time>
+            </span>
+            <a class="aa-top-bar__email" href="mailto:Contact@auxilium-afrik.com">
+                <svg class="aa-top-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><polyline points="3 7 12 13 21 7"></polyline></svg>
+                <span>Contact@auxilium-afrik.com</span>
+            </a>
+        </div>
+    </div>
+    <script>
+    (function () {
+        var el = document.querySelector('[data-aa-clock]');
+        if (!el) { return; }
+        function tick() {
+            try {
+                el.textContent = new Intl.DateTimeFormat('fr-FR', {
+                    timeZone: 'Africa/Kinshasa',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false
+                }).format(new Date());
+            } catch (e) { /* Intl / fuseau indisponible : on garde l'heure serveur */ }
+        }
+        tick();
+        setInterval(tick, 15000);
+    })();
+    </script>
+    <?php
+}
+
