@@ -11,6 +11,12 @@
     Domain Path: /lang/
 */
 
+/* Couleurs de la marque Auxilium Afrik (partagées par tous les blocs ci-dessous) */
+:root {
+    --aa-navy: #0f1e3b;   /* bleu nuit */
+    --aa-gold: #bd9144;   /* or */
+}
+
 /* =========================================================================
    BARRE UTILITAIRE (au-dessus de l'en-tête)
    Gauche : heure de Kinshasa — Droite : e-mail de contact.
@@ -77,4 +83,67 @@
     .aa-top-bar { font-size: 0.76rem; }
     .aa-top-bar__inner { padding: 7px 14px; gap: 8px; }
     .aa-top-bar__label { display: none; } /* on garde l'horloge, on masque le mot « Kinshasa » */
+}
+
+
+/* =========================================================================
+   NAVIGATION PRINCIPALE — finition aux couleurs de la marque
+   -------------------------------------------------------------------------
+   - Liens en bleu nuit, plus lisibles et plus « premium » (graisse + espacement).
+   - Soulignement or animé au survol.
+   - Page active clairement indiquée (texte or + soulignement or permanent).
+   Ne s'applique qu'aux liens de PREMIER niveau du menu (les sous-menus
+   déroulants gardent le style d'origine du thème).
+   ========================================================================= */
+
+/* Espacement un peu plus aéré entre les entrées du menu */
+header.main-header ul.main-nav > li.menu-item {
+    padding: 0 14px;
+}
+
+/* Liens de premier niveau */
+header.main-header ul.main-nav > li.menu-item > a {
+    position: relative;
+    color: var(--aa-navy);
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: color 0.25s ease;
+}
+
+/* Soulignement or (masqué par défaut, révélé au survol / page active) */
+header.main-header ul.main-nav > li.menu-item > a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--aa-gold);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.28s ease;
+}
+
+/* Survol + états « page courante » de WordPress (et .active du thème) */
+header.main-header ul.main-nav > li.menu-item:hover > a,
+header.main-header ul.main-nav > li.menu-item.active > a,
+header.main-header ul.main-nav > li.menu-item.current-menu-item > a,
+header.main-header ul.main-nav > li.menu-item.current-menu-parent > a,
+header.main-header ul.main-nav > li.menu-item.current-menu-ancestor > a,
+header.main-header ul.main-nav > li.menu-item.current_page_item > a,
+header.main-header ul.main-nav > li.menu-item.current_page_parent > a,
+header.main-header ul.main-nav > li.menu-item.current_page_ancestor > a {
+    color: var(--aa-gold);
+}
+
+header.main-header ul.main-nav > li.menu-item:hover > a::after,
+header.main-header ul.main-nav > li.menu-item.active > a::after,
+header.main-header ul.main-nav > li.menu-item.current-menu-item > a::after,
+header.main-header ul.main-nav > li.menu-item.current-menu-parent > a::after,
+header.main-header ul.main-nav > li.menu-item.current-menu-ancestor > a::after,
+header.main-header ul.main-nav > li.menu-item.current_page_item > a::after,
+header.main-header ul.main-nav > li.menu-item.current_page_parent > a::after,
+header.main-header ul.main-nav > li.menu-item.current_page_ancestor > a::after {
+    transform: scaleX(1);
 }
