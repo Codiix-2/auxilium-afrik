@@ -10,3 +10,72 @@
     Text Domain: cariera
     Domain Path: /lang/
 */
+
+/* =========================================================================
+   PERSONNALISATION AUXILIUM AFRIK
+   -------------------------------------------------------------------------
+   Objectif : supprimer l'excès de « bandes blanches » qui donnait un aspect
+   générique au site, et apporter une identité visuelle cohérente en
+   s'appuyant sur les couleurs de la marque (or #bd9144 + bleu nuit #0f1e3b).
+
+   Principe technique :
+   - On remplace le fond blanc pur par un fond « ivoire » chaleureux, très
+     léger, avec une fine texture pointillée aux couleurs de la marque.
+   - Les sections Elementor transparentes (les « bandes blanches ») héritent
+     automatiquement de ce fond, sans toucher au contenu des pages.
+   - Une alternance de sections très subtile casse la monotonie du blanc.
+
+   IMPORTANT : les sélecteurs de section utilisent :where() (spécificité 0)
+   pour ne JAMAIS écraser une section qui possède déjà son propre arrière-plan
+   défini dans Elementor. Ces réglages ne s'appliquent donc qu'aux sections
+   restées blanches/transparentes.
+   ========================================================================= */
+
+:root {
+    --aa-gold: #bd9144;          /* or — accent principal de la marque */
+    --aa-navy: #0f1e3b;          /* bleu nuit — couleur secondaire */
+    --aa-canvas: #f8f6f2;        /* ivoire chaleureux — remplace le blanc pur */
+    --aa-canvas-alt: rgba(15, 30, 59, 0.035); /* voile bleu nuit très léger */
+    --aa-hairline: rgba(189, 145, 68, 0.14);  /* filet séparateur discret (or) */
+}
+
+/* --- Toile de fond générale : fin l'aspect « page blanche générique » --- */
+body {
+    background-color: var(--aa-canvas);
+}
+
+/* Le thème pose un fond sur body > .wrapper : on l'harmonise avec la toile
+   de fond et on ajoute une texture pointillée or extrêmement discrète (~5 %)
+   qui apporte de la « matière » sans nuire à la lisibilité. */
+body > .wrapper {
+    background-color: var(--aa-canvas);
+    background-image: radial-gradient(var(--aa-gold) 0.5px, transparent 0.6px);
+    background-size: 22px 22px;
+    background-position: 0 0;
+    /* la couleur or est déjà très claire par la petite taille des points ;
+       on baisse encore l'intensité via l'opacité de l'image de fond */
+    background-blend-mode: soft-light;
+}
+
+/* --- Alternance subtile des sections principales de la page ---------------
+   Cible uniquement les sections de PREMIER niveau d'une page (pas les cartes,
+   ni les items de boucle, ni l'en-tête / le pied de page / le slider héros).
+   Grâce à :where(), la spécificité est nulle : toute section ayant déjà un
+   fond défini dans Elementor conserve intégralement son apparence. */
+:where([data-elementor-type="wp-page"]) > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider) {
+    position: relative;
+}
+
+:where([data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider):nth-of-type(even)) {
+    background-color: var(--aa-canvas-alt);
+}
+
+/* Filet séparateur or très discret entre les grandes bandes, pour structurer
+   visuellement l'enchaînement des sections sans trait blanc marqué. */
+:where([data-elementor-type="wp-page"] > .e-con.e-parent:not(.main-header):not(.main-footer):not(.nsadisi-slider) + .e-con.e-parent) {
+    border-top: 1px solid var(--aa-hairline);
+}
+
+/* Note : sur ce fond ivoire, les cartes et blocs blancs (offres, services,
+   actualités…) se détachent désormais naturellement, ce qui renforce la
+   hiérarchie visuelle sans ajouter de bande blanche supplémentaire. */
