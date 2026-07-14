@@ -1,7 +1,12 @@
 <?php
 add_action( 'wp_enqueue_scripts', 'cariera_child_enqueue_scripts', 20 );
 function cariera_child_enqueue_scripts() {
-	wp_enqueue_style( 'cariera-child-style', get_stylesheet_uri() );
+	// Version basée sur la date de modification du fichier : chaque
+	// changement de style.css casse automatiquement le cache navigateur/CDN.
+	$style_path = get_stylesheet_directory() . '/style.css';
+	$version    = file_exists( $style_path ) ? filemtime( $style_path ) : null;
+
+	wp_enqueue_style( 'cariera-child-style', get_stylesheet_uri(), array(), $version );
 }
 
 add_action( 'init', 'service_post_type' );
