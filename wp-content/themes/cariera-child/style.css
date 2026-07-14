@@ -16,10 +16,8 @@
     --aa-navy: #0f1e3b;   /* bleu nuit */
     --aa-gold: #bd9144;   /* or */
 
-    /* Fond de la barre de navigation (au lieu du blanc).
-       Par défaut : or très clair / crème.
-       Pour une variante bleu clair, remplacer par : #eef1f6 */
-    --aa-nav-bg: #f6efe0;
+    /* Fond de la barre de navigation : bleu nuit (au lieu du blanc). */
+    --aa-nav-bg: #0f1e3b;
 }
 
 /* =========================================================================
@@ -101,11 +99,26 @@
    déroulants gardent le style d'origine du thème).
    ========================================================================= */
 
-/* Fond de la barre de navigation : teinte claire de la marque (plus de blanc).
+/* Fond de la barre de navigation : bleu nuit de la marque (plus de blanc).
    S'applique aussi à l'en-tête fixe au défilement (même élément). */
 header.header1.main-header {
     background-color: var(--aa-nav-bg);
-    border-bottom: 1px solid rgba(189, 145, 68, 0.22); /* fin liseré or pour séparer du contenu */
+    border-bottom: 1px solid rgba(189, 145, 68, 0.35); /* fin liseré or pour séparer du contenu */
+}
+
+/* Sur le fond bleu nuit, on utilise le logo blanc (au lieu du logo foncé). */
+header.header1.main-header .navbar-brand img.logo {
+    display: none;
+}
+header.header1.main-header .navbar-brand img.logo-white {
+    display: block;
+}
+
+/* Icône « hamburger » du menu mobile en blanc pour rester visible sur le bleu. */
+header.header1.main-header .hamburger-inner,
+header.header1.main-header .hamburger-inner::before,
+header.header1.main-header .hamburger-inner::after {
+    background-color: #fff;
 }
 
 /* Espacement un peu plus aéré entre les entrées du menu */
@@ -113,10 +126,10 @@ header.main-header ul.main-nav > li.menu-item {
     padding: 0 14px;
 }
 
-/* Liens de premier niveau */
+/* Liens de premier niveau (texte blanc sur le fond bleu nuit) */
 header.main-header ul.main-nav > li.menu-item > a {
     position: relative;
-    color: var(--aa-navy);
+    color: #fff;
     font-weight: 600;
     letter-spacing: 0.2px;
     transition: color 0.25s ease;
